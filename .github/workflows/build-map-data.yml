@@ -40,8 +40,32 @@ jobs:
       - name: Generate sourced municipality points
         run: python3 scripts/import_map_points.py
 
-      - name: Download current Libya OpenStreetMap extract
-        run: curl --fail --location --retry 3 --output /tmp/libya.osm.pbf https://download.geofabrik.de/africa/libya-latest.osm.pbf
+      - name: Download Libya OpenStreetMap extract
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://download.geofabrik.de/africa/libya-260905.osm.pbf"
+            "https://download.geofabrik.de/africa/libya-260904.osm.pbf"
+            "https://download.geofabrik.de/africa/libya-latest.osm.pbf"
+          )
+
+          rm -f /tmp/libya.osm.pbf
+          for url in "${urls[@]}"; do
+            echo "Trying $url"
+            if curl --fail --location --retry 2 --retry-all-errors --connect-timeout 20 --max-time 240 --output /tmp/libya.osm.pbf "$url"; then
+              if [[ -s /tmp/libya.osm.pbf ]]; then
+                echo "Downloaded OSM extract from $url"
+                break
+              fi
+            fi
+            rm -f /tmp/libya.osm.pbf
+          done
+
+          test -s /tmp/libya.osm.pbf || {
+            echo "Unable to download a Libya Geofabrik extract from any configured URL."
+            exit 1
+          }
+          ls -lh /tmp/libya.osm.pbf
 
       - name: Extract administrative boundaries
         run: |
