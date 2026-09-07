@@ -72,6 +72,31 @@ jobs:
           osmium tags-filter /tmp/libya.osm.pbf r/boundary=administrative -o /tmp/libya-admin.osm.pbf --overwrite
           osmium export /tmp/libya-admin.osm.pbf -f geojson -o /tmp/libya-admin-boundaries.geojson --overwrite
 
+      - name: Inspect extracted OSM boundary tags
+        run: |
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          payload = json.loads(Path('/tmp/libya-admin-boundaries.geojson').read_text(encoding='utf-8'))
+          features = payload.get('features', [])
+          print('Exported administrative features:', len(features))
+          levels = Counter(str((feature.get('properties') or {}).get('admin_level')) for feature in features)
+          print('Admin levels:', dict(levels))
+          for feature in features[:20]:
+              props = feature.get('properties') or {}
+              print({
+                  'id': feature.get('id') or props.get('@id'),
+                  'geometry': (feature.get('geometry') or {}).get('type'),
+                  'admin_level': props.get('admin_level'),
+                  'boundary': props.get('boundary'),
+                  'name': props.get('name'),
+                  'name:ar': props.get('name:ar'),
+                  'name:en': props.get('name:en'),
+              })
+          PY
+
       - name: Enrich points and build municipality boundaries
         env:
           OSM_BOUNDARIES_GEOJSON: /tmp/libya-admin-boundaries.geojson
