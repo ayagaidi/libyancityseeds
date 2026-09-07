@@ -1,5 +1,5 @@
 const MUNICIPALITIES_URL =
-  'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/master/data/municipalities.json';
+  'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json';
 
 async function loadLibyaMunicipalities(locale = 'en') {
   const response = await fetch(MUNICIPALITIES_URL);
