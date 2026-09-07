@@ -4,165 +4,38 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use RuntimeException;
+
+/**
+ * Backward-compatible seeder for users of the repository's original file.
+ *
+ * New projects should prefer database/seeders/LibyaCitySeeder.php.
+ */
 class CitySeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
+    public function run(): void
     {
-        DB::table('cities')->insert([
-            'name' => 'طرابلس',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'بنغازي',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'مصراته',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'الزاوية',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'زليتن',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'البيضا',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'اجدابيا',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'غريان',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'طبرق',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'صبراته',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'سبها',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'الخمس',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'درنه',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'سرت',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'الجميل',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'الكفره',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'المرج',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'يفرن',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'ترهونة',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'مسلاته',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'بني وليد',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'صرمان',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'رقدالين',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'الزنتان',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'زواره',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'شحات',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'اوباري',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'الابيار',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'زلطن',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'القبه',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'تاورغا',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'المايه',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'مرزق',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'البريقه',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'هون',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'جالو',
-        ]);
+        $path = base_path('data/cities.json');
 
-        DB::table('cities')->insert([
-            'name' => 'نالوت',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'سلوق',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'مزده',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'راس لانوف',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'العربان',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'ودان',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'العجيلات',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'توكره',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'براك',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'غدامس',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'غات',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'اوجله',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'سوسه',
-        ]);
-        DB::table('cities')->insert([
-            'name' => 'ربيانه',
-        ]);
+        if (! is_file($path)) {
+            throw new RuntimeException("Libya city dataset not found at {$path}");
+        }
+
+        $rows = json_decode(file_get_contents($path), true, flags: JSON_THROW_ON_ERROR);
+        $now = now();
+
+        $payload = array_map(static fn (array $row): array => [
+            'slug' => $row['slug'],
+            'name_ar' => $row['name_ar'],
+            'name_en' => $row['name_en'],
+            'created_at' => $now,
+            'updated_at' => $now,
+        ], $rows);
+
+        DB::table('cities')->upsert(
+            $payload,
+            ['slug'],
+            ['name_ar', 'name_en', 'updated_at'],
+        );
     }
 }
