@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/import_map_points.py'
       - 'scripts/suggest_map_matches.py'
+      - 'scripts/enrich_osm_boundaries.py'
       - 'data/municipalities.json'
       - '.github/workflows/build-map-data.yml'
   workflow_dispatch:
@@ -30,35 +31,62 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install GIS tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y osmium-tool
+          python -m pip install --disable-pip-version-check --no-cache-dir shapely
+
       - name: Generate sourced municipality points
         run: python3 scripts/import_map_points.py
+
+      - name: Download current Libya OpenStreetMap extract
+        run: curl --fail --location --retry 3 --output /tmp/libya.osm.pbf https://download.geofabrik.de/africa/libya-latest.osm.pbf
+
+      - name: Extract administrative boundaries
+        run: |
+          osmium tags-filter /tmp/libya.osm.pbf r/boundary=administrative -o /tmp/libya-admin.osm.pbf --overwrite
+          osmium export /tmp/libya-admin.osm.pbf -f geojson -o /tmp/libya-admin-boundaries.geojson --overwrite
+
+      - name: Enrich points and build municipality boundaries
+        env:
+          OSM_BOUNDARIES_GEOJSON: /tmp/libya-admin-boundaries.geojson
+        run: python3 scripts/enrich_osm_boundaries.py
 
       - name: Generate unmatched candidate report
         run: python3 scripts/suggest_map_matches.py
 
-      - name: Validate generated GeoJSON
+      - name: Validate generated map datasets
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
 
           points = json.loads(Path('data/municipality-points.json').read_text(encoding='utf-8'))
-          geojson = json.loads(Path('data/municipality-points.geojson').read_text(encoding='utf-8'))
+          points_geojson = json.loads(Path('data/municipality-points.geojson').read_text(encoding='utf-8'))
+          boundaries = json.loads(Path('data/municipality-boundaries.geojson').read_text(encoding='utf-8'))
           coverage = json.loads(Path('data/map-coverage.json').read_text(encoding='utf-8'))
           candidates = json.loads(Path('data/map-match-candidates.json').read_text(encoding='utf-8'))
 
           assert len(points) == 141
-          assert geojson['type'] == 'FeatureCollection'
-          assert len(geojson['features']) == coverage['mapped_municipalities']
-          assert len(candidates) == coverage['source_counts']['unmatched']
+          assert points_geojson['type'] == 'FeatureCollection'
+          assert boundaries['type'] == 'FeatureCollection'
+          assert len(points_geojson['features']) == coverage['mapped_municipalities']
+          assert len(boundaries['features']) == coverage['matched_osm_boundaries']
+          assert len(candidates) == coverage['source_counts'].get('unmatched', 0)
           assert coverage['mapped_municipalities'] > 0
 
-          for feature in geojson['features']:
+          ids = set()
+          for feature in points_geojson['features']:
+              props = feature['properties']
+              assert props['id'] not in ids
+              ids.add(props['id'])
               lon, lat = feature['geometry']['coordinates']
-              assert 9 <= lon <= 26, (feature['properties']['slug'], lon)
-              assert 19 <= lat <= 34, (feature['properties']['slug'], lat)
+              assert 9 <= lon <= 26, (props['slug'], lon)
+              assert 19 <= lat <= 34, (props['slug'], lat)
 
           print(f"Map coverage: {coverage['mapped_municipalities']}/{coverage['total_municipalities']} ({coverage['coverage_percent']}%)")
+          print(f"OSM boundary coverage: {coverage['matched_osm_boundaries']}/{coverage['total_municipalities']}")
           PY
 
       - name: Commit generated map data
@@ -67,6 +95,7 @@ jobs:
             data/municipality-points.json
             data/municipality-points.csv
             data/municipality-points.geojson
+            data/municipality-boundaries.geojson
             data/map-coverage.json
             data/map-match-candidates.json
           )
@@ -79,5 +108,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${files[@]}"
-          git commit -m "data: generate sourced municipality map points"
+          git commit -m "data: generate municipality points and boundaries"
           git push origin HEAD:feat/v1.2-map-support
