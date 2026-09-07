@@ -5,11 +5,11 @@
     "name_ar": "أبوسليم",
     "name_en": "Abu Salim",
     "type": "municipality",
-    "latitude": 32.84264,
-    "longitude": 13.17093,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2220399",
-    "point_type": "named_place"
+    "latitude": 32.849547,
+    "longitude": 13.171221,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1411070218",
+    "point_type": "osm_named_place"
   },
   {
     "id": 2,
@@ -17,11 +17,11 @@
     "name_ar": "أوباري",
     "name_en": "Ubari",
     "type": "municipality",
-    "latitude": 25.76667,
-    "longitude": 11.0,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219234",
-    "point_type": "named_place"
+    "latitude": 26.590939,
+    "longitude": 12.769566,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n260715532",
+    "point_type": "osm_named_place"
   },
   {
     "id": 3,
@@ -29,11 +29,11 @@
     "name_ar": "أوجلة",
     "name_en": "Awjila",
     "type": "municipality",
-    "latitude": 29.10806,
-    "longitude": 21.28694,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "88533",
-    "point_type": "named_place"
+    "latitude": 29.140278,
+    "longitude": 21.2975,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565509942",
+    "point_type": "osm_named_place"
   },
   {
     "id": 4,
@@ -41,11 +41,11 @@
     "name_ar": "اجخرة",
     "name_en": "Jakharrad",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 29.296253,
+    "longitude": 21.649898,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565511190",
+    "point_type": "osm_named_place"
   },
   {
     "id": 5,
@@ -53,11 +53,11 @@
     "name_ar": "إجدابيا",
     "name_en": "Ajdabiya",
     "type": "municipality",
-    "latitude": 30.75545,
-    "longitude": 20.22625,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "89113",
-    "point_type": "named_place"
+    "latitude": 30.754962,
+    "longitude": 20.223358,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n277399765",
+    "point_type": "osm_named_place"
   },
   {
     "id": 6,
@@ -89,11 +89,11 @@
     "name_ar": "الأبرق",
     "name_en": "Al Abraq",
     "type": "municipality",
-    "latitude": 32.78991,
-    "longitude": 22.0005,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "89090",
-    "point_type": "named_place"
+    "latitude": 32.786528,
+    "longitude": 21.997782,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565508919",
+    "point_type": "osm_named_place"
   },
   {
     "id": 9,
@@ -101,11 +101,11 @@
     "name_ar": "الأبيار",
     "name_en": "Al Abyar",
     "type": "municipality",
-    "latitude": 32.19,
-    "longitude": 20.59653,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "89087",
-    "point_type": "named_place"
+    "latitude": 32.189645,
+    "longitude": 20.594509,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565508929",
+    "point_type": "osm_named_place"
   },
   {
     "id": 10,
@@ -113,11 +113,11 @@
     "name_ar": "الأصابعة",
     "name_en": "Al Asabaa",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.03519,
+    "longitude": 12.871946,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565508963",
+    "point_type": "osm_named_place"
   },
   {
     "id": 11,
@@ -149,11 +149,11 @@
     "name_ar": "البيضاء",
     "name_en": "Al Bayda",
     "type": "municipality",
-    "latitude": 32.76272,
-    "longitude": 21.75506,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "89055",
-    "point_type": "named_place"
+    "latitude": 32.760953,
+    "longitude": 21.757717,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n288491858",
+    "point_type": "osm_named_place"
   },
   {
     "id": 14,
@@ -173,11 +173,11 @@
     "name_ar": "الجميل",
     "name_en": "Al Jumayl",
     "type": "municipality",
-    "latitude": 32.85286,
-    "longitude": 12.0612,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219936",
-    "point_type": "named_place"
+    "latitude": 32.849715,
+    "longitude": 12.057674,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1169748259",
+    "point_type": "osm_named_place"
   },
   {
     "id": 16,
@@ -185,11 +185,11 @@
     "name_ar": "الحرابة",
     "name_en": "Al Haraba",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 31.777205,
+    "longitude": 11.56717,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565509159",
+    "point_type": "osm_named_place"
   },
   {
     "id": 17,
@@ -197,11 +197,11 @@
     "name_ar": "الحوامد",
     "name_en": "Al Hawamid",
     "type": "municipality",
-    "latitude": 31.97528,
-    "longitude": 11.16222,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2220013",
-    "point_type": "named_place"
+    "latitude": 31.975496,
+    "longitude": 11.162235,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1246799070",
+    "point_type": "osm_named_place"
   },
   {
     "id": 18,
@@ -209,11 +209,11 @@
     "name_ar": "الخمس",
     "name_en": "Khoms",
     "type": "municipality",
-    "latitude": 32.65,
-    "longitude": 14.26667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219907",
-    "point_type": "named_place"
+    "latitude": 32.652183,
+    "longitude": 14.26801,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n277399357",
+    "point_type": "osm_named_place"
   },
   {
     "id": 19,
@@ -221,11 +221,11 @@
     "name_ar": "الرجبان",
     "name_en": "Al Rajban",
     "type": "municipality",
-    "latitude": 31.95,
-    "longitude": 12.16667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219463",
-    "point_type": "named_place"
+    "latitude": 31.94113,
+    "longitude": 12.090819,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1157457006",
+    "point_type": "osm_named_place"
   },
   {
     "id": 20,
@@ -245,11 +245,11 @@
     "name_ar": "الرياينة",
     "name_en": "Al Rayayna",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 31.994115,
+    "longitude": 12.344984,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1281223987",
+    "point_type": "osm_named_place"
   },
   {
     "id": 22,
@@ -293,11 +293,11 @@
     "name_ar": "الزنتان",
     "name_en": "Zintan",
     "type": "municipality",
-    "latitude": 31.93155,
-    "longitude": 12.25291,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2218963",
-    "point_type": "named_place"
+    "latitude": 31.927361,
+    "longitude": 12.251507,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n14148081465",
+    "point_type": "osm_named_place"
   },
   {
     "id": 26,
@@ -365,11 +365,11 @@
     "name_ar": "الشويرف",
     "name_en": "Al Shwerif",
     "type": "municipality",
-    "latitude": 29.98333,
-    "longitude": 14.26667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219396",
-    "point_type": "named_place"
+    "latitude": 29.98238,
+    "longitude": 14.259466,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1193620130",
+    "point_type": "osm_named_place"
   },
   {
     "id": 32,
@@ -389,11 +389,11 @@
     "name_ar": "العجيلات",
     "name_en": "Al Ajaylat",
     "type": "municipality",
-    "latitude": 32.75718,
-    "longitude": 12.37633,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219701",
-    "point_type": "named_place"
+    "latitude": 32.757758,
+    "longitude": 12.37738,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1169743113",
+    "point_type": "osm_named_place"
   },
   {
     "id": 34,
@@ -401,11 +401,11 @@
     "name_ar": "العربان",
     "name_en": "Al Urban",
     "type": "municipality",
-    "latitude": 32.16667,
-    "longitude": 13.15,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219696",
-    "point_type": "named_place"
+    "latitude": 32.038151,
+    "longitude": 13.25219,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565509495",
+    "point_type": "osm_named_place"
   },
   {
     "id": 35,
@@ -413,11 +413,11 @@
     "name_ar": "العزيزية",
     "name_en": "Aziziya",
     "type": "municipality",
-    "latitude": 32.53194,
-    "longitude": 13.0175,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2220139",
-    "point_type": "named_place"
+    "latitude": 32.533092,
+    "longitude": 13.017624,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n3300366408",
+    "point_type": "osm_named_place"
   },
   {
     "id": 36,
@@ -425,11 +425,11 @@
     "name_ar": "العواته",
     "name_en": "Al Awata",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.301849,
+    "longitude": 13.269418,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n7821172286",
+    "point_type": "osm_named_place"
   },
   {
     "id": 37,
@@ -449,11 +449,11 @@
     "name_ar": "القبة",
     "name_en": "Al Qubbah",
     "type": "municipality",
-    "latitude": 32.75684,
-    "longitude": 22.24106,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "88835",
-    "point_type": "named_place"
+    "latitude": 32.763056,
+    "longitude": 22.241753,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1172146730",
+    "point_type": "osm_named_place"
   },
   {
     "id": 39,
@@ -461,11 +461,11 @@
     "name_ar": "القرة بوللي",
     "name_en": "Garabulli",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.742728,
+    "longitude": 13.712796,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n375721059",
+    "point_type": "osm_named_place"
   },
   {
     "id": 40,
@@ -485,11 +485,11 @@
     "name_ar": "القطرون",
     "name_en": "Qatrun",
     "type": "municipality",
-    "latitude": 24.95139,
-    "longitude": 14.64861,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219739",
-    "point_type": "named_place"
+    "latitude": 24.889468,
+    "longitude": 14.5315,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n419488780",
+    "point_type": "osm_named_place"
   },
   {
     "id": 42,
@@ -521,11 +521,11 @@
     "name_ar": "القيقب",
     "name_en": "Al Qayqab",
     "type": "municipality",
-    "latitude": 32.72581,
-    "longitude": 22.02061,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "88838",
-    "point_type": "named_place"
+    "latitude": 32.724734,
+    "longitude": 22.02385,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565509481",
+    "point_type": "osm_named_place"
   },
   {
     "id": 45,
@@ -593,11 +593,11 @@
     "name_ar": "المليطانية",
     "name_en": "Al Melitaniya",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.272772,
+    "longitude": 20.647454,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n3237561328",
+    "point_type": "osm_named_place"
   },
   {
     "id": 51,
@@ -653,11 +653,11 @@
     "name_ar": "بئر الأشهب",
     "name_en": "Bir Al Ashhab",
     "type": "municipality",
-    "latitude": 31.91667,
-    "longitude": 24.7,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "88102",
-    "point_type": "named_place"
+    "latitude": 31.886703,
+    "longitude": 24.656631,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1170214253",
+    "point_type": "osm_named_place"
   },
   {
     "id": 56,
@@ -677,11 +677,11 @@
     "name_ar": "براك الشاطئ",
     "name_en": "Brak Al Shati",
     "type": "municipality",
-    "latitude": 27.54956,
-    "longitude": 14.27139,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2218478",
-    "point_type": "named_place"
+    "latitude": 27.55163,
+    "longitude": 14.272144,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1194502733",
+    "point_type": "osm_named_place"
   },
   {
     "id": 58,
@@ -725,11 +725,11 @@
     "name_ar": "تاجوراء",
     "name_en": "Tajoura",
     "type": "municipality",
-    "latitude": 32.89381,
-    "longitude": 13.22537,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "10402872",
-    "point_type": "named_place"
+    "latitude": 32.883445,
+    "longitude": 13.352548,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1221370214",
+    "point_type": "osm_named_place"
   },
   {
     "id": 62,
@@ -737,11 +737,11 @@
     "name_ar": "تازربو",
     "name_en": "Tazerbo",
     "type": "municipality",
-    "latitude": 25.67289,
-    "longitude": 21.07286,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "12687306",
-    "point_type": "named_place"
+    "latitude": 25.671609,
+    "longitude": 21.062112,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1574963952",
+    "point_type": "osm_named_place"
   },
   {
     "id": 63,
@@ -749,11 +749,11 @@
     "name_ar": "تاورغاء",
     "name_en": "Tawergha",
     "type": "municipality",
-    "latitude": 32.01195,
-    "longitude": 15.11352,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2210091",
-    "point_type": "named_place"
+    "latitude": 32.019867,
+    "longitude": 15.050086,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565512962",
+    "point_type": "osm_named_place"
   },
   {
     "id": 64,
@@ -773,11 +773,11 @@
     "name_ar": "ترهونة",
     "name_en": "Tarhuna",
     "type": "municipality",
-    "latitude": 32.43333,
-    "longitude": 13.63333,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2210220",
-    "point_type": "named_place"
+    "latitude": 32.434586,
+    "longitude": 13.635069,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n277399044",
+    "point_type": "osm_named_place"
   },
   {
     "id": 66,
@@ -797,11 +797,11 @@
     "name_ar": "جادو",
     "name_en": "Jadu",
     "type": "municipality",
-    "latitude": 31.95506,
-    "longitude": 12.02901,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2216432",
-    "point_type": "named_place"
+    "latitude": 31.952759,
+    "longitude": 12.027333,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1214773929",
+    "point_type": "osm_named_place"
   },
   {
     "id": 68,
@@ -809,11 +809,11 @@
     "name_ar": "جالو",
     "name_en": "Jalu",
     "type": "municipality",
-    "latitude": 29.03333,
-    "longitude": 21.55,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "86049",
-    "point_type": "named_place"
+    "latitude": 29.033115,
+    "longitude": 21.548221,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1160843625",
+    "point_type": "osm_named_place"
   },
   {
     "id": 69,
@@ -821,11 +821,11 @@
     "name_ar": "جردس العبيد",
     "name_en": "Jardas Al Abid",
     "type": "municipality",
-    "latitude": 32.30337,
-    "longitude": 20.98615,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "86002",
-    "point_type": "named_place"
+    "latitude": 32.302658,
+    "longitude": 20.986818,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1173420973",
+    "point_type": "osm_named_place"
   },
   {
     "id": 70,
@@ -833,11 +833,11 @@
     "name_ar": "جنزور",
     "name_en": "Janzour",
     "type": "municipality",
-    "latitude": 32.81868,
-    "longitude": 13.01727,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2216349",
-    "point_type": "named_place"
+    "latitude": 32.825446,
+    "longitude": 13.026253,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n364324276",
+    "point_type": "osm_named_place"
   },
   {
     "id": 71,
@@ -857,11 +857,11 @@
     "name_ar": "حي الأندلس",
     "name_en": "Hay Al Andalus",
     "type": "municipality",
-    "latitude": 32.86667,
-    "longitude": 13.11667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2216764",
-    "point_type": "named_place"
+    "latitude": 32.875104,
+    "longitude": 13.128251,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n2681366573",
+    "point_type": "osm_named_place"
   },
   {
     "id": 73,
@@ -881,11 +881,11 @@
     "name_ar": "درج",
     "name_en": "Derj",
     "type": "municipality",
-    "latitude": 30.16502,
-    "longitude": 10.45804,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2217774",
-    "point_type": "named_place"
+    "latitude": 30.163587,
+    "longitude": 10.457956,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1278520315",
+    "point_type": "osm_named_place"
   },
   {
     "id": 75,
@@ -905,11 +905,11 @@
     "name_ar": "ربيانة",
     "name_en": "Rabiana",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 24.252236,
+    "longitude": 21.971221,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n5203589521",
+    "point_type": "osm_named_place"
   },
   {
     "id": 77,
@@ -917,11 +917,11 @@
     "name_ar": "رقدالين",
     "name_en": "Riqdalin",
     "type": "municipality",
-    "latitude": 32.88718,
-    "longitude": 11.98729,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2212882",
-    "point_type": "named_place"
+    "latitude": 32.886386,
+    "longitude": 11.987073,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1169748265",
+    "point_type": "osm_named_place"
   },
   {
     "id": 78,
@@ -929,11 +929,11 @@
     "name_ar": "زلطن",
     "name_en": "Zaltan",
     "type": "municipality",
-    "latitude": 32.94699,
-    "longitude": 11.86668,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2208655",
-    "point_type": "named_place"
+    "latitude": 32.946146,
+    "longitude": 11.866804,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1169748270",
+    "point_type": "osm_named_place"
   },
   {
     "id": 79,
@@ -941,11 +941,11 @@
     "name_ar": "زليتن",
     "name_en": "Zliten",
     "type": "municipality",
-    "latitude": 32.46739,
-    "longitude": 14.56874,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2208485",
-    "point_type": "named_place"
+    "latitude": 32.467562,
+    "longitude": 14.56564,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1170583242",
+    "point_type": "osm_named_place"
   },
   {
     "id": 80,
@@ -1037,11 +1037,11 @@
     "name_ar": "سوسة",
     "name_en": "Sousa",
     "type": "municipality",
-    "latitude": 32.89702,
-    "longitude": 21.96583,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "81584",
-    "point_type": "named_place"
+    "latitude": 32.897843,
+    "longitude": 21.96507,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1159019634",
+    "point_type": "osm_named_place"
   },
   {
     "id": 88,
@@ -1061,11 +1061,11 @@
     "name_ar": "سوق الخميس",
     "name_en": "Souq Al Khamis",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.584167,
+    "longitude": 14.356944,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565512757",
+    "point_type": "osm_named_place"
   },
   {
     "id": 90,
@@ -1073,11 +1073,11 @@
     "name_ar": "شحات",
     "name_en": "Shahat",
     "type": "municipality",
-    "latitude": 32.82778,
-    "longitude": 21.86222,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "82972",
-    "point_type": "named_place"
+    "latitude": 32.808215,
+    "longitude": 21.869684,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1159019627",
+    "point_type": "osm_named_place"
   },
   {
     "id": 91,
@@ -1145,11 +1145,11 @@
     "name_ar": "عمر المختار",
     "name_en": "Omar Al Mukhtar",
     "type": "municipality",
-    "latitude": 32.62978,
-    "longitude": 21.67651,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "84130",
-    "point_type": "named_place"
+    "latitude": 32.629306,
+    "longitude": 21.675038,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565512109",
+    "point_type": "osm_named_place"
   },
   {
     "id": 97,
@@ -1157,11 +1157,11 @@
     "name_ar": "عين زارة",
     "name_en": "Ain Zara",
     "type": "municipality",
-    "latitude": 32.81333,
-    "longitude": 13.26972,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219021",
-    "point_type": "named_place"
+    "latitude": 32.795214,
+    "longitude": 13.286932,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565510267",
+    "point_type": "osm_named_place"
   },
   {
     "id": 98,
@@ -1193,11 +1193,11 @@
     "name_ar": "غدامس",
     "name_en": "Ghadames",
     "type": "municipality",
-    "latitude": 30.56667,
-    "longitude": 10.8,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2217439",
-    "point_type": "named_place"
+    "latitude": 30.12584,
+    "longitude": 9.490066,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n276850140",
+    "point_type": "osm_named_place"
   },
   {
     "id": 101,
@@ -1205,11 +1205,11 @@
     "name_ar": "غريان",
     "name_en": "Gharyan",
     "type": "municipality",
-    "latitude": 32.17222,
-    "longitude": 13.02028,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2217362",
-    "point_type": "named_place"
+    "latitude": 32.171587,
+    "longitude": 13.021145,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565510610",
+    "point_type": "osm_named_place"
   },
   {
     "id": 102,
@@ -1217,11 +1217,11 @@
     "name_ar": "قصر بن غشير",
     "name_en": "Qasr Bin Ghashir",
     "type": "municipality",
-    "latitude": 32.68333,
-    "longitude": 13.18333,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2213618",
-    "point_type": "named_place"
+    "latitude": 32.685974,
+    "longitude": 13.1765,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565512489",
+    "point_type": "osm_named_place"
   },
   {
     "id": 103,
@@ -1253,11 +1253,11 @@
     "name_ar": "كاباو",
     "name_en": "Kabaw",
     "type": "municipality",
-    "latitude": 31.84724,
-    "longitude": 11.33055,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2216155",
-    "point_type": "named_place"
+    "latitude": 31.846336,
+    "longitude": 11.340648,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1246799127",
+    "point_type": "osm_named_place"
   },
   {
     "id": 106,
@@ -1265,11 +1265,11 @@
     "name_ar": "ككلة",
     "name_en": "Kikla",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.062919,
+    "longitude": 12.695254,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n7212959831",
+    "point_type": "osm_named_place"
   },
   {
     "id": 107,
@@ -1277,11 +1277,11 @@
     "name_ar": "مرادة",
     "name_en": "Marada",
     "type": "municipality",
-    "latitude": 29.22054,
-    "longitude": 19.20454,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2215282",
-    "point_type": "named_place"
+    "latitude": 29.223482,
+    "longitude": 19.203967,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1239730812",
+    "point_type": "osm_named_place"
   },
   {
     "id": 108,
@@ -1325,11 +1325,11 @@
     "name_ar": "مسلاتة",
     "name_en": "Msallata",
     "type": "municipality",
-    "latitude": 32.58345,
-    "longitude": 14.03627,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "12687313",
-    "point_type": "named_place"
+    "latitude": 32.616667,
+    "longitude": 14.0,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565511347",
+    "point_type": "osm_named_place"
   },
   {
     "id": 112,
@@ -1337,11 +1337,11 @@
     "name_ar": "مصراتة",
     "name_en": "Misrata",
     "type": "municipality",
-    "latitude": 32.31035,
-    "longitude": 15.07324,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2214845",
-    "point_type": "named_place"
+    "latitude": 32.374592,
+    "longitude": 15.09058,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n5431087789",
+    "point_type": "osm_named_place"
   },
   {
     "id": 113,
@@ -1361,11 +1361,11 @@
     "name_ar": "نسمة",
     "name_en": "Nisma",
     "type": "municipality",
-    "latitude": 31.39602,
-    "longitude": 13.33052,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2214378",
-    "point_type": "named_place"
+    "latitude": 31.391933,
+    "longitude": 13.328442,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565511456",
+    "point_type": "osm_named_place"
   },
   {
     "id": 115,
@@ -1409,11 +1409,11 @@
     "name_ar": "وازن",
     "name_en": "Wazen",
     "type": "municipality",
-    "latitude": 31.942,
-    "longitude": 10.66532,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2208848",
-    "point_type": "named_place"
+    "latitude": 31.945646,
+    "longitude": 10.669785,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1253979845",
+    "point_type": "osm_named_place"
   },
   {
     "id": 119,
@@ -1433,11 +1433,11 @@
     "name_ar": "يفرن",
     "name_en": "Yafran",
     "type": "municipality",
-    "latitude": 32.06667,
-    "longitude": 12.51667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2208790",
-    "point_type": "named_place"
+    "latitude": 32.063325,
+    "longitude": 12.527141,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1157505021",
+    "point_type": "osm_named_place"
   },
   {
     "id": 121,
@@ -1481,11 +1481,11 @@
     "name_ar": "مدور الزيتون",
     "name_en": "Madwar Al Zaytun",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.450556,
+    "longitude": 21.277198,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n3334231301",
+    "point_type": "osm_named_place"
   },
   {
     "id": 125,
@@ -1493,11 +1493,11 @@
     "name_ar": "العوينات",
     "name_en": "Al Uwaynat",
     "type": "municipality",
-    "latitude": 25.78123,
-    "longitude": 10.56133,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219689",
-    "point_type": "named_place"
+    "latitude": 25.776613,
+    "longitude": 10.563037,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n260715301",
+    "point_type": "osm_named_place"
   },
   {
     "id": 126,
@@ -1505,11 +1505,11 @@
     "name_ar": "تجرهي",
     "name_en": "Tajarhi",
     "type": "municipality",
-    "latitude": 24.37,
-    "longitude": 14.47083,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2210411",
-    "point_type": "named_place"
+    "latitude": 24.329818,
+    "longitude": 14.267773,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n3354582744",
+    "point_type": "osm_named_place"
   },
   {
     "id": 127,
@@ -1517,11 +1517,11 @@
     "name_ar": "المردوم",
     "name_en": "Al Mardum",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 31.763415,
+    "longitude": 14.412398,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n7509528089",
+    "point_type": "osm_named_place"
   },
   {
     "id": 128,
@@ -1541,11 +1541,11 @@
     "name_ar": "القريات",
     "name_en": "Al Qaryat",
     "type": "municipality",
-    "latitude": 30.38803,
-    "longitude": 13.58027,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219747",
-    "point_type": "named_place"
+    "latitude": 30.384356,
+    "longitude": 13.584263,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n3303648800",
+    "point_type": "osm_named_place"
   },
   {
     "id": 130,
@@ -1553,11 +1553,11 @@
     "name_ar": "زلة",
     "name_en": "Zella",
     "type": "municipality",
-    "latitude": 28.55099,
-    "longitude": 17.54358,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2208518",
-    "point_type": "named_place"
+    "latitude": 28.550048,
+    "longitude": 17.549951,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1193695763",
+    "point_type": "osm_named_place"
   },
   {
     "id": 131,
@@ -1589,11 +1589,11 @@
     "name_ar": "تهالة",
     "name_en": "Tahala",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 25.40755,
+    "longitude": 10.352151,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n4154268568",
+    "point_type": "osm_named_place"
   },
   {
     "id": 134,
@@ -1613,11 +1613,11 @@
     "name_ar": "سيناون",
     "name_en": "Sinawin",
     "type": "municipality",
-    "latitude": 31.02604,
-    "longitude": 10.60238,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2210688",
-    "point_type": "named_place"
+    "latitude": 31.026044,
+    "longitude": 10.602091,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1278520309",
+    "point_type": "osm_named_place"
   },
   {
     "id": 136,
@@ -1637,11 +1637,11 @@
     "name_ar": "راس الطبل",
     "name_en": "Ras Al Tabl",
     "type": "municipality",
-    "latitude": 31.3016,
-    "longitude": 13.49268,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2213015",
-    "point_type": "named_place"
+    "latitude": 31.30177,
+    "longitude": 13.494735,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565512607",
+    "point_type": "osm_named_place"
   },
   {
     "id": 138,
@@ -1661,11 +1661,11 @@
     "name_ar": "جرمة",
     "name_en": "Germa",
     "type": "municipality",
-    "latitude": 26.53333,
-    "longitude": 13.06667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2216319",
-    "point_type": "named_place"
+    "latitude": 26.528497,
+    "longitude": 13.069634,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n260715664",
+    "point_type": "osm_named_place"
   },
   {
     "id": 140,
@@ -1673,11 +1673,11 @@
     "name_ar": "قرارة",
     "name_en": "Qarara",
     "type": "municipality",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
-    "coordinate_source_id": null,
-    "point_type": null
+    "latitude": 32.380092,
+    "longitude": 15.117874,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1565511824",
+    "point_type": "osm_named_place"
   },
   {
     "id": 141,

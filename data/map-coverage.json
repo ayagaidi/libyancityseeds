@@ -2,12 +2,12 @@
   "version_target": "1.2.0",
   "generated_at": "2026-09-07",
   "total_municipalities": 141,
-  "mapped_municipalities": 89,
-  "coverage_percent": 63.12,
+  "mapped_municipalities": 103,
+  "coverage_percent": 73.05,
   "source_counts": {
-    "geonames": 74,
-    "unmatched": 52,
-    "openstreetmap-geofabrik": 10,
+    "openstreetmap-geofabrik": 79,
+    "unmatched": 38,
+    "geonames": 19,
     "iom-ocha-hubs-2016": 5
   },
   "sources": {
@@ -24,16 +24,12 @@
     "openstreetmap-geofabrik": {
       "url": "https://download.geofabrik.de/africa/libya.html",
       "license": "OpenStreetMap ODbL 1.0",
-      "note": "OpenStreetMap Libya admin_level=4 administrative polygons and label/admin points from the Geofabrik extract. Boundary representative points are preferred when available; exact-name level-4 points are used when a polygon is not available."
+      "note": "OpenStreetMap Libya admin_level=4 polygons/admin points and exact-name place features from the Geofabrik extract. Boundary representative points are preferred, then exact administrative label points, then exact named-place points."
     }
   },
   "unmatched_slugs": [
-    "jakharrad",
     "idri-al-shati",
     "sbea",
-    "al-asabaa",
-    "al-haraba",
-    "al-rayayna",
     "zawiya-south",
     "zawiya-west",
     "al-zahra",
@@ -41,14 +37,11 @@
     "al-sayeh",
     "al-sharqiya",
     "al-ameriya",
-    "al-awata",
-    "garabulli",
     "al-qarda-al-shati",
     "al-qalaa",
     "al-qawalish",
     "al-uwaina",
     "al-mamura",
-    "al-melitaniya",
     "al-manshiya-al-jumayl",
     "al-nasiriya",
     "emsaed",
@@ -56,15 +49,12 @@
     "batin-al-jabal",
     "south-jabal-al-akhdar",
     "gulf-of-sidra",
-    "rabiana",
     "zamzam",
     "sahel-al-jabal",
     "swani-bin-adam",
-    "souq-al-khamis",
     "tripoli-center",
     "dahir-al-jabal",
     "ain-ghazala",
-    "kikla",
     "marsa-dafna",
     "harawa",
     "wadi-al-bawanis",
@@ -72,17 +62,15 @@
     "wardama",
     "al-jalida",
     "al-jadida",
-    "madwar-al-zaytun",
-    "al-mardum",
     "awal",
-    "tahala",
     "barkat",
     "al-shuba-administrative-area",
-    "qarara",
     "al-ruqayba"
   ],
   "matched_osm_boundaries": 10,
   "filled_from_osm_boundaries": 0,
   "matched_osm_admin_points": 2,
-  "filled_from_osm_admin_points": 0
+  "filled_from_osm_admin_points": 0,
+  "matched_osm_named_places": 71,
+  "filled_from_osm_named_places": 14
 }
