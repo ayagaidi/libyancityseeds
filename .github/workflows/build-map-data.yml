@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: municipality-map-build
+  cancel-in-progress: true
+
 jobs:
   build-map-data:
     if: github.repository == 'ayagaidi/libyancityseeds'
@@ -70,7 +74,11 @@ jobs:
       - name: Extract administrative boundaries
         run: |
           osmium tags-filter /tmp/libya.osm.pbf r/boundary=administrative -o /tmp/libya-admin.osm.pbf --overwrite
-          osmium export /tmp/libya-admin.osm.pbf -f geojson -o /tmp/libya-admin-boundaries.geojson --overwrite
+          osmium export /tmp/libya-admin.osm.pbf \
+            -f geojson \
+            --add-unique-id=type_id \
+            -o /tmp/libya-admin-boundaries.geojson \
+            --overwrite
 
       - name: Inspect extracted OSM boundary tags
         run: |
@@ -81,20 +89,17 @@ jobs:
 
           payload = json.loads(Path('/tmp/libya-admin-boundaries.geojson').read_text(encoding='utf-8'))
           features = payload.get('features', [])
-          print('Exported administrative features:', len(features))
           levels = Counter(str((feature.get('properties') or {}).get('admin_level')) for feature in features)
+          geometry_levels = Counter(
+              (
+                  (feature.get('geometry') or {}).get('type'),
+                  str((feature.get('properties') or {}).get('admin_level')),
+              )
+              for feature in features
+          )
+          print('Exported administrative features:', len(features))
           print('Admin levels:', dict(levels))
-          for feature in features[:20]:
-              props = feature.get('properties') or {}
-              print({
-                  'id': feature.get('id') or props.get('@id'),
-                  'geometry': (feature.get('geometry') or {}).get('type'),
-                  'admin_level': props.get('admin_level'),
-                  'boundary': props.get('boundary'),
-                  'name': props.get('name'),
-                  'name:ar': props.get('name:ar'),
-                  'name:en': props.get('name:en'),
-              })
+          print('Geometry/admin-level counts:', {str(key): value for key, value in geometry_levels.items()})
           PY
 
       - name: Enrich points and build municipality boundaries
@@ -136,6 +141,7 @@ jobs:
 
           print(f"Map coverage: {coverage['mapped_municipalities']}/{coverage['total_municipalities']} ({coverage['coverage_percent']}%)")
           print(f"OSM boundary coverage: {coverage['matched_osm_boundaries']}/{coverage['total_municipalities']}")
+          print(f"OSM admin point matches: {coverage.get('matched_osm_admin_points', 0)}/{coverage['total_municipalities']}")
           PY
 
       - name: Commit generated map data
