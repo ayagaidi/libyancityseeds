@@ -1,0 +1,3082 @@
+[
+  {
+    "slug": "jakharrad",
+    "name_ar": "اجخرة",
+    "name_en": "Jakharrad",
+    "candidates": [
+      {
+        "score": 0.8889,
+        "geonameid": "86068",
+        "name": "Jakharrah",
+        "asciiname": "Jakharrah",
+        "latitude": 29.21667,
+        "longitude": 21.56667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "85946",
+        "name": "Jikharrah",
+        "asciiname": "Jikharrah",
+        "latitude": 29.28333,
+        "longitude": 21.63333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2219918",
+        "name": "Al Khaḑrā’",
+        "asciiname": "Al Khadra'",
+        "latitude": 32.44403,
+        "longitude": 13.76735,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 9521
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "85738",
+        "name": "Khaḑrā’",
+        "asciiname": "Khadra'",
+        "latitude": 32.55083,
+        "longitude": 21.78232,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2219915",
+        "name": "Al Kharā’iq",
+        "asciiname": "Al Khara'iq",
+        "latitude": 26.55,
+        "longitude": 13.18333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "idri-al-shati",
+    "name_ar": "إدري الشاطئ",
+    "name_en": "Idri Al Shati",
+    "candidates": [
+      {
+        "score": 0.7273,
+        "geonameid": "2219413",
+        "name": "Wādī ash Shāţi’",
+        "asciiname": "Wadi ash Shati'",
+        "latitude": 27.8,
+        "longitude": 12.73333,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 78532
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2211609",
+        "name": "Sīdī ‘Alī",
+        "asciiname": "Sidi `Ali",
+        "latitude": 26.65,
+        "longitude": 13.7,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6364,
+        "geonameid": "7602693",
+        "name": "Wādī al Ḩayāt",
+        "asciiname": "Wadi al Hayat",
+        "latitude": 26.31667,
+        "longitude": 12.7,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 76858
+      },
+      {
+        "score": 0.6364,
+        "geonameid": "2218478",
+        "name": "Brak",
+        "asciiname": "Brak",
+        "latitude": 27.54956,
+        "longitude": 14.27139,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 16200
+      },
+      {
+        "score": 0.6364,
+        "geonameid": "88102",
+        "name": "Bi’r al Ashhab",
+        "asciiname": "Bi'r al Ashhab",
+        "latitude": 31.91667,
+        "longitude": 24.7,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "sbea",
+    "name_ar": "اسبيعة",
+    "name_en": "Sbea",
+    "candidates": [
+      {
+        "score": 0.8571,
+        "geonameid": "2212775",
+        "name": "Sabha",
+        "asciiname": "Sabha",
+        "latitude": 27.03766,
+        "longitude": 14.42832,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 149329
+      },
+      {
+        "score": 0.75,
+        "geonameid": "2212774",
+        "name": "Sabhā",
+        "asciiname": "Sabha",
+        "latitude": 26.9,
+        "longitude": 14.96667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 134162
+      },
+      {
+        "score": 0.75,
+        "geonameid": "89055",
+        "name": "Al Bayḑā’",
+        "asciiname": "Al Bayda'",
+        "latitude": 32.76272,
+        "longitude": 21.75506,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 129439
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2210247",
+        "name": "Tripoli",
+        "asciiname": "Tripoli",
+        "latitude": 32.88743,
+        "longitude": 13.18733,
+        "feature_class": "P",
+        "feature_code": "PPLC",
+        "population": 1302947
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2212771",
+        "name": "Şabrātah",
+        "asciiname": "Sabratah",
+        "latitude": 32.79335,
+        "longitude": 12.48845,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 83398
+      }
+    ]
+  },
+  {
+    "slug": "al-asabaa",
+    "name_ar": "الأصابعة",
+    "name_en": "Al Asabaa",
+    "candidates": [
+      {
+        "score": 0.875,
+        "geonameid": "2220153",
+        "name": "Al Aşābi‘ah",
+        "asciiname": "Al Asabi'ah",
+        "latitude": 32.03333,
+        "longitude": 12.86667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 27713
+      },
+      {
+        "score": 0.8235,
+        "geonameid": "12687313",
+        "name": "Msalātah",
+        "asciiname": "Msalatah",
+        "latitude": 32.58345,
+        "longitude": 14.03627,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 73907
+      },
+      {
+        "score": 0.8235,
+        "geonameid": "2219746",
+        "name": "Al Qaşabāt",
+        "asciiname": "Al Qasabat",
+        "latitude": 32.58597,
+        "longitude": 14.03933,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.75,
+        "geonameid": "89070",
+        "name": "Al Ashhab",
+        "asciiname": "Al Ashhab",
+        "latitude": 31.8887,
+        "longitude": 24.65719,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2212775",
+        "name": "Sabha",
+        "asciiname": "Sabha",
+        "latitude": 27.03766,
+        "longitude": 14.42832,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 149329
+      }
+    ]
+  },
+  {
+    "slug": "al-haraba",
+    "name_ar": "الحرابة",
+    "name_en": "Al Haraba",
+    "candidates": [
+      {
+        "score": 0.9412,
+        "geonameid": "2216899",
+        "name": "Mudīrīyat al Ḩarābah",
+        "asciiname": "Mudiriyat al Harabah",
+        "latitude": 31.85,
+        "longitude": 11.61667,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.9412,
+        "geonameid": "2220029",
+        "name": "Al Ḩarābah",
+        "asciiname": "Al Harabah",
+        "latitude": 31.77389,
+        "longitude": 11.54361,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2216885",
+        "name": "Zawiya",
+        "asciiname": "Zawiya",
+        "latitude": 32.75222,
+        "longitude": 12.72778,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 186123
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2220038",
+        "name": "Al Ḩamrā’",
+        "asciiname": "Al Hamra'",
+        "latitude": 26.71115,
+        "longitude": 13.8769,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "88849",
+        "name": "Al Qarz̧abah",
+        "asciiname": "Al Qarzabah",
+        "latitude": 32.1375,
+        "longitude": 23.48047,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-rayayna",
+    "name_ar": "الرياينة",
+    "name_en": "Al Rayayna",
+    "candidates": [
+      {
+        "score": 0.8,
+        "geonameid": "2219471",
+        "name": "Ar Rayāyinah",
+        "asciiname": "Ar Rayayinah",
+        "latitude": 32.02684,
+        "longitude": 12.35643,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 15031
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2212933",
+        "name": "Mudīrīyat ar Rayāyinah",
+        "asciiname": "Mudiriyat ar Rayayinah",
+        "latitude": 32.06667,
+        "longitude": 12.31667,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "2219689",
+        "name": "Al ‘Awinat",
+        "asciiname": "Al 'Awinat",
+        "latitude": 25.78123,
+        "longitude": 10.56133,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 3881
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "88818",
+        "name": "Al ‘Uwaynāt",
+        "asciiname": "Al `Uwaynat",
+        "latitude": 21.56667,
+        "longitude": 24.83333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2219065",
+        "name": "Awlād Yaḩyá",
+        "asciiname": "Awlad Yahya",
+        "latitude": 32.01652,
+        "longitude": 12.51771,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "zawiya-south",
+    "name_ar": "الزاوية الجنوب",
+    "name_en": "Zawiya South",
+    "candidates": [
+      {
+        "score": 0.7778,
+        "geonameid": "2218970",
+        "name": "Az Zāwīyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.7571,
+        "longitude": 12.72764,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 200000
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2216885",
+        "name": "Zawiya",
+        "asciiname": "Zawiya",
+        "latitude": 32.75222,
+        "longitude": 12.72778,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 186123
+      },
+      {
+        "score": 0.7,
+        "geonameid": "2218972",
+        "name": "Az Zāwiyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.46667,
+        "longitude": 12.51667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 290993
+      },
+      {
+        "score": 0.7,
+        "geonameid": "88386",
+        "name": "Az Zāwiyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 31.9811,
+        "longitude": 24.6572,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6957,
+        "geonameid": "80623",
+        "name": "Zāwiyat Masūs",
+        "asciiname": "Zawiyat Masus",
+        "latitude": 31.57917,
+        "longitude": 21.00968,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "zawiya-west",
+    "name_ar": "الزاوية الغرب",
+    "name_en": "Zawiya West",
+    "candidates": [
+      {
+        "score": 0.75,
+        "geonameid": "2216885",
+        "name": "Zawiya",
+        "asciiname": "Zawiya",
+        "latitude": 32.75222,
+        "longitude": 12.72778,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 186123
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2218972",
+        "name": "Az Zāwiyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.46667,
+        "longitude": 12.51667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 290993
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2218970",
+        "name": "Az Zāwīyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.7571,
+        "longitude": 12.72764,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 200000
+      },
+      {
+        "score": 0.6364,
+        "geonameid": "80623",
+        "name": "Zāwiyat Masūs",
+        "asciiname": "Zawiyat Masus",
+        "latitude": 31.57917,
+        "longitude": 21.00968,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6316,
+        "geonameid": "88386",
+        "name": "Az Zāwiyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 31.9811,
+        "longitude": 24.6572,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-zahra",
+    "name_ar": "الزهراء",
+    "name_en": "Al Zahra",
+    "candidates": [
+      {
+        "score": 0.8571,
+        "geonameid": "2218983",
+        "name": "Az Zahrā’",
+        "asciiname": "Az Zahra'",
+        "latitude": 32.67889,
+        "longitude": 12.87327,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 25684
+      },
+      {
+        "score": 0.8571,
+        "geonameid": "11258326",
+        "name": "Al Dahra",
+        "asciiname": "Al Dahra",
+        "latitude": 32.89159,
+        "longitude": 13.19286,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.8333,
+        "geonameid": "80751",
+        "name": "Zahrah",
+        "asciiname": "Zahrah",
+        "latitude": 32.86667,
+        "longitude": 22.28333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2219944",
+        "name": "Al Jufrah",
+        "asciiname": "Al Jufrah",
+        "latitude": 27.73333,
+        "longitude": 17.05,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 47538
+      },
+      {
+        "score": 0.75,
+        "geonameid": "7602690",
+        "name": "Al Jafārah",
+        "asciiname": "Al Jafarah",
+        "latitude": 32.5,
+        "longitude": 12.91667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 451175
+      }
+    ]
+  },
+  {
+    "slug": "zuwetina-sultan",
+    "name_ar": "الزويتينة سلطان",
+    "name_en": "Zuwetina Sultan",
+    "candidates": [
+      {
+        "score": 0.6667,
+        "geonameid": "88380",
+        "name": "Az Zuwaytīnah",
+        "asciiname": "Az Zuwaytinah",
+        "latitude": 30.9522,
+        "longitude": 20.12022,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 21015
+      },
+      {
+        "score": 0.6364,
+        "geonameid": "2219329",
+        "name": "As Sulţān",
+        "asciiname": "As Sultan",
+        "latitude": 31.11445,
+        "longitude": 17.15018,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2208425",
+        "name": "Zuwarah",
+        "asciiname": "Zuwarah",
+        "latitude": 32.9312,
+        "longitude": 12.08199,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 33887
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2218963",
+        "name": "Zintan",
+        "asciiname": "Zintan",
+        "latitude": 31.93155,
+        "longitude": 12.25291,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 33000
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2208655",
+        "name": "Zalţan",
+        "asciiname": "Zaltan",
+        "latitude": 32.94699,
+        "longitude": 11.86668,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 14131
+      }
+    ]
+  },
+  {
+    "slug": "al-sayeh",
+    "name_ar": "السائح",
+    "name_en": "Al Sayeh",
+    "candidates": [
+      {
+        "score": 0.75,
+        "geonameid": "2219713",
+        "name": "Quşay‘ah",
+        "asciiname": "Qusay`ah",
+        "latitude": 32.47847,
+        "longitude": 13.95116,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2218970",
+        "name": "Az Zāwīyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.7571,
+        "longitude": 12.72764,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 200000
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2219413",
+        "name": "Wādī ash Shāţi’",
+        "asciiname": "Wadi ash Shati'",
+        "latitude": 27.8,
+        "longitude": 12.73333,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 78532
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2219812",
+        "name": "Al Māyah",
+        "asciiname": "Al Mayah",
+        "latitude": 32.80194,
+        "longitude": 12.87917,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 14203
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "88609",
+        "name": "Aş Şābirī al Gharbī",
+        "asciiname": "As Sabiri al Gharbi",
+        "latitude": 32.13581,
+        "longitude": 20.07848,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-sharqiya",
+    "name_ar": "الشرقية",
+    "name_en": "Al Sharqiya",
+    "candidates": [
+      {
+        "score": 0.7368,
+        "geonameid": "86589",
+        "name": "Mudīrīyat al Ḩanīyah",
+        "asciiname": "Mudiriyat al Haniyah",
+        "latitude": 32.85,
+        "longitude": 21.53333,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "89012",
+        "name": "Al Ḩanīyah",
+        "asciiname": "Al Haniyah",
+        "latitude": 32.84099,
+        "longitude": 21.52086,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2220015",
+        "name": "Al Ḩaţīyah",
+        "asciiname": "Al Hatiyah",
+        "latitude": 26.57415,
+        "longitude": 12.9165,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "11828488",
+        "name": "Al Ḩaţīyah",
+        "asciiname": "Al Hatiyah",
+        "latitude": 27.55775,
+        "longitude": 13.54597,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2216885",
+        "name": "Zawiya",
+        "asciiname": "Zawiya",
+        "latitude": 32.75222,
+        "longitude": 12.72778,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 186123
+      }
+    ]
+  },
+  {
+    "slug": "al-ameriya",
+    "name_ar": "العامرية",
+    "name_en": "Al Ameriya",
+    "candidates": [
+      {
+        "score": 0.75,
+        "geonameid": "2220038",
+        "name": "Al Ḩamrā’",
+        "asciiname": "Al Hamra'",
+        "latitude": 26.71115,
+        "longitude": 13.8769,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "88834",
+        "name": "Tūkrah",
+        "asciiname": "Tukrah",
+        "latitude": 32.53414,
+        "longitude": 20.57911,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 12593
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "80509",
+        "name": "Al Bardīyah",
+        "asciiname": "Al Bardiyah",
+        "latitude": 31.75601,
+        "longitude": 25.0853,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 9149
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "88903",
+        "name": "Al Marj",
+        "asciiname": "Al Marj",
+        "latitude": 32.49257,
+        "longitude": 20.82909,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 85315
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "88904",
+        "name": "Al Marj",
+        "asciiname": "Al Marj",
+        "latitude": 31.78333,
+        "longitude": 21.2,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 85315
+      }
+    ]
+  },
+  {
+    "slug": "al-awata",
+    "name_ar": "العواته",
+    "name_en": "Al Awata",
+    "candidates": [
+      {
+        "score": 0.8571,
+        "geonameid": "2214218",
+        "name": "Qabīlat Lawātah",
+        "asciiname": "Qabilat Lawatah",
+        "latitude": 32.55771,
+        "longitude": 14.014,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2219689",
+        "name": "Al ‘Awinat",
+        "asciiname": "Al 'Awinat",
+        "latitude": 25.78123,
+        "longitude": 10.56133,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 3881
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2214257",
+        "name": "Qabīlat al Qanawāt",
+        "asciiname": "Qabilat al Qanawat",
+        "latitude": 32.57611,
+        "longitude": 14.36028,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2219676",
+        "name": "Al Wāţīyah",
+        "asciiname": "Al Watiyah",
+        "latitude": 32.47636,
+        "longitude": 11.7679,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2219735",
+        "name": "Al Qawātī",
+        "asciiname": "Al Qawati",
+        "latitude": 32.09889,
+        "longitude": 12.67222,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "garabulli",
+    "name_ar": "القرة بوللي",
+    "name_en": "Garabulli",
+    "candidates": [
+      {
+        "score": 0.8889,
+        "geonameid": "2213695",
+        "name": "Qaşr al Qarabūllī",
+        "asciiname": "Qasr al Qarabulli",
+        "latitude": 32.74506,
+        "longitude": 13.71467,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 49610
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "88967",
+        "name": "Al Jaghbūb",
+        "asciiname": "Al Jaghbub",
+        "latitude": 29.74262,
+        "longitude": 24.51676,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 2768
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2210247",
+        "name": "Tripoli",
+        "asciiname": "Tripoli",
+        "latitude": 32.88743,
+        "longitude": 13.18733,
+        "feature_class": "P",
+        "feature_code": "PPLC",
+        "population": 1302947
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2210245",
+        "name": "Tripoli",
+        "asciiname": "Tripoli",
+        "latitude": 32.56667,
+        "longitude": 13.4,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 1065405
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2218840",
+        "name": "Bani Walid",
+        "asciiname": "Bani Walid",
+        "latitude": 31.74554,
+        "longitude": 13.98354,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 45734
+      }
+    ]
+  },
+  {
+    "slug": "al-qarda-al-shati",
+    "name_ar": "القرضة الشاطئ",
+    "name_en": "Al Qarda Al Shati",
+    "candidates": [
+      {
+        "score": 0.75,
+        "geonameid": "88849",
+        "name": "Al Qarz̧abah",
+        "asciiname": "Al Qarzabah",
+        "latitude": 32.1375,
+        "longitude": 23.48047,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7097,
+        "geonameid": "2219413",
+        "name": "Wādī ash Shāţi’",
+        "asciiname": "Wadi ash Shati'",
+        "latitude": 27.8,
+        "longitude": 12.73333,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 78532
+      },
+      {
+        "score": 0.6957,
+        "geonameid": "88839",
+        "name": "Qaryat al Qawārishah",
+        "asciiname": "Qaryat al Qawarishah",
+        "latitude": 32.00971,
+        "longitude": 20.08432,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6897,
+        "geonameid": "2213927",
+        "name": "Qaryat al Kamshāt",
+        "asciiname": "Qaryat al Kamshat",
+        "latitude": 32.14278,
+        "longitude": 13.10639,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "88852",
+        "name": "Al Qa‘rah",
+        "asciiname": "Al Qa`rah",
+        "latitude": 31.95389,
+        "longitude": 24.20218,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-qalaa",
+    "name_ar": "القلعة",
+    "name_en": "Al Qalaa",
+    "candidates": [
+      {
+        "score": 0.8571,
+        "geonameid": "2219760",
+        "name": "Al Qal‘ah",
+        "asciiname": "Al Qal`ah",
+        "latitude": 32.04924,
+        "longitude": 12.56027,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2219750",
+        "name": "Al Qarāyā",
+        "asciiname": "Al Qaraya",
+        "latitude": 26.53333,
+        "longitude": 13.36667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.75,
+        "geonameid": "12687313",
+        "name": "Msalātah",
+        "asciiname": "Msalatah",
+        "latitude": 32.58345,
+        "longitude": 14.03627,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 73907
+      },
+      {
+        "score": 0.75,
+        "geonameid": "2219698",
+        "name": "Al ‘Uqaylah",
+        "asciiname": "Al `Uqaylah",
+        "latitude": 30.25711,
+        "longitude": 19.20098,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.75,
+        "geonameid": "2219746",
+        "name": "Al Qaşabāt",
+        "asciiname": "Al Qasabat",
+        "latitude": 32.58597,
+        "longitude": 14.03933,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-qawalish",
+    "name_ar": "القواليش",
+    "name_en": "Al Qawalish",
+    "candidates": [
+      {
+        "score": 0.8182,
+        "geonameid": "83758",
+        "name": "Mudīrīyat al Qawārishah",
+        "asciiname": "Mudiriyat al Qawarishah",
+        "latitude": 32.03333,
+        "longitude": 20.06667,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.8182,
+        "geonameid": "88839",
+        "name": "Qaryat al Qawārishah",
+        "asciiname": "Qaryat al Qawarishah",
+        "latitude": 32.00971,
+        "longitude": 20.08432,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "2219735",
+        "name": "Al Qawātī",
+        "asciiname": "Al Qawati",
+        "latitude": 32.09889,
+        "longitude": 12.67222,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2219736",
+        "name": "Al Qawāsim",
+        "asciiname": "Al Qawasim",
+        "latitude": 32.18418,
+        "longitude": 13.06045,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 15134
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2213436",
+        "name": "Mudīrīyat al Qawāsim",
+        "asciiname": "Mudiriyat al Qawasim",
+        "latitude": 32.18333,
+        "longitude": 13.05,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-uwaina",
+    "name_ar": "العوينة",
+    "name_en": "Al Uwaina",
+    "candidates": [
+      {
+        "score": 0.8235,
+        "geonameid": "2219689",
+        "name": "Al ‘Awinat",
+        "asciiname": "Al 'Awinat",
+        "latitude": 25.78123,
+        "longitude": 10.56133,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 3881
+      },
+      {
+        "score": 0.8235,
+        "geonameid": "88818",
+        "name": "Al ‘Uwaynāt",
+        "asciiname": "Al `Uwaynat",
+        "latitude": 21.56667,
+        "longitude": 24.83333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "88926",
+        "name": "Al Kuwayfīyah",
+        "asciiname": "Al Kuwayfiyah",
+        "latitude": 32.20164,
+        "longitude": 20.16907,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.75,
+        "geonameid": "2219676",
+        "name": "Al Wāţīyah",
+        "asciiname": "Al Watiyah",
+        "latitude": 32.47636,
+        "longitude": 11.7679,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "13441383",
+        "name": "Al ‘Uwaylīyah",
+        "asciiname": "Al `Uwayliyah",
+        "latitude": 32.55718,
+        "longitude": 20.9906,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-mamura",
+    "name_ar": "المعمورة",
+    "name_en": "Al Mamura",
+    "candidates": [
+      {
+        "score": 0.9412,
+        "geonameid": "2219847",
+        "name": "Al Ma‘mūrah",
+        "asciiname": "Al Ma`murah",
+        "latitude": 32.71917,
+        "longitude": 12.85694,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.9412,
+        "geonameid": "2219848",
+        "name": "Al Ma‘mūrah",
+        "asciiname": "Al Ma`murah",
+        "latitude": 32.02833,
+        "longitude": 12.57306,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.9412,
+        "geonameid": "2219849",
+        "name": "Al Ma‘mūrah",
+        "asciiname": "Al Ma`murah",
+        "latitude": 32.02966,
+        "longitude": 12.55925,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "88904",
+        "name": "Al Marj",
+        "asciiname": "Al Marj",
+        "latitude": 31.78333,
+        "longitude": 21.2,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 85315
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2220038",
+        "name": "Al Ḩamrā’",
+        "asciiname": "Al Hamra'",
+        "latitude": 26.71115,
+        "longitude": 13.8769,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-melitaniya",
+    "name_ar": "المليطانية",
+    "name_en": "Al Melitaniya",
+    "candidates": [
+      {
+        "score": 0.8333,
+        "geonameid": "84740",
+        "name": "Al Mulţānīyah",
+        "asciiname": "Al Multaniyah",
+        "latitude": 32.27198,
+        "longitude": 20.65011,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.7692,
+        "geonameid": "88888",
+        "name": "Al Milayţānīyah",
+        "asciiname": "Al Milaytaniyah",
+        "latitude": 32.36667,
+        "longitude": 20.63333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "86589",
+        "name": "Mudīrīyat al Ḩanīyah",
+        "asciiname": "Mudiriyat al Haniyah",
+        "latitude": 32.85,
+        "longitude": 21.53333,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "89012",
+        "name": "Al Ḩanīyah",
+        "asciiname": "Al Haniyah",
+        "latitude": 32.84099,
+        "longitude": 21.52086,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6316,
+        "geonameid": "2208485",
+        "name": "Zliten",
+        "asciiname": "Zliten",
+        "latitude": 32.46739,
+        "longitude": 14.56874,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 203790
+      }
+    ]
+  },
+  {
+    "slug": "al-manshiya-al-jumayl",
+    "name_ar": "المنشية الجميل",
+    "name_en": "Al Manshiya Al Jumayl",
+    "candidates": [
+      {
+        "score": 0.6857,
+        "geonameid": "2220020",
+        "name": "Al Ḩāshiyah al Ḩamrā’",
+        "asciiname": "Al Hashiyah al Hamra'",
+        "latitude": 32.7112,
+        "longitude": 12.60339,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6429,
+        "geonameid": "8615226",
+        "name": "The University Neighborhood",
+        "asciiname": "The University Neighborhood",
+        "latitude": 32.0528,
+        "longitude": 20.06572,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.6286,
+        "geonameid": "2219944",
+        "name": "Al Jufrah",
+        "asciiname": "Al Jufrah",
+        "latitude": 27.73333,
+        "longitude": 17.05,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 47538
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "2219936",
+        "name": "Al Jumayl",
+        "asciiname": "Al Jumayl",
+        "latitude": 32.85286,
+        "longitude": 12.0612,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 102000
+      },
+      {
+        "score": 0.5882,
+        "geonameid": "2219907",
+        "name": "Baladīyat al Khums",
+        "asciiname": "Baladiyat al Khums",
+        "latitude": 32.65,
+        "longitude": 14.26667,
+        "feature_class": "A",
+        "feature_code": "ADM1H",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-nasiriya",
+    "name_ar": "الناصرية",
+    "name_en": "Al Nasiriya",
+    "candidates": [
+      {
+        "score": 0.8571,
+        "geonameid": "2219591",
+        "name": "An Nāşirīyah",
+        "asciiname": "An Nasiriyah",
+        "latitude": 32.63278,
+        "longitude": 12.87361,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 20687
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2220139",
+        "name": "Al ‘Azīzīyah",
+        "asciiname": "Al 'Aziziyah",
+        "latitude": 32.53194,
+        "longitude": 13.0175,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 52404
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2219713",
+        "name": "Quşay‘ah",
+        "asciiname": "Qusay`ah",
+        "latitude": 32.47847,
+        "longitude": 13.95116,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2219844",
+        "name": "Al Manāşīr",
+        "asciiname": "Al Manasir",
+        "latitude": 32.16139,
+        "longitude": 12.83167,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7,
+        "geonameid": "88834",
+        "name": "Tūkrah",
+        "asciiname": "Tukrah",
+        "latitude": 32.53414,
+        "longitude": 20.57911,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 12593
+      }
+    ]
+  },
+  {
+    "slug": "emsaed",
+    "name_ar": "امساعد",
+    "name_en": "Emsaed",
+    "candidates": [
+      {
+        "score": 0.8,
+        "geonameid": "84637",
+        "name": "Musā‘id",
+        "asciiname": "Musa`id",
+        "latitude": 31.60937,
+        "longitude": 25.04972,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "12687307",
+        "name": "Umm Sā'ad",
+        "asciiname": "Umm Sa'ad",
+        "latitude": 31.60968,
+        "longitude": 25.04999,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 8614
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "88918",
+        "name": "Al Muḩayshī",
+        "asciiname": "Al Muhayshi",
+        "latitude": 32.13767,
+        "longitude": 20.11781,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "2215453",
+        "name": "Majdūl",
+        "asciiname": "Majdul",
+        "latitude": 25.86472,
+        "longitude": 15.11167,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2212375",
+        "name": "Şayyād",
+        "asciiname": "Sayyad",
+        "latitude": 32.81667,
+        "longitude": 12.95,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "intlat-al-baydan",
+    "name_ar": "انتلات البيضان",
+    "name_en": "Intlat Al Baydan",
+    "candidates": [
+      {
+        "score": 0.7273,
+        "geonameid": "2220114",
+        "name": "Al Bayḑān",
+        "asciiname": "Al Baydan",
+        "latitude": 25.83806,
+        "longitude": 14.21306,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "89055",
+        "name": "Al Bayḑā’",
+        "asciiname": "Al Bayda'",
+        "latitude": 32.76272,
+        "longitude": 21.75506,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 129439
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "88838",
+        "name": "Al Qayqab",
+        "asciiname": "Al Qayqab",
+        "latitude": 32.72581,
+        "longitude": 22.02061,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2213944",
+        "name": "Qaryat al Bayḑā’",
+        "asciiname": "Qaryat al Bayda'",
+        "latitude": 32.11004,
+        "longitude": 13.33027,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6452,
+        "geonameid": "2214280",
+        "name": "Qabīlat al ‘Abādinah",
+        "asciiname": "Qabilat al `Abadinah",
+        "latitude": 32.32479,
+        "longitude": 14.72312,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "batin-al-jabal",
+    "name_ar": "باطن الجبل",
+    "name_en": "Batin Al Jabal",
+    "candidates": [
+      {
+        "score": 0.6207,
+        "geonameid": "2214281",
+        "name": "Qabīlat al ‘Abādīlah",
+        "asciiname": "Qabilat al `Abadilah",
+        "latitude": 32.28033,
+        "longitude": 14.69722,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "2214279",
+        "name": "Qabīlat al Abqār",
+        "asciiname": "Qabilat al Abqar",
+        "latitude": 32.26228,
+        "longitude": 13.03194,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6,
+        "geonameid": "88559",
+        "name": "Aţ Ţallāb",
+        "asciiname": "At Tallab",
+        "latitude": 24.01667,
+        "longitude": 23.16667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5926,
+        "geonameid": "2214278",
+        "name": "Qabīlat al Afāḑil",
+        "asciiname": "Qabilat al Afadil",
+        "latitude": 32.64193,
+        "longitude": 14.16572,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5833,
+        "geonameid": "2214276",
+        "name": "Qabīlat al ‘Aql",
+        "asciiname": "Qabilat al `Aql",
+        "latitude": 32.65411,
+        "longitude": 14.16191,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "south-jabal-al-akhdar",
+    "name_ar": "جنوب الجبل الأخضر",
+    "name_en": "South Jabal Al Akhdar",
+    "candidates": [
+      {
+        "score": 0.7879,
+        "geonameid": "443289",
+        "name": "Al Jabal al Akhḑar",
+        "asciiname": "Al Jabal al Akhdar",
+        "latitude": 32.15,
+        "longitude": 21.81667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 206180
+      },
+      {
+        "score": 0.6471,
+        "geonameid": "7602689",
+        "name": "Jabal al Gharbi District",
+        "asciiname": "Jabal al Gharbi District",
+        "latitude": 30.46666,
+        "longitude": 13.0,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 304159
+      },
+      {
+        "score": 0.6061,
+        "geonameid": "11258324",
+        "name": "Alhadba Alkhadra",
+        "asciiname": "Alhadba Alkhadra",
+        "latitude": 32.84372,
+        "longitude": 13.19123,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "gulf-of-sidra",
+    "name_ar": "خليج السدرة",
+    "name_en": "Gulf of Sidra",
+    "candidates": [
+      {
+        "score": 0.5556,
+        "geonameid": "88932",
+        "name": "Al Kufrah",
+        "asciiname": "Al Kufrah",
+        "latitude": 23.76667,
+        "longitude": 22.21667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 55690
+      }
+    ]
+  },
+  {
+    "slug": "rabiana",
+    "name_ar": "ربيانة",
+    "name_en": "Rabiana",
+    "candidates": [
+      {
+        "score": 0.7692,
+        "geonameid": "2219471",
+        "name": "Ar Rayāyinah",
+        "asciiname": "Ar Rayayinah",
+        "latitude": 32.02684,
+        "longitude": 12.35643,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 15031
+      },
+      {
+        "score": 0.7692,
+        "geonameid": "87192",
+        "name": "Daryānah",
+        "asciiname": "Daryanah",
+        "latitude": 32.34751,
+        "longitude": 20.30933,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 7558
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2212775",
+        "name": "Sabha",
+        "asciiname": "Sabha",
+        "latitude": 27.03766,
+        "longitude": 14.42832,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 149329
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2212774",
+        "name": "Sabhā",
+        "asciiname": "Sabha",
+        "latitude": 26.9,
+        "longitude": 14.96667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 134162
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2215636",
+        "name": "Libya",
+        "asciiname": "Libya",
+        "latitude": 28.0,
+        "longitude": 17.0,
+        "feature_class": "A",
+        "feature_code": "PCLI",
+        "population": 6678567
+      }
+    ]
+  },
+  {
+    "slug": "zamzam",
+    "name_ar": "زمزم",
+    "name_en": "Zamzam",
+    "candidates": [
+      {
+        "score": 0.75,
+        "geonameid": "8615345",
+        "name": "Zamzam Neighborhood",
+        "asciiname": "Zamzam Neighborhood",
+        "latitude": 32.08502,
+        "longitude": 20.14981,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "81071",
+        "name": "Umm ar Rizam",
+        "asciiname": "Umm ar Rizam",
+        "latitude": 32.53332,
+        "longitude": 23.00904,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 8742
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "2210300",
+        "name": "Tamzāwah",
+        "asciiname": "Tamzawah",
+        "latitude": 27.57154,
+        "longitude": 14.20234,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 7410
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "2220070",
+        "name": "Az Zaram",
+        "asciiname": "Az Zaram",
+        "latitude": 32.002,
+        "longitude": 10.83529,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5882,
+        "geonameid": "2218978",
+        "name": "Az Zamāmiqah",
+        "asciiname": "Az Zamamiqah",
+        "latitude": 32.24806,
+        "longitude": 13.03694,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "sahel-al-jabal",
+    "name_ar": "ساحل الجبل",
+    "name_en": "Sahel Al Jabal",
+    "candidates": [
+      {
+        "score": 0.64,
+        "geonameid": "2212207",
+        "name": "Shatal al Ghābāt",
+        "asciiname": "Shatal al Ghabat",
+        "latitude": 32.85222,
+        "longitude": 13.28583,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2220153",
+        "name": "Al Aşābi‘ah",
+        "asciiname": "Al Asabi'ah",
+        "latitude": 32.03333,
+        "longitude": 12.86667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 27713
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2220029",
+        "name": "Al Ḩarābah",
+        "asciiname": "Al Harabah",
+        "latitude": 31.77389,
+        "longitude": 11.54361,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5926,
+        "geonameid": "89146",
+        "name": "Aḩqāf al Jabhīyah",
+        "asciiname": "Ahqaf al Jabhiyah",
+        "latitude": 32.72417,
+        "longitude": 21.72139,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5926,
+        "geonameid": "89147",
+        "name": "Aḩqāf al Jabbārāt",
+        "asciiname": "Ahqaf al Jabbarat",
+        "latitude": 32.68328,
+        "longitude": 21.91099,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "swani-bin-adam",
+    "name_ar": "سواني بن أدم",
+    "name_en": "Swani Bin Adam",
+    "candidates": [
+      {
+        "score": 0.96,
+        "geonameid": "2208400",
+        "name": "Sawānī Bin Ādam",
+        "asciiname": "Sawani Bin Adam",
+        "latitude": 32.71252,
+        "longitude": 13.06725,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6316,
+        "geonameid": "2215636",
+        "name": "Libya",
+        "asciiname": "Libya",
+        "latitude": 28.0,
+        "longitude": 17.0,
+        "feature_class": "A",
+        "feature_code": "PCLI",
+        "population": 6678567
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2213909",
+        "name": "Qaryat an Nadwah",
+        "asciiname": "Qaryat an Nadwah",
+        "latitude": 31.87412,
+        "longitude": 11.89148,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5833,
+        "geonameid": "2212774",
+        "name": "Sabhā",
+        "asciiname": "Sabha",
+        "latitude": 26.9,
+        "longitude": 14.96667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 134162
+      },
+      {
+        "score": 0.5714,
+        "geonameid": "2214393",
+        "name": "An Nasamah",
+        "asciiname": "AnNasamah",
+        "latitude": 31.35,
+        "longitude": 13.35,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "souq-al-khamis",
+    "name_ar": "سوق الخميس",
+    "name_en": "Souq Al Khamis",
+    "candidates": [
+      {
+        "score": 0.9565,
+        "geonameid": "2210577",
+        "name": "Sūq al Khamīs",
+        "asciiname": "Suq al Khamis",
+        "latitude": 32.58716,
+        "longitude": 14.34694,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.9565,
+        "geonameid": "2210578",
+        "name": "Sūq al Khamīs",
+        "asciiname": "Suq al Khamis",
+        "latitude": 32.52766,
+        "longitude": 13.21978,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6923,
+        "geonameid": "2593778",
+        "name": "An Nuqāţ al Khams",
+        "asciiname": "An Nuqat al Khams",
+        "latitude": 32.63333,
+        "longitude": 11.9,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 287662
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2219905",
+        "name": "Al Khums",
+        "asciiname": "Al Khums",
+        "latitude": 32.64861,
+        "longitude": 14.26191,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 201943
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2210592",
+        "name": "Sūq al Aḩad",
+        "asciiname": "Suq al Ahad",
+        "latitude": 32.55167,
+        "longitude": 13.44194,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "tripoli-center",
+    "name_ar": "طرابلس المركز",
+    "name_en": "Tripoli Center",
+    "candidates": [
+      {
+        "score": 0.7,
+        "geonameid": "2210247",
+        "name": "Tripoli",
+        "asciiname": "Tripoli",
+        "latitude": 32.88743,
+        "longitude": 13.18733,
+        "feature_class": "P",
+        "feature_code": "PPLC",
+        "population": 1302947
+      },
+      {
+        "score": 0.7,
+        "geonameid": "2210245",
+        "name": "Tripoli",
+        "asciiname": "Tripoli",
+        "latitude": 32.56667,
+        "longitude": 13.4,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 1065405
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "8615224",
+        "name": "Tabalino",
+        "asciiname": "Tabalino",
+        "latitude": 32.07672,
+        "longitude": 20.05801,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "dahir-al-jabal",
+    "name_ar": "ظاهر الجبل",
+    "name_en": "Dahir Al Jabal",
+    "candidates": [
+      {
+        "score": 0.6667,
+        "geonameid": "2219485",
+        "name": "Ar Rajūbāt",
+        "asciiname": "Ar Rajubat",
+        "latitude": 32.35,
+        "longitude": 15.1,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "89087",
+        "name": "Al Abyār",
+        "asciiname": "Al Abyar",
+        "latitude": 32.19,
+        "longitude": 20.59653,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 32563
+      },
+      {
+        "score": 0.6,
+        "geonameid": "87204",
+        "name": "Darnah",
+        "asciiname": "Darnah",
+        "latitude": 31.83333,
+        "longitude": 22.66667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 163351
+      },
+      {
+        "score": 0.6,
+        "geonameid": "87205",
+        "name": "Darnah",
+        "asciiname": "Darnah",
+        "latitude": 32.76704,
+        "longitude": 22.63669,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 102581
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2219463",
+        "name": "Ar Rujbān",
+        "asciiname": "Ar Rujban",
+        "latitude": 31.95,
+        "longitude": 12.16667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 6419
+      }
+    ]
+  },
+  {
+    "slug": "ain-ghazala",
+    "name_ar": "عين غزالة",
+    "name_en": "Ain Ghazala",
+    "candidates": [
+      {
+        "score": 0.8,
+        "geonameid": "2219034",
+        "name": "‘Ayn al Ghazāyā",
+        "asciiname": "`Ayn al Ghazaya",
+        "latitude": 31.904,
+        "longitude": 10.81064,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.8,
+        "geonameid": "11867582",
+        "name": "Al Ghazālah",
+        "asciiname": "Al Ghazalah",
+        "latitude": 32.14617,
+        "longitude": 23.35691,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2219021",
+        "name": "‘Ayn Zārah",
+        "asciiname": "`Ayn Zarah",
+        "latitude": 32.81333,
+        "longitude": 13.26972,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7,
+        "geonameid": "2220070",
+        "name": "Az Zaram",
+        "asciiname": "Az Zaram",
+        "latitude": 32.002,
+        "longitude": 10.83529,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "88318",
+        "name": "Sha‘bīyat Banghāzī",
+        "asciiname": "Sha'biyat Banghazi",
+        "latitude": 32.08723,
+        "longitude": 20.18738,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 1110000
+      }
+    ]
+  },
+  {
+    "slug": "kikla",
+    "name_ar": "ككلة",
+    "name_en": "Kikla",
+    "candidates": [
+      {
+        "score": 0.9091,
+        "geonameid": "2215758",
+        "name": "Kiklah",
+        "asciiname": "Kiklah",
+        "latitude": 32.08333,
+        "longitude": 12.7,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 11776
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2213570",
+        "name": "Qaşr Khiyār",
+        "asciiname": "Qasr Khiyar",
+        "latitude": 32.69677,
+        "longitude": 13.84634,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 16708
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2208518",
+        "name": "Zillah",
+        "asciiname": "Zillah",
+        "latitude": 28.55099,
+        "longitude": 17.54358,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 10030
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2215764",
+        "name": "Ki‘ām",
+        "asciiname": "Ki`am",
+        "latitude": 32.52278,
+        "longitude": 14.43802,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2215765",
+        "name": "Ki‘ām",
+        "asciiname": "Ki`am",
+        "latitude": 32.11028,
+        "longitude": 13.00611,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "marsa-dafna",
+    "name_ar": "مرسى دفنة",
+    "name_en": "Marsa Dafna",
+    "candidates": [
+      {
+        "score": 0.75,
+        "geonameid": "2215282",
+        "name": "Marādah",
+        "asciiname": "Maradah",
+        "latitude": 29.22054,
+        "longitude": 19.20454,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 2229
+      },
+      {
+        "score": 0.6316,
+        "geonameid": "81584",
+        "name": "Sūsah",
+        "asciiname": "Susah",
+        "latitude": 32.89702,
+        "longitude": 21.96583,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 7285
+      },
+      {
+        "score": 0.6316,
+        "geonameid": "2220336",
+        "name": "Ad Dāfīnah",
+        "asciiname": "Ad Dafinah",
+        "latitude": 32.41343,
+        "longitude": 14.79297,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.625,
+        "geonameid": "87204",
+        "name": "Darnah",
+        "asciiname": "Darnah",
+        "latitude": 31.83333,
+        "longitude": 22.66667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 163351
+      },
+      {
+        "score": 0.625,
+        "geonameid": "87205",
+        "name": "Darnah",
+        "asciiname": "Darnah",
+        "latitude": 32.76704,
+        "longitude": 22.63669,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 102581
+      }
+    ]
+  },
+  {
+    "slug": "harawa",
+    "name_ar": "هراوة",
+    "name_en": "Harawa",
+    "candidates": [
+      {
+        "score": 0.7692,
+        "geonameid": "85110",
+        "name": "Marāwah",
+        "asciiname": "Marawah",
+        "latitude": 32.48573,
+        "longitude": 21.40958,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7273,
+        "geonameid": "2212182",
+        "name": "Sha‘wā’",
+        "asciiname": "Sha`wa'",
+        "latitude": 30.98688,
+        "longitude": 10.55165,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2217362",
+        "name": "Gharyan",
+        "asciiname": "Gharyan",
+        "latitude": 32.17222,
+        "longitude": 13.02028,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 36110
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2220029",
+        "name": "Al Ḩarābah",
+        "asciiname": "Al Harabah",
+        "latitude": 31.77389,
+        "longitude": 11.54361,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2216885",
+        "name": "Zawiya",
+        "asciiname": "Zawiya",
+        "latitude": 32.75222,
+        "longitude": 12.72778,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 186123
+      }
+    ]
+  },
+  {
+    "slug": "wadi-al-bawanis",
+    "name_ar": "وادي البوانيس",
+    "name_en": "Wadi Al Bawanis",
+    "candidates": [
+      {
+        "score": 0.8182,
+        "geonameid": "2218703",
+        "name": "Mudīrīyat al Bawānīs",
+        "asciiname": "Mudiriyat al Bawanis",
+        "latitude": 27.28333,
+        "longitude": 14.8,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "7602693",
+        "name": "Wādī al Ḩayāt",
+        "asciiname": "Wadi al Hayat",
+        "latitude": 26.31667,
+        "longitude": 12.7,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 76858
+      },
+      {
+        "score": 0.6154,
+        "geonameid": "2213748",
+        "name": "Qaşr al Fawqānī",
+        "asciiname": "Qasr al Fawqani",
+        "latitude": 31.03333,
+        "longitude": 10.6,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6,
+        "geonameid": "2219191",
+        "name": "Awlād ‘Alī Bū al Qāsim",
+        "asciiname": "Awlad `Ali Bu al Qasim",
+        "latitude": 32.04628,
+        "longitude": 12.57234,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5833,
+        "geonameid": "2219413",
+        "name": "Wādī ash Shāţi’",
+        "asciiname": "Wadi ash Shati'",
+        "latitude": 27.8,
+        "longitude": 12.73333,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 78532
+      }
+    ]
+  },
+  {
+    "slug": "wadi-atba",
+    "name_ar": "وادي عتبة",
+    "name_en": "Wadi Atba",
+    "candidates": [
+      {
+        "score": 0.8235,
+        "geonameid": "12687308",
+        "name": "Wādī 'Utbah",
+        "asciiname": "Wadi 'Utbah",
+        "latitude": 26.09502,
+        "longitude": 13.55744,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 16746
+      },
+      {
+        "score": 0.7,
+        "geonameid": "85350",
+        "name": "Madīnat Bayāḑ",
+        "asciiname": "Madinat Bayad",
+        "latitude": 32.00911,
+        "longitude": 23.97753,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "89113",
+        "name": "Ajdabiya",
+        "asciiname": "Ajdabiya",
+        "latitude": 30.75545,
+        "longitude": 20.22625,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 131773
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2214209",
+        "name": "Qabīlat Wādinah",
+        "asciiname": "Qabilat Wadinah",
+        "latitude": 32.57174,
+        "longitude": 14.03946,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6364,
+        "geonameid": "2212774",
+        "name": "Sabhā",
+        "asciiname": "Sabha",
+        "latitude": 26.9,
+        "longitude": 14.96667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 134162
+      }
+    ]
+  },
+  {
+    "slug": "wardama",
+    "name_ar": "وردامة",
+    "name_en": "Wardama",
+    "candidates": [
+      {
+        "score": 0.9333,
+        "geonameid": "12687309",
+        "name": "Wardāmah",
+        "asciiname": "Wardamah",
+        "latitude": 32.79661,
+        "longitude": 21.79099,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 11058
+      },
+      {
+        "score": 0.7692,
+        "geonameid": "2216319",
+        "name": "Jarmah",
+        "asciiname": "Jarmah",
+        "latitude": 26.53333,
+        "longitude": 13.06667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2208425",
+        "name": "Zuwarah",
+        "asciiname": "Zuwarah",
+        "latitude": 32.9312,
+        "longitude": 12.08199,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 33887
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "89096",
+        "name": "‘Akramah",
+        "asciiname": "`Akramah",
+        "latitude": 32.03333,
+        "longitude": 23.68333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2219155",
+        "name": "Awlād Ḩamad",
+        "asciiname": "Awlad Hamad",
+        "latitude": 32.03528,
+        "longitude": 12.52278,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "al-jalida",
+    "name_ar": "الجليدة",
+    "name_en": "Al Jalida",
+    "candidates": [
+      {
+        "score": 0.8,
+        "geonameid": "89055",
+        "name": "Al Bayḑā’",
+        "asciiname": "Al Bayda'",
+        "latitude": 32.76272,
+        "longitude": 21.75506,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 129439
+      },
+      {
+        "score": 0.8,
+        "geonameid": "2219960",
+        "name": "Al Jadīd",
+        "asciiname": "Al Jadid",
+        "latitude": 27.05,
+        "longitude": 14.4,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 126386
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "89087",
+        "name": "Al Abyār",
+        "asciiname": "Al Abyar",
+        "latitude": 32.19,
+        "longitude": 20.59653,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 32563
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "89085",
+        "name": "Al ‘Adam",
+        "asciiname": "Al `Adam",
+        "latitude": 31.86644,
+        "longitude": 23.92577,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7059,
+        "geonameid": "2219701",
+        "name": "Al Ajaylat",
+        "asciiname": "Al Ajaylat",
+        "latitude": 32.75718,
+        "longitude": 12.37633,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 130546
+      }
+    ]
+  },
+  {
+    "slug": "al-jadida",
+    "name_ar": "الجديدة",
+    "name_en": "Al Jadida",
+    "candidates": [
+      {
+        "score": 0.9333,
+        "geonameid": "2219960",
+        "name": "Al Jadīd",
+        "asciiname": "Al Jadid",
+        "latitude": 27.05,
+        "longitude": 14.4,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 126386
+      },
+      {
+        "score": 0.8,
+        "geonameid": "89055",
+        "name": "Al Bayḑā’",
+        "asciiname": "Al Bayda'",
+        "latitude": 32.76272,
+        "longitude": 21.75506,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 129439
+      },
+      {
+        "score": 0.75,
+        "geonameid": "89113",
+        "name": "Ajdabiya",
+        "asciiname": "Ajdabiya",
+        "latitude": 30.75545,
+        "longitude": 20.22625,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 131773
+      },
+      {
+        "score": 0.75,
+        "geonameid": "2219137",
+        "name": "Awlād ‘Īsá",
+        "asciiname": "Awlad `Isa",
+        "latitude": 32.07583,
+        "longitude": 12.68944,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.75,
+        "geonameid": "2219138",
+        "name": "Awlād ‘Īsá",
+        "asciiname": "Awlad `Isa",
+        "latitude": 31.93766,
+        "longitude": 12.23807,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "madwar-al-zaytun",
+    "name_ar": "مدور الزيتون",
+    "name_en": "Madwar Al Zaytun",
+    "candidates": [
+      {
+        "score": 0.5926,
+        "geonameid": "2218972",
+        "name": "Az Zāwiyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.46667,
+        "longitude": 12.51667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 290993
+      },
+      {
+        "score": 0.5833,
+        "geonameid": "2216645",
+        "name": "Hūn",
+        "asciiname": "Hun",
+        "latitude": 29.12684,
+        "longitude": 15.94772,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 24431
+      },
+      {
+        "score": 0.5833,
+        "geonameid": "2218968",
+        "name": "Az Zaytūnah",
+        "asciiname": "Az Zaytunah",
+        "latitude": 25.95,
+        "longitude": 14.53333,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.5833,
+        "geonameid": "8615563",
+        "name": "Ard Zwawa al Bahria",
+        "asciiname": "Ard Zwawa al Bahria",
+        "latitude": 32.13319,
+        "longitude": 20.09615,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.5714,
+        "geonameid": "2218970",
+        "name": "Az Zāwīyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.7571,
+        "longitude": 12.72764,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 200000
+      }
+    ]
+  },
+  {
+    "slug": "al-mardum",
+    "name_ar": "المردوم",
+    "name_en": "Al Mardum",
+    "candidates": [
+      {
+        "score": 0.7692,
+        "geonameid": "88904",
+        "name": "Al Marj",
+        "asciiname": "Al Marj",
+        "latitude": 31.78333,
+        "longitude": 21.2,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 85315
+      },
+      {
+        "score": 0.75,
+        "geonameid": "88903",
+        "name": "Al Marj",
+        "asciiname": "Al Marj",
+        "latitude": 32.49257,
+        "longitude": 20.82909,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 85315
+      },
+      {
+        "score": 0.75,
+        "geonameid": "88906",
+        "name": "Al Maqrūn",
+        "asciiname": "Al Maqrun",
+        "latitude": 31.44111,
+        "longitude": 20.15118,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "84167",
+        "name": "Qaryat al ‘Imāmah",
+        "asciiname": "Qaryat al `Imamah",
+        "latitude": 32.09823,
+        "longitude": 23.89006,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2219773",
+        "name": "Al Muţrad",
+        "asciiname": "Al Mutrad",
+        "latitude": 32.76167,
+        "longitude": 12.61583,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "awal",
+    "name_ar": "اوال",
+    "name_en": "Awal",
+    "candidates": [
+      {
+        "score": 0.6667,
+        "geonameid": "2218970",
+        "name": "Az Zāwīyah",
+        "asciiname": "Az Zawiyah",
+        "latitude": 32.7571,
+        "longitude": 12.72764,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 200000
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "88533",
+        "name": "Awjilah",
+        "asciiname": "Awjilah",
+        "latitude": 29.10806,
+        "longitude": 21.28694,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 5125
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2212182",
+        "name": "Sha‘wā’",
+        "asciiname": "Sha`wa'",
+        "latitude": 30.98688,
+        "longitude": 10.55165,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2213432",
+        "name": "Qāwāt",
+        "asciiname": "Qawat",
+        "latitude": 25.93333,
+        "longitude": 14.1,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2217742",
+        "name": "Dūjāl",
+        "asciiname": "Dujal",
+        "latitude": 26.12682,
+        "longitude": 13.69412,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "tahala",
+    "name_ar": "تهالة",
+    "name_en": "Tahala",
+    "candidates": [
+      {
+        "score": 0.7273,
+        "geonameid": "2210373",
+        "name": "Tālāt",
+        "asciiname": "Talat",
+        "latitude": 31.84472,
+        "longitude": 11.22389,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2212775",
+        "name": "Sabha",
+        "asciiname": "Sabha",
+        "latitude": 27.03766,
+        "longitude": 14.42832,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 149329
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2212774",
+        "name": "Sabhā",
+        "asciiname": "Sabha",
+        "latitude": 26.9,
+        "longitude": 14.96667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 134162
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2210389",
+        "name": "Tākbāl",
+        "asciiname": "Takbal",
+        "latitude": 32.12417,
+        "longitude": 12.63389,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "2219698",
+        "name": "Al ‘Uqaylah",
+        "asciiname": "Al `Uqaylah",
+        "latitude": 30.25711,
+        "longitude": 19.20098,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  },
+  {
+    "slug": "barkat",
+    "name_ar": "بركت",
+    "name_en": "Barkat",
+    "candidates": [
+      {
+        "score": 0.9091,
+        "geonameid": "2218478",
+        "name": "Brak",
+        "asciiname": "Brak",
+        "latitude": 27.54956,
+        "longitude": 14.27139,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 16200
+      },
+      {
+        "score": 0.9091,
+        "geonameid": "89048",
+        "name": "Al Birkah",
+        "asciiname": "Al Birkah",
+        "latitude": 32.09999,
+        "longitude": 20.08172,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.8571,
+        "geonameid": "2220109",
+        "name": "Al Barakāt",
+        "asciiname": "Al Barakat",
+        "latitude": 24.894,
+        "longitude": 10.18336,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 9908
+      },
+      {
+        "score": 0.7692,
+        "geonameid": "2218949",
+        "name": "Bāb ‘Akkārah",
+        "asciiname": "Bab `Akkarah",
+        "latitude": 32.8766,
+        "longitude": 13.18158,
+        "feature_class": "P",
+        "feature_code": "PPLX",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "81302",
+        "name": "Tobruk",
+        "asciiname": "Tobruk",
+        "latitude": 32.08963,
+        "longitude": 23.95385,
+        "feature_class": "P",
+        "feature_code": "PPLA",
+        "population": 141499
+      }
+    ]
+  },
+  {
+    "slug": "al-shuba-administrative-area",
+    "name_ar": "المنطقة الادارية الشعبة",
+    "name_en": "Al Shuba Administrative Area",
+    "candidates": []
+  },
+  {
+    "slug": "qarara",
+    "name_ar": "قرارة",
+    "name_en": "Qarara",
+    "candidates": [
+      {
+        "score": 0.8,
+        "geonameid": "2217449",
+        "name": "Qarāqārah",
+        "asciiname": "Qaraqarah",
+        "latitude": 26.54925,
+        "longitude": 13.21213,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7692,
+        "geonameid": "2208604",
+        "name": "Za‘rārah",
+        "asciiname": "Za`rarah",
+        "latitude": 31.92065,
+        "longitude": 11.65296,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7273,
+        "geonameid": "2213848",
+        "name": "Qaryat Qarārah",
+        "asciiname": "Qaryat Qararah",
+        "latitude": 32.38009,
+        "longitude": 15.11787,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7143,
+        "geonameid": "2219750",
+        "name": "Al Qarāyā",
+        "asciiname": "Al Qaraya",
+        "latitude": 26.53333,
+        "longitude": 13.36667,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.6667,
+        "geonameid": "87204",
+        "name": "Darnah",
+        "asciiname": "Darnah",
+        "latitude": 31.83333,
+        "longitude": 22.66667,
+        "feature_class": "A",
+        "feature_code": "ADM1",
+        "population": 163351
+      }
+    ]
+  },
+  {
+    "slug": "al-ruqayba",
+    "name_ar": "الرقيبة",
+    "name_en": "Al Ruqayba",
+    "candidates": [
+      {
+        "score": 0.8889,
+        "geonameid": "2218871",
+        "name": "Baldat al ‘Uqaybah",
+        "asciiname": "Baldat al `Uqaybah",
+        "latitude": 31.99477,
+        "longitude": 12.30433,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7778,
+        "geonameid": "2219698",
+        "name": "Al ‘Uqaylah",
+        "asciiname": "Al `Uqaylah",
+        "latitude": 30.25711,
+        "longitude": 19.20098,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2212857",
+        "name": "Mudīrīyat ar Ruḩaybāt",
+        "asciiname": "Mudiriyat ar Ruhaybat",
+        "latitude": 31.75,
+        "longitude": 11.85,
+        "feature_class": "A",
+        "feature_code": "ADMD",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2213911",
+        "name": "Qaryat al Wuqayyāt",
+        "asciiname": "Qaryat al Wuqayyat",
+        "latitude": 32.41971,
+        "longitude": 14.58998,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      },
+      {
+        "score": 0.7368,
+        "geonameid": "2219465",
+        "name": "Ar Ruḩaybāt",
+        "asciiname": "Ar Ruhaybat",
+        "latitude": 31.75722,
+        "longitude": 11.87,
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "population": 0
+      }
+    ]
+  }
+]
