@@ -1,6 +1,6 @@
 {
   "project": "libya-locations",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "updated_at": "2026-09-07",
   "datasets": {
     "municipalities": {
@@ -17,9 +17,39 @@
       "source": "Legacy public CitySeeder dataset from this repository"
     }
   },
+  "map_datasets": {
+    "municipality_points": {
+      "records": 141,
+      "mapped_records": 103,
+      "coverage_percent": 73.05,
+      "json": "data/municipality-points.json",
+      "csv": "data/municipality-points.csv",
+      "geojson": "data/municipality-points.geojson",
+      "schema": "schemas/municipality-map-point.schema.json"
+    },
+    "municipality_boundaries": {
+      "features": 10,
+      "geojson": "data/municipality-boundaries.geojson"
+    },
+    "coverage": "data/map-coverage.json"
+  },
   "fields": ["id", "slug", "name_ar", "name_en", "type"],
+  "map_point_fields": [
+    "id",
+    "slug",
+    "name_ar",
+    "name_en",
+    "type",
+    "latitude",
+    "longitude",
+    "coordinate_source",
+    "coordinate_source_id",
+    "point_type"
+  ],
   "notes": {
     "english_names": "Developer-friendly transliterations; not asserted to be official English spellings.",
-    "municipalities_and_cities": "Kept as separate datasets because municipality and city are not interchangeable concepts."
+    "municipalities_and_cities": "Kept as separate datasets because municipality and city are not interchangeable concepts.",
+    "map_points": "Coordinates are sourced reference points. Null coordinates mean no sufficiently confident match is published.",
+    "map_boundaries": "Boundary GeoJSON is partial and must not be treated as complete legal or cadastral coverage."
   }
 }
