@@ -5,9 +5,9 @@
   "mapped_municipalities": 89,
   "coverage_percent": 63.12,
   "source_counts": {
-    "iom-ocha-hubs-2016": 5,
     "geonames": 84,
-    "unmatched": 52
+    "unmatched": 52,
+    "iom-ocha-hubs-2016": 5
   },
   "sources": {
     "iom-ocha-hubs-2016": {
@@ -19,6 +19,11 @@
       "url": "https://download.geonames.org/export/dump/LY.zip",
       "license": "CC BY 4.0",
       "note": "Fallback exact-name matches to Libya named/admin places; represents a named-place reference point rather than a legal municipality centroid."
+    },
+    "openstreetmap-geofabrik": {
+      "url": "https://download.geofabrik.de/africa/libya.html",
+      "license": "OpenStreetMap ODbL 1.0",
+      "note": "Current OpenStreetMap administrative boundary relations from the Geofabrik Libya extract. Representative points are generated inside matched boundary polygons; boundary coverage depends on OSM mapping completeness."
     }
   },
   "unmatched_slugs": [
@@ -74,5 +79,7 @@
     "al-shuba-administrative-area",
     "qarara",
     "al-ruqayba"
-  ]
+  ],
+  "matched_osm_boundaries": 0,
+  "filled_from_osm_boundaries": 0
 }
