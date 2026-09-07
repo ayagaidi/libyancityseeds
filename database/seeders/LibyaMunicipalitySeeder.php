@@ -6,19 +6,14 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use RuntimeException;
 
-/**
- * Backward-compatible seeder for users of the repository's original file.
- *
- * New projects should prefer database/seeders/LibyaCitySeeder.php.
- */
-class CitySeeder extends Seeder
+class LibyaMunicipalitySeeder extends Seeder
 {
     public function run(): void
     {
-        $path = base_path('data/cities.json');
+        $path = base_path('data/municipalities.json');
 
         if (! is_file($path)) {
-            throw new RuntimeException("Libya city dataset not found at {$path}");
+            throw new RuntimeException("Libya municipality dataset not found at {$path}");
         }
 
         $rows = json_decode(file_get_contents($path), true, flags: JSON_THROW_ON_ERROR);
@@ -32,7 +27,7 @@ class CitySeeder extends Seeder
             'updated_at' => $now,
         ], $rows);
 
-        DB::table('cities')->upsert(
+        DB::table('municipalities')->upsert(
             $payload,
             ['slug'],
             ['name_ar', 'name_en', 'updated_at'],

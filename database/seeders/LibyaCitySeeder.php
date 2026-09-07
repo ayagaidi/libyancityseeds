@@ -6,12 +6,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use RuntimeException;
 
-/**
- * Backward-compatible seeder for users of the repository's original file.
- *
- * New projects should prefer database/seeders/LibyaCitySeeder.php.
- */
-class CitySeeder extends Seeder
+class LibyaCitySeeder extends Seeder
 {
     public function run(): void
     {

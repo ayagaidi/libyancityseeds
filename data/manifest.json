@@ -1,0 +1,25 @@
+{
+  "project": "libya-locations",
+  "version": "1.0.0",
+  "updated_at": "2026-09-07",
+  "datasets": {
+    "municipalities": {
+      "records": 141,
+      "json": "data/municipalities.json",
+      "csv": "data/municipalities.csv",
+      "source": "Libyan Ministry of Local Government municipality directory",
+      "source_url": "https://www.lgm.gov.ly/municipalities"
+    },
+    "cities": {
+      "records": 50,
+      "json": "data/cities.json",
+      "csv": "data/cities.csv",
+      "source": "Legacy public CitySeeder dataset from this repository"
+    }
+  },
+  "fields": ["id", "slug", "name_ar", "name_en", "type"],
+  "notes": {
+    "english_names": "Developer-friendly transliterations; not asserted to be official English spellings.",
+    "municipalities_and_cities": "Kept as separate datasets because municipality and city are not interchangeable concepts."
+  }
+}
