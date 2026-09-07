@@ -50,7 +50,7 @@ def feature_names(props):
     return values
 
 
-def relation_id(feature, props):
+def source_id(feature, props):
     for key in ("@id", "id", "osm_id", "relation_id"):
         value = props.get(key)
         if value:
@@ -60,25 +60,31 @@ def relation_id(feature, props):
     return ""
 
 
-def build_index(features):
+def admin_level(props):
+    try:
+        return int(props.get("admin_level") or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def add_names(index, item, props):
+    for name in feature_names(props):
+        ar = normalize_ar(name)
+        en = normalize_en(name)
+        if ar:
+            index[("ar", ar)].append(item)
+        if en:
+            index[("en", en)].append(item)
+
+
+def build_boundary_index(features):
     index = defaultdict(list)
     for feature in features:
         geometry = feature.get("geometry")
         if not geometry or geometry.get("type") not in {"Polygon", "MultiPolygon"}:
             continue
         props = feature.get("properties") or {}
-        if props.get("boundary") != "administrative":
-            continue
-
-        try:
-            admin_level = int(props.get("admin_level") or 0)
-        except ValueError:
-            admin_level = 0
-
-        # In the current Libya OSM extract, municipality relations are admin_level=4.
-        # Restricting to exactly this level avoids matching the country boundary (2)
-        # or smaller local subdivisions (6/8/10).
-        if admin_level != 4:
+        if props.get("boundary") != "administrative" or admin_level(props) != 4:
             continue
 
         geom = shape(geometry)
@@ -88,45 +94,75 @@ def build_index(features):
             continue
 
         item = {
-            "feature": feature,
             "geometry": geom,
-            "admin_level": admin_level,
-            "source_id": relation_id(feature, props),
+            "admin_level": 4,
+            "source_id": source_id(feature, props),
         }
-
-        for name in feature_names(props):
-            ar = normalize_ar(name)
-            en = normalize_en(name)
-            if ar:
-                index[("ar", ar)].append(item)
-            if en:
-                index[("en", en)].append(item)
-
+        add_names(index, item, props)
     return index
+
+
+def build_admin_point_index(features):
+    index = defaultdict(list)
+    for feature in features:
+        geometry = feature.get("geometry")
+        if not geometry or geometry.get("type") != "Point":
+            continue
+        props = feature.get("properties") or {}
+        if admin_level(props) != 4:
+            continue
+
+        coordinates = geometry.get("coordinates") or []
+        if len(coordinates) < 2:
+            continue
+        lon, lat = float(coordinates[0]), float(coordinates[1])
+        if not (9 <= lon <= 26 and 19 <= lat <= 34):
+            continue
+
+        item = {
+            "latitude": lat,
+            "longitude": lon,
+            "source_id": source_id(feature, props),
+        }
+        add_names(index, item, props)
+    return index
+
+
+def lookup_keys(point):
+    return [
+        ("ar", normalize_ar(point["name_ar"])),
+        ("en", normalize_en(point["name_en"])),
+        ("en", normalize_en(point["slug"])),
+    ]
 
 
 def choose_boundary(candidates):
     if not candidates:
         return None
-
     unique = {}
     for candidate in candidates:
         key = candidate["source_id"] or candidate["geometry"].wkb_hex
         unique[key] = candidate
-
-    # If an alias maps to multiple level-4 polygons, prefer the smaller geometry rather
-    # than silently broadening the municipality footprint.
     return min(unique.values(), key=lambda item: item["geometry"].area)
 
 
-def find_boundary(point, index):
-    keys = [
-        ("ar", normalize_ar(point["name_ar"])),
-        ("en", normalize_en(point["name_en"])),
-        ("en", normalize_en(point["slug"])),
-    ]
-    for key in keys:
-        match = choose_boundary(index.get(key, []))
+def choose_admin_point(candidates):
+    if not candidates:
+        return None
+    unique = {}
+    for candidate in candidates:
+        key = (
+            candidate["source_id"],
+            round(candidate["latitude"], 7),
+            round(candidate["longitude"], 7),
+        )
+        unique[key] = candidate
+    return next(iter(unique.values())) if len(unique) == 1 else None
+
+
+def find_match(point, index, chooser):
+    for key in lookup_keys(point):
+        match = chooser(index.get(key, []))
         if match:
             return match
     return None
@@ -178,48 +214,59 @@ def main():
         raise SystemExit(f"OSM boundary GeoJSON not found: {OSM_PATH}")
 
     points = json.loads(POINTS_JSON_PATH.read_text(encoding="utf-8"))
-    osm = json.loads(OSM_PATH.read_text(encoding="utf-8"))
-    index = build_index(osm.get("features", []))
+    features = json.loads(OSM_PATH.read_text(encoding="utf-8")).get("features", [])
+    boundary_index = build_boundary_index(features)
+    admin_point_index = build_admin_point_index(features)
 
     boundary_features = []
     matched_boundaries = 0
-    filled_from_osm = 0
+    filled_from_boundaries = 0
+    matched_admin_points = 0
+    filled_from_admin_points = 0
 
     for point in points:
-        match = find_boundary(point, index)
-        if not match:
-            continue
+        boundary = find_match(point, boundary_index, choose_boundary)
+        admin_point = find_match(point, admin_point_index, choose_admin_point)
 
-        geom = match["geometry"]
-        representative = geom.representative_point()
-        matched_boundaries += 1
+        if boundary:
+            geom = boundary["geometry"]
+            representative = geom.representative_point()
+            matched_boundaries += 1
 
-        # Boundary-derived representative points are preferred over generic GeoNames
-        # place points. Keep IOM/OCHA operational hub coordinates when present.
-        if point["coordinate_source"] != "iom-ocha-hubs-2016":
-            if point["latitude"] is None:
-                filled_from_osm += 1
-            point["latitude"] = round(representative.y, 6)
-            point["longitude"] = round(representative.x, 6)
-            point["coordinate_source"] = "openstreetmap-geofabrik"
-            point["coordinate_source_id"] = match["source_id"]
-            point["point_type"] = "boundary_representative_point"
+            if point["coordinate_source"] != "iom-ocha-hubs-2016":
+                if point["latitude"] is None:
+                    filled_from_boundaries += 1
+                point["latitude"] = round(representative.y, 6)
+                point["longitude"] = round(representative.x, 6)
+                point["coordinate_source"] = "openstreetmap-geofabrik"
+                point["coordinate_source_id"] = boundary["source_id"]
+                point["point_type"] = "boundary_representative_point"
 
-        boundary_features.append({
-            "type": "Feature",
-            "id": point["id"],
-            "properties": {
+            boundary_features.append({
+                "type": "Feature",
                 "id": point["id"],
-                "slug": point["slug"],
-                "name_ar": point["name_ar"],
-                "name_en": point["name_en"],
-                "type": "municipality",
-                "source": "openstreetmap-geofabrik",
-                "source_id": match["source_id"],
-                "admin_level": match["admin_level"],
-            },
-            "geometry": mapping(geom),
-        })
+                "properties": {
+                    "id": point["id"],
+                    "slug": point["slug"],
+                    "name_ar": point["name_ar"],
+                    "name_en": point["name_en"],
+                    "type": "municipality",
+                    "source": "openstreetmap-geofabrik",
+                    "source_id": boundary["source_id"],
+                    "admin_level": 4,
+                },
+                "geometry": mapping(geom),
+            })
+        elif admin_point:
+            matched_admin_points += 1
+            if point["coordinate_source"] != "iom-ocha-hubs-2016":
+                if point["latitude"] is None:
+                    filled_from_admin_points += 1
+                point["latitude"] = round(admin_point["latitude"], 6)
+                point["longitude"] = round(admin_point["longitude"], 6)
+                point["coordinate_source"] = "openstreetmap-geofabrik"
+                point["coordinate_source_id"] = admin_point["source_id"]
+                point["point_type"] = "administrative_label_point"
 
     POINTS_JSON_PATH.write_text(json.dumps(points, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_csv(points)
@@ -245,18 +292,20 @@ def main():
         "coverage_percent": round(mapped / len(points) * 100, 2),
         "source_counts": dict(counts),
         "matched_osm_boundaries": matched_boundaries,
-        "filled_from_osm_boundaries": filled_from_osm,
+        "filled_from_osm_boundaries": filled_from_boundaries,
+        "matched_osm_admin_points": matched_admin_points,
+        "filled_from_osm_admin_points": filled_from_admin_points,
         "unmatched_slugs": [point["slug"] for point in points if point["latitude"] is None],
     })
     coverage.setdefault("sources", {})["openstreetmap-geofabrik"] = {
         "url": "https://download.geofabrik.de/africa/libya.html",
         "license": "OpenStreetMap ODbL 1.0",
-        "note": "OpenStreetMap Libya admin_level=4 administrative relations from the Geofabrik extract. Representative points are generated inside matched boundary polygons; boundary coverage depends on OSM mapping completeness."
+        "note": "OpenStreetMap Libya admin_level=4 administrative polygons and label/admin points from the Geofabrik extract. Boundary representative points are preferred when available; exact-name level-4 points are used when a polygon is not available."
     }
     COVERAGE_PATH.write_text(json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"OSM boundaries matched: {matched_boundaries}")
-    print(f"Previously unmatched municipalities filled from OSM: {filled_from_osm}")
+    print(f"OSM boundaries matched: {matched_boundaries}; newly filled: {filled_from_boundaries}")
+    print(f"OSM admin points matched: {matched_admin_points}; newly filled: {filled_from_admin_points}")
     print(f"Final mapped municipality points: {mapped}/{len(points)} ({coverage['coverage_percent']}%)")
     if coverage["unmatched_slugs"]:
         print("Still unmatched:", ", ".join(coverage["unmatched_slugs"]))
