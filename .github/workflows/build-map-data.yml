@@ -71,7 +71,7 @@ jobs:
           }
           ls -lh /tmp/libya.osm.pbf
 
-      - name: Extract administrative boundaries
+      - name: Extract OSM administrative and place data
         run: |
           osmium tags-filter /tmp/libya.osm.pbf r/boundary=administrative -o /tmp/libya-admin.osm.pbf --overwrite
           osmium export /tmp/libya-admin.osm.pbf \
@@ -80,31 +80,44 @@ jobs:
             -o /tmp/libya-admin-boundaries.geojson \
             --overwrite
 
-      - name: Inspect extracted OSM boundary tags
+          osmium tags-filter /tmp/libya.osm.pbf nwr/place -o /tmp/libya-places.osm.pbf --overwrite
+          osmium export /tmp/libya-places.osm.pbf \
+            -f geojson \
+            --add-unique-id=type_id \
+            -o /tmp/libya-places.geojson \
+            --overwrite
+
+      - name: Inspect extracted OSM map data
         run: |
           python3 - <<'PY'
           import json
           from collections import Counter
           from pathlib import Path
 
-          payload = json.loads(Path('/tmp/libya-admin-boundaries.geojson').read_text(encoding='utf-8'))
-          features = payload.get('features', [])
-          levels = Counter(str((feature.get('properties') or {}).get('admin_level')) for feature in features)
+          admin = json.loads(Path('/tmp/libya-admin-boundaries.geojson').read_text(encoding='utf-8')).get('features', [])
+          places = json.loads(Path('/tmp/libya-places.geojson').read_text(encoding='utf-8')).get('features', [])
+
+          levels = Counter(str((feature.get('properties') or {}).get('admin_level')) for feature in admin)
           geometry_levels = Counter(
               (
                   (feature.get('geometry') or {}).get('type'),
                   str((feature.get('properties') or {}).get('admin_level')),
               )
-              for feature in features
+              for feature in admin
           )
-          print('Exported administrative features:', len(features))
+          place_types = Counter(str((feature.get('properties') or {}).get('place')) for feature in places)
+
+          print('Administrative features:', len(admin))
           print('Admin levels:', dict(levels))
           print('Geometry/admin-level counts:', {str(key): value for key, value in geometry_levels.items()})
+          print('Named-place features:', len(places))
+          print('Place types:', dict(place_types))
           PY
 
       - name: Enrich points and build municipality boundaries
         env:
           OSM_BOUNDARIES_GEOJSON: /tmp/libya-admin-boundaries.geojson
+          OSM_PLACES_GEOJSON: /tmp/libya-places.geojson
         run: python3 scripts/enrich_osm_boundaries.py
 
       - name: Generate unmatched candidate report
@@ -142,6 +155,7 @@ jobs:
           print(f"Map coverage: {coverage['mapped_municipalities']}/{coverage['total_municipalities']} ({coverage['coverage_percent']}%)")
           print(f"OSM boundary coverage: {coverage['matched_osm_boundaries']}/{coverage['total_municipalities']}")
           print(f"OSM admin point matches: {coverage.get('matched_osm_admin_points', 0)}/{coverage['total_municipalities']}")
+          print(f"OSM named-place matches: {coverage.get('matched_osm_named_places', 0)}/{coverage['total_municipalities']}")
           PY
 
       - name: Commit generated map data
