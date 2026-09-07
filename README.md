@@ -1,10 +1,10 @@
 # Libya Locations 🇱🇾
 
-A **language-agnostic open dataset** of Libyan municipalities and cities with Arabic/English names, stable slugs, JSON, CSV, Laravel seeders, and copy-paste integration examples for common languages.
+A **language-agnostic open dataset** of Libyan municipalities and cities with Arabic/English names, stable slugs, JSON, CSV, Laravel seeders, geospatial reference points, GeoJSON, and copy-paste integration examples for common languages.
 
 [![Validate data](https://github.com/ayagaidi/libyancityseeds/actions/workflows/validate-data.yml/badge.svg)](https://github.com/ayagaidi/libyancityseeds/actions/workflows/validate-data.yml)
 
-[العربية](README_AR.md) · [Integration guide](docs/INTEGRATION.md) · [Data sources](DATA_SOURCES.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md)
+[العربية](README_AR.md) · [Integration guide](docs/INTEGRATION.md) · [Map data](docs/MAPS.md) · [Data sources](DATA_SOURCES.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md)
 
 > **No SDK. No API key. No framework required.** If your language can make an HTTP request and parse JSON, it can use Libya Locations.
 
@@ -13,12 +13,12 @@ A **language-agnostic open dataset** of Libyan municipalities and cities with Ar
 Use a stable, versioned JSON URL:
 
 ```text
-https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json
 ```
 
 ```js
 const locations = await fetch(
-  'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json'
+  'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json'
 ).then(response => response.json());
 ```
 
@@ -28,12 +28,14 @@ See the full **[integration guide](docs/INTEGRATION.md)** and **[copy-paste lang
 
 ## What's included
 
-| Dataset | Records | Formats |
+| Dataset | Records / coverage | Formats |
 | --- | ---: | --- |
 | Municipalities | 141 | JSON + CSV + Laravel Seeder |
 | Cities | 50 | JSON + CSV + Laravel Seeder |
+| Municipality map points | 141 total / 103 mapped | JSON + CSV + GeoJSON |
+| Municipality boundaries | 10 matched features | GeoJSON |
 
-Each record has one universal contract:
+The original location record contract remains unchanged:
 
 ```json
 {
@@ -47,21 +49,36 @@ Each record has one universal contract:
 
 A machine-readable JSON Schema is provided in [`schemas/location.schema.json`](schemas/location.schema.json).
 
+## Map support in v1.2
+
+`v1.2.0` adds optional geospatial companion datasets **without changing the existing municipality/city record shape**.
+
+Current verified point coverage is **103 of 141 municipalities (73.05%)**. The remaining **38 municipalities intentionally publish `null` coordinates** because the project does not guess locations that cannot be matched confidently. Boundary GeoJSON currently contains **10 matched municipality features**.
+
+Map-point records include `latitude`, `longitude`, `coordinate_source`, `coordinate_source_id`, and `point_type`. Sources are traceable to OpenStreetMap/Geofabrik, GeoNames, or the IOM/OCHA operational hub service.
+
+See [`docs/MAPS.md`](docs/MAPS.md) for coordinate semantics, source attribution, limitations, and the Leaflet example.
+
 ## Data files
 
 - [`data/municipalities.json`](data/municipalities.json)
 - [`data/municipalities.csv`](data/municipalities.csv)
 - [`data/cities.json`](data/cities.json)
 - [`data/cities.csv`](data/cities.csv)
-- [`data/endpoints.json`](data/endpoints.json) — programmatic discovery of stable dataset URLs
+- [`data/municipality-points.json`](data/municipality-points.json)
+- [`data/municipality-points.csv`](data/municipality-points.csv)
+- [`data/municipality-points.geojson`](data/municipality-points.geojson)
+- [`data/municipality-boundaries.geojson`](data/municipality-boundaries.geojson)
+- [`data/map-coverage.json`](data/map-coverage.json)
+- [`data/endpoints.json`](data/endpoints.json) — programmatic discovery of stable dataset and map URLs
 - [`data/manifest.json`](data/manifest.json)
 
 ## Stable releases vs latest data
 
-For production, pin a release such as `v1.1.0`:
+For production, pin a release such as `v1.2.0`:
 
 ```text
-https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/cities.json
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/cities.json
 ```
 
 For development or previews, use `master`:
@@ -80,7 +97,7 @@ https://www.lgm.gov.ly/municipalities
 
 The English names are **developer-friendly transliterations** intended for application UIs and identifiers; they should not be interpreted as a claim of official English spellings. The city list is the original public dataset from this repository, cleaned and expanded with English names/slugs.
 
-See [`DATA_SOURCES.md`](DATA_SOURCES.md) for provenance, scope, and update rules.
+Map reference points and partial boundaries use separately documented public geospatial sources. See [`DATA_SOURCES.md`](DATA_SOURCES.md) and [`docs/MAPS.md`](docs/MAPS.md) for provenance and attribution requirements.
 
 ## Laravel
 
@@ -121,8 +138,9 @@ Ready-to-copy examples are available for:
 - C# / .NET
 - Dart / Flutter
 - Swift
+- Leaflet / GeoJSON maps
 
-Start at [`examples/README.md`](examples/README.md).
+Start at [`examples/README.md`](examples/README.md), or open [`examples/leaflet-map.html`](examples/leaflet-map.html) for the map demo.
 
 ## Data quality
 
@@ -135,7 +153,10 @@ Every pull request validates that:
 - CSV and JSON contain the same records;
 - the manifest counts match the actual datasets;
 - integration endpoint metadata matches the release version;
-- the JSON Schema matches the dataset contract;
+- JSON Schemas match the dataset contracts;
+- point coordinates remain inside broad Libya validation bounds;
+- point GeoJSON matches the accepted coordinate records;
+- map coverage counts and boundary feature counts remain internally consistent;
 - the Python example remains syntactically valid.
 
 Run locally:
@@ -146,7 +167,7 @@ python3 scripts/validate_data.py
 
 ## Contributing
 
-Spelling and transliteration improvements are welcome, especially when backed by a reliable source. Please do not silently rename a slug that applications may already depend on.
+Spelling, transliteration, coordinate, and boundary improvements are welcome when backed by a reliable source. Please do not silently rename a slug that applications may already depend on, and do not submit guessed coordinates just to increase coverage.
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting a change.
 
@@ -157,7 +178,8 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting a change.
 3. **Cities and municipalities stay separate** — they are not interchangeable administrative concepts.
 4. **Stable slugs matter** — application integrations should not break because display spelling changed.
 5. **Sources are documented** — corrections should be reviewable.
-6. **No private data** — this repository only contains public location names and developer tooling.
+6. **Missing is better than guessed** — uncertain map coordinates remain null.
+7. **No private data** — this repository only contains public location names and developer tooling.
 
 ## Maintainer
 
@@ -166,4 +188,4 @@ GitHub: [@ayagaidi](https://github.com/ayagaidi)
 
 ## License
 
-Original code in this repository is available under the [MIT License](LICENSE). Source facts and names retain any rights or terms applicable to their original public sources; see [`DATA_SOURCES.md`](DATA_SOURCES.md).
+Original code in this repository is available under the [MIT License](LICENSE). Source facts and names retain any rights or terms applicable to their original public sources. OpenStreetMap-derived geometry and coordinates require the relevant OSM attribution/ODbL terms; see [`docs/MAPS.md`](docs/MAPS.md).
