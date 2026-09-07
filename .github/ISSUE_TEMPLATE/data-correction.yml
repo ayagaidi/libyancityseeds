@@ -1,0 +1,57 @@
+name: Data correction
+description: Report a city or municipality name, transliteration, status, or source issue
+title: "[Data] "
+labels:
+  - data
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options:
+        - municipalities
+        - cities
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Existing slug
+      description: The current record slug, if one exists.
+      placeholder: tripoli-center
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value
+      description: What does the repository contain now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: What should it be instead?
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to a reliable source supporting the correction.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I am not submitting personal, customer, or private data.
+          required: true
+        - label: I understand that display-name corrections should normally preserve stable slugs.
+          required: true
