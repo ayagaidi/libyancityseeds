@@ -1,0 +1,69 @@
+name: Build Municipality Map Data
+
+on:
+  push:
+    branches:
+      - feat/v1.2-map-support
+    paths:
+      - 'scripts/import_map_points.py'
+      - 'data/municipalities.json'
+      - '.github/workflows/build-map-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-map-data:
+    if: github.repository == 'ayagaidi/libyancityseeds'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          ref: feat/v1.2-map-support
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Generate sourced municipality points
+        run: python3 scripts/import_map_points.py
+
+      - name: Validate generated GeoJSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          points = json.loads(Path('data/municipality-points.json').read_text(encoding='utf-8'))
+          geojson = json.loads(Path('data/municipality-points.geojson').read_text(encoding='utf-8'))
+          coverage = json.loads(Path('data/map-coverage.json').read_text(encoding='utf-8'))
+
+          assert len(points) == 141
+          assert geojson['type'] == 'FeatureCollection'
+          assert len(geojson['features']) == coverage['mapped_municipalities']
+          assert coverage['mapped_municipalities'] > 0
+
+          for feature in geojson['features']:
+              lon, lat = feature['geometry']['coordinates']
+              assert 9 <= lon <= 26, (feature['properties']['slug'], lon)
+              assert 19 <= lat <= 34, (feature['properties']['slug'], lat)
+
+          print(f"Map coverage: {coverage['mapped_municipalities']}/{coverage['total_municipalities']} ({coverage['coverage_percent']}%)")
+          PY
+
+      - name: Commit generated map data
+        run: |
+          if git diff --quiet -- data/municipality-points.json data/municipality-points.csv data/municipality-points.geojson data/map-coverage.json; then
+            echo "Map data is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/municipality-points.json data/municipality-points.csv data/municipality-points.geojson data/map-coverage.json
+          git commit -m "data: generate sourced municipality map points"
+          git push origin HEAD:feat/v1.2-map-support
