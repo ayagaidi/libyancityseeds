@@ -5,9 +5,9 @@
   "mapped_municipalities": 89,
   "coverage_percent": 63.12,
   "source_counts": {
-    "geonames": 76,
+    "geonames": 74,
     "unmatched": 52,
-    "openstreetmap-geofabrik": 8,
+    "openstreetmap-geofabrik": 10,
     "iom-ocha-hubs-2016": 5
   },
   "sources": {
@@ -24,7 +24,7 @@
     "openstreetmap-geofabrik": {
       "url": "https://download.geofabrik.de/africa/libya.html",
       "license": "OpenStreetMap ODbL 1.0",
-      "note": "OpenStreetMap Libya admin_level=4 administrative relations from the Geofabrik extract. Representative points are generated inside matched boundary polygons; boundary coverage depends on OSM mapping completeness."
+      "note": "OpenStreetMap Libya admin_level=4 administrative polygons and label/admin points from the Geofabrik extract. Boundary representative points are preferred when available; exact-name level-4 points are used when a polygon is not available."
     }
   },
   "unmatched_slugs": [
@@ -82,5 +82,7 @@
     "al-ruqayba"
   ],
   "matched_osm_boundaries": 10,
-  "filled_from_osm_boundaries": 0
+  "filled_from_osm_boundaries": 0,
+  "matched_osm_admin_points": 2,
+  "filled_from_osm_admin_points": 0
 }

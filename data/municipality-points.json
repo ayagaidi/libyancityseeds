@@ -161,11 +161,11 @@
     "name_ar": "الجفرة",
     "name_en": "Al Jufra",
     "type": "municipality",
-    "latitude": 27.73333,
-    "longitude": 17.05,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2219944",
-    "point_type": "named_place"
+    "latitude": 28.005572,
+    "longitude": 16.743029,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1312442235",
+    "point_type": "administrative_label_point"
   },
   {
     "id": 15,
@@ -257,11 +257,11 @@
     "name_ar": "الزاوية",
     "name_en": "Zawiya",
     "type": "municipality",
-    "latitude": 32.46667,
-    "longitude": 12.51667,
-    "coordinate_source": "geonames",
-    "coordinate_source_id": "2218972",
-    "point_type": "named_place"
+    "latitude": 32.378703,
+    "longitude": 12.521493,
+    "coordinate_source": "openstreetmap-geofabrik",
+    "coordinate_source_id": "n1312442219",
+    "point_type": "administrative_label_point"
   },
   {
     "id": 23,
@@ -536,7 +536,7 @@
     "latitude": 23.268611,
     "longitude": 22.090366,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120357",
     "point_type": "boundary_representative_point"
   },
   {
@@ -560,7 +560,7 @@
     "latitude": 32.013595,
     "longitude": 21.209684,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120359",
     "point_type": "boundary_representative_point"
   },
   {
@@ -704,7 +704,7 @@
     "latitude": 31.889635,
     "longitude": 19.986477,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120341",
     "point_type": "boundary_representative_point"
   },
   {
@@ -896,7 +896,7 @@
     "latitude": 31.94674,
     "longitude": 22.575577,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120345",
     "point_type": "boundary_representative_point"
   },
   {
@@ -1004,7 +1004,7 @@
     "latitude": 30.592982,
     "longitude": 16.753652,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120371",
     "point_type": "boundary_representative_point"
   },
   {
@@ -1184,7 +1184,7 @@
     "latitude": 26.099157,
     "longitude": 10.40218,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120347",
     "point_type": "boundary_representative_point"
   },
   {
@@ -1292,7 +1292,7 @@
     "latitude": 24.528504,
     "longitude": 15.321434,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120363",
     "point_type": "boundary_representative_point"
   },
   {
@@ -1352,7 +1352,7 @@
     "latitude": 30.55324,
     "longitude": 11.019963,
     "coordinate_source": "openstreetmap-geofabrik",
-    "coordinate_source_id": "",
+    "coordinate_source_id": "a4120365",
     "point_type": "boundary_representative_point"
   },
   {

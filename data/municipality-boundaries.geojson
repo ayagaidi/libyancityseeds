@@ -13,7 +13,7 @@
         "name_en": "Kufra",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120357",
         "admin_level": 4
       },
       "geometry": {
@@ -2928,7 +2928,7 @@
         "name_en": "Al Marj",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120359",
         "admin_level": 4
       },
       "geometry": {
@@ -3415,7 +3415,7 @@
         "name_en": "Benghazi",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120341",
         "admin_level": 4
       },
       "geometry": {
@@ -4490,7 +4490,7 @@
         "name_en": "Bani Walid",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120361",
         "admin_level": 4
       },
       "geometry": {
@@ -6577,7 +6577,7 @@
         "name_en": "Derna",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120345",
         "admin_level": 4
       },
       "geometry": {
@@ -7232,7 +7232,7 @@
         "name_en": "Sabha",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120369",
         "admin_level": 4
       },
       "geometry": {
@@ -7459,7 +7459,7 @@
         "name_en": "Sirte",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120371",
         "admin_level": 4
       },
       "geometry": {
@@ -8498,7 +8498,7 @@
         "name_en": "Ghat",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120347",
         "admin_level": 4
       },
       "geometry": {
@@ -10885,7 +10885,7 @@
         "name_en": "Murzuq",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120363",
         "admin_level": 4
       },
       "geometry": {
@@ -12544,7 +12544,7 @@
         "name_en": "Nalut",
         "type": "municipality",
         "source": "openstreetmap-geofabrik",
-        "source_id": "",
+        "source_id": "a4120365",
         "admin_level": 4
       },
       "geometry": {

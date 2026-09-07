@@ -12,7 +12,7 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 11,al-bardi,البردي,Al Bardi,municipality,31.75601,25.0853,geonames,80509,named_place
 12,brega,البريقة,Brega,municipality,30.40624,19.57386,geonames,2215210,named_place
 13,al-bayda,البيضاء,Al Bayda,municipality,32.76272,21.75506,geonames,89055,named_place
-14,al-jufra,الجفرة,Al Jufra,municipality,27.73333,17.05,geonames,2219944,named_place
+14,al-jufra,الجفرة,Al Jufra,municipality,28.005572,16.743029,openstreetmap-geofabrik,n1312442235,administrative_label_point
 15,al-jumayl,الجميل,Al Jumayl,municipality,32.85286,12.0612,geonames,2219936,named_place
 16,al-haraba,الحرابة,Al Haraba,municipality,,,,,
 17,al-hawamid,الحوامد,Al Hawamid,municipality,31.97528,11.16222,geonames,2220013,named_place
@@ -20,7 +20,7 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 19,al-rajban,الرجبان,Al Rajban,municipality,31.95,12.16667,geonames,2219463,named_place
 20,al-rhaibat,الرحيبات,Al Rhaibat,municipality,31.84637,11.8436,geonames,12687312,named_place
 21,al-rayayna,الرياينة,Al Rayayna,municipality,,,,,
-22,zawiya,الزاوية,Zawiya,municipality,32.46667,12.51667,geonames,2218972,named_place
+22,zawiya,الزاوية,Zawiya,municipality,32.378703,12.521493,openstreetmap-geofabrik,n1312442219,administrative_label_point
 23,zawiya-south,الزاوية الجنوب,Zawiya South,municipality,,,,,
 24,zawiya-west,الزاوية الغرب,Zawiya West,municipality,,,,,
 25,zintan,الزنتان,Zintan,municipality,31.93155,12.25291,geonames,2218963,named_place
@@ -43,9 +43,9 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 42,al-qalaa,القلعة,Al Qalaa,municipality,,,,,
 43,al-qawalish,القواليش,Al Qawalish,municipality,,,,,
 44,al-qayqab,القيقب,Al Qayqab,municipality,32.72581,22.02061,geonames,88838,named_place
-45,kufra,الكفرة,Kufra,municipality,23.268611,22.090366,openstreetmap-geofabrik,,boundary_representative_point
+45,kufra,الكفرة,Kufra,municipality,23.268611,22.090366,openstreetmap-geofabrik,a4120357,boundary_representative_point
 46,al-maya,الماية,Al Maya,municipality,32.80194,12.87917,geonames,2219812,named_place
-47,al-marj,المرج,Al Marj,municipality,32.013595,21.209684,openstreetmap-geofabrik,,boundary_representative_point
+47,al-marj,المرج,Al Marj,municipality,32.013595,21.209684,openstreetmap-geofabrik,a4120359,boundary_representative_point
 48,al-uwaina,العوينة,Al Uwaina,municipality,,,,,
 49,al-mamura,المعمورة,Al Mamura,municipality,,,,,
 50,al-melitaniya,المليطانية,Al Melitaniya,municipality,,,,,
@@ -57,7 +57,7 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 56,batin-al-jabal,باطن الجبل,Batin Al Jabal,municipality,,,,,
 57,brak-al-shati,براك الشاطئ,Brak Al Shati,municipality,27.54956,14.27139,geonames,2218478,named_place
 58,bint-bayya,بنت بية,Bint Bayya,municipality,26.64549,13.65246,geonames,2213610,named_place
-59,benghazi,بنغازي,Benghazi,municipality,31.889635,19.986477,openstreetmap-geofabrik,,boundary_representative_point
+59,benghazi,بنغازي,Benghazi,municipality,31.889635,19.986477,openstreetmap-geofabrik,a4120341,boundary_representative_point
 60,bani-walid,بني وليد,Bani Walid,municipality,31.756969,13.995051,iom-ocha-hubs-2016,LY021404,operational_hub
 61,tajoura,تاجوراء,Tajoura,municipality,32.89381,13.22537,geonames,10402872,named_place
 62,tazerbo,تازربو,Tazerbo,municipality,25.67289,21.07286,geonames,12687306,named_place
@@ -73,7 +73,7 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 72,hay-al-andalus,حي الأندلس,Hay Al Andalus,municipality,32.86667,13.11667,geonames,2216764,named_place
 73,gulf-of-sidra,خليج السدرة,Gulf of Sidra,municipality,,,,,
 74,derj,درج,Derj,municipality,30.16502,10.45804,geonames,2217774,named_place
-75,derna,درنة,Derna,municipality,31.94674,22.575577,openstreetmap-geofabrik,,boundary_representative_point
+75,derna,درنة,Derna,municipality,31.94674,22.575577,openstreetmap-geofabrik,a4120345,boundary_representative_point
 76,rabiana,ربيانة,Rabiana,municipality,,,,,
 77,riqdalin,رقدالين,Riqdalin,municipality,32.88718,11.98729,geonames,2212882,named_place
 78,zaltan,زلطن,Zaltan,municipality,32.94699,11.86668,geonames,2208655,named_place
@@ -82,7 +82,7 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 81,zuwara,زوارة,Zuwara,municipality,32.932781,12.080638,iom-ocha-hubs-2016,LY021503,operational_hub
 82,sahel-al-jabal,ساحل الجبل,Sahel Al Jabal,municipality,,,,,
 83,sabha,سبها,Sabha,municipality,27.033154,14.431693,iom-ocha-hubs-2016,LY031901,operational_hub
-84,sirte,سرت,Sirte,municipality,30.592982,16.753652,openstreetmap-geofabrik,,boundary_representative_point
+84,sirte,سرت,Sirte,municipality,30.592982,16.753652,openstreetmap-geofabrik,a4120371,boundary_representative_point
 85,suluq,سلوق,Suluq,municipality,31.66818,20.25205,geonames,81604,named_place
 86,swani-bin-adam,سواني بن أدم,Swani Bin Adam,municipality,,,,,
 87,sousa,سوسة,Sousa,municipality,32.89702,21.96583,geonames,81584,named_place
@@ -97,7 +97,7 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 96,omar-al-mukhtar,عمر المختار,Omar Al Mukhtar,municipality,32.62978,21.67651,geonames,84130,named_place
 97,ain-zara,عين زارة,Ain Zara,municipality,32.81333,13.26972,geonames,2219021,named_place
 98,ain-ghazala,عين غزالة,Ain Ghazala,municipality,,,,,
-99,ghat,غات,Ghat,municipality,26.099157,10.40218,openstreetmap-geofabrik,,boundary_representative_point
+99,ghat,غات,Ghat,municipality,26.099157,10.40218,openstreetmap-geofabrik,a4120347,boundary_representative_point
 100,ghadames,غدامس,Ghadames,municipality,30.56667,10.8,geonames,2217439,named_place
 101,gharyan,غريان,Gharyan,municipality,32.17222,13.02028,geonames,2217362,named_place
 102,qasr-bin-ghashir,قصر بن غشير,Qasr Bin Ghashir,municipality,32.68333,13.18333,geonames,2213618,named_place
@@ -106,12 +106,12 @@ id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_sou
 105,kabaw,كاباو,Kabaw,municipality,31.84724,11.33055,geonames,2216155,named_place
 106,kikla,ككلة,Kikla,municipality,,,,,
 107,marada,مرادة,Marada,municipality,29.22054,19.20454,geonames,2215282,named_place
-108,murzuq,مرزق,Murzuq,municipality,24.528504,15.321434,openstreetmap-geofabrik,,boundary_representative_point
+108,murzuq,مرزق,Murzuq,municipality,24.528504,15.321434,openstreetmap-geofabrik,a4120363,boundary_representative_point
 109,marsa-dafna,مرسى دفنة,Marsa Dafna,municipality,,,,,
 110,mizda,مزدة,Mizda,municipality,31.44934,12.9853,geonames,2214827,named_place
 111,msallata,مسلاتة,Msallata,municipality,32.58345,14.03627,geonames,12687313,named_place
 112,misrata,مصراتة,Misrata,municipality,32.31035,15.07324,geonames,2214845,named_place
-113,nalut,نالوت,Nalut,municipality,30.55324,11.019963,openstreetmap-geofabrik,,boundary_representative_point
+113,nalut,نالوت,Nalut,municipality,30.55324,11.019963,openstreetmap-geofabrik,a4120365,boundary_representative_point
 114,nisma,نسمة,Nisma,municipality,31.39602,13.33052,geonames,2214378,named_place
 115,harawa,هراوة,Harawa,municipality,,,,,
 116,wadi-al-bawanis,وادي البوانيس,Wadi Al Bawanis,municipality,,,,,

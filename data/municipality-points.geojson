@@ -200,15 +200,15 @@
         "name_ar": "الجفرة",
         "name_en": "Al Jufra",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "2219944",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "n1312442235",
+        "point_type": "administrative_label_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.05,
-          27.73333
+          16.743029,
+          28.005572
         ]
       }
     },
@@ -326,15 +326,15 @@
         "name_ar": "الزاوية",
         "name_en": "Zawiya",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "2218972",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "n1312442219",
+        "point_type": "administrative_label_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.51667,
-          32.46667
+          12.521493,
+          32.378703
         ]
       }
     },
@@ -558,7 +558,7 @@
         "name_en": "Kufra",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120357",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -600,7 +600,7 @@
         "name_en": "Al Marj",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120359",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -684,7 +684,7 @@
         "name_en": "Benghazi",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120341",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -978,7 +978,7 @@
         "name_en": "Derna",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120345",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -1104,7 +1104,7 @@
         "name_en": "Sirte",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120371",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -1314,7 +1314,7 @@
         "name_en": "Ghat",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120347",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -1482,7 +1482,7 @@
         "name_en": "Murzuq",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120363",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
@@ -1566,7 +1566,7 @@
         "name_en": "Nalut",
         "type": "municipality",
         "coordinate_source": "openstreetmap-geofabrik",
-        "coordinate_source_id": "",
+        "coordinate_source_id": "a4120365",
         "point_type": "boundary_representative_point"
       },
       "geometry": {
