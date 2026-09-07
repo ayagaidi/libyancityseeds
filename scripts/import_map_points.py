@@ -36,6 +36,13 @@ def fetch_bytes(url: str) -> bytes:
         return response.read()
 
 
+def fetch_json(url: str):
+    payload = json.loads(fetch_bytes(url).decode("utf-8"))
+    if "error" in payload:
+        raise RuntimeError(f"Remote source error: {payload['error']}")
+    return payload
+
+
 def normalize_ar(value: str) -> str:
     value = (value or "").strip().translate(ARABIC_TRANSLATION)
     value = "".join(ch for ch in unicodedata.normalize("NFKD", value) if not unicodedata.combining(ch))
@@ -52,16 +59,43 @@ def load_municipalities():
     return json.loads(MUNICIPALITIES_PATH.read_text(encoding="utf-8"))
 
 
+def arcgis_url(params):
+    return f"{ARCGIS_QUERY_URL}?{urllib.parse.urlencode(params)}"
+
+
 def fetch_arcgis_features():
-    query = urllib.parse.urlencode({
+    ids_payload = fetch_json(arcgis_url({
         "where": "1=1",
-        "outFields": "*",
-        "returnGeometry": "true",
-        "outSR": "4326",
-        "f": "geojson",
-    })
-    payload = json.loads(fetch_bytes(f"{ARCGIS_QUERY_URL}?{query}").decode("utf-8"))
-    return payload.get("features", [])
+        "returnIdsOnly": "true",
+        "f": "json",
+    }))
+    object_ids = sorted(ids_payload.get("objectIds") or [])
+    print(f"ArcGIS source object IDs: {len(object_ids)}")
+
+    features = []
+    batch_size = 100
+    for offset in range(0, len(object_ids), batch_size):
+        batch = object_ids[offset:offset + batch_size]
+        payload = fetch_json(arcgis_url({
+            "objectIds": ",".join(str(object_id) for object_id in batch),
+            "outFields": "*",
+            "returnGeometry": "true",
+            "outSR": "4326",
+            "f": "json",
+        }))
+        for feature in payload.get("features", []):
+            geometry = feature.get("geometry") or {}
+            if "x" not in geometry or "y" not in geometry:
+                continue
+            features.append({
+                "properties": feature.get("attributes") or {},
+                "geometry": {
+                    "coordinates": [float(geometry["x"]), float(geometry["y"])],
+                },
+            })
+
+    print(f"ArcGIS source features with geometry: {len(features)}")
+    return features
 
 
 def build_arcgis_index(features):
@@ -164,7 +198,6 @@ def choose_unique(candidates):
     if len(candidates) == 1:
         return candidates[0]
 
-    # Prefer administrative features, then the most populated named place.
     ranked = sorted(
         candidates,
         key=lambda item: (
