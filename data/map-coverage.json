@@ -1,0 +1,76 @@
+{
+  "version_target": "1.2.0",
+  "generated_at": "2026-09-07",
+  "total_municipalities": 141,
+  "mapped_municipalities": 103,
+  "coverage_percent": 73.05,
+  "source_counts": {
+    "openstreetmap-geofabrik": 79,
+    "unmatched": 38,
+    "geonames": 19,
+    "iom-ocha-hubs-2016": 5
+  },
+  "sources": {
+    "iom-ocha-hubs-2016": {
+      "records_available_from_source": 5,
+      "url": "https://services3.arcgis.com/iuNbZYJOrAYBrPyC/ArcGIS/rest/services/Hubs_WFL1/FeatureServer/0",
+      "note": "Operational municipality hub points based on the 2015 Baladiya election list and revised in 2016; not an official endorsement of current administrative divisions."
+    },
+    "geonames": {
+      "url": "https://download.geonames.org/export/dump/LY.zip",
+      "license": "CC BY 4.0",
+      "note": "Fallback exact-name matches to Libya named/admin places; represents a named-place reference point rather than a legal municipality centroid."
+    },
+    "openstreetmap-geofabrik": {
+      "url": "https://download.geofabrik.de/africa/libya.html",
+      "license": "OpenStreetMap ODbL 1.0",
+      "note": "OpenStreetMap Libya admin_level=4 polygons/admin points and exact-name place features from the Geofabrik extract. Boundary representative points are preferred, then exact administrative label points, then exact named-place points."
+    }
+  },
+  "unmatched_slugs": [
+    "idri-al-shati",
+    "sbea",
+    "zawiya-south",
+    "zawiya-west",
+    "al-zahra",
+    "zuwetina-sultan",
+    "al-sayeh",
+    "al-sharqiya",
+    "al-ameriya",
+    "al-qarda-al-shati",
+    "al-qalaa",
+    "al-qawalish",
+    "al-uwaina",
+    "al-mamura",
+    "al-manshiya-al-jumayl",
+    "al-nasiriya",
+    "emsaed",
+    "intlat-al-baydan",
+    "batin-al-jabal",
+    "south-jabal-al-akhdar",
+    "gulf-of-sidra",
+    "zamzam",
+    "sahel-al-jabal",
+    "swani-bin-adam",
+    "tripoli-center",
+    "dahir-al-jabal",
+    "ain-ghazala",
+    "marsa-dafna",
+    "harawa",
+    "wadi-al-bawanis",
+    "wadi-atba",
+    "wardama",
+    "al-jalida",
+    "al-jadida",
+    "awal",
+    "barkat",
+    "al-shuba-administrative-area",
+    "al-ruqayba"
+  ],
+  "matched_osm_boundaries": 10,
+  "filled_from_osm_boundaries": 0,
+  "matched_osm_admin_points": 2,
+  "filled_from_osm_admin_points": 0,
+  "matched_osm_named_places": 71,
+  "filled_from_osm_named_places": 14
+}

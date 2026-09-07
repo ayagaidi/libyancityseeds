@@ -1,0 +1,142 @@
+id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_source_id,point_type
+1,abu-salim,أبوسليم,Abu Salim,municipality,32.849547,13.171221,openstreetmap-geofabrik,n1411070218,osm_named_place
+2,ubari,أوباري,Ubari,municipality,26.590939,12.769566,openstreetmap-geofabrik,n260715532,osm_named_place
+3,awjila,أوجلة,Awjila,municipality,29.140278,21.2975,openstreetmap-geofabrik,n1565509942,osm_named_place
+4,jakharrad,اجخرة,Jakharrad,municipality,29.296253,21.649898,openstreetmap-geofabrik,n1565511190,osm_named_place
+5,ajdabiya,إجدابيا,Ajdabiya,municipality,30.754962,20.223358,openstreetmap-geofabrik,n277399765,osm_named_place
+6,idri-al-shati,إدري الشاطئ,Idri Al Shati,municipality,,,,,
+7,sbea,اسبيعة,Sbea,municipality,,,,,
+8,al-abraq,الأبرق,Al Abraq,municipality,32.786528,21.997782,openstreetmap-geofabrik,n1565508919,osm_named_place
+9,al-abyar,الأبيار,Al Abyar,municipality,32.189645,20.594509,openstreetmap-geofabrik,n1565508929,osm_named_place
+10,al-asabaa,الأصابعة,Al Asabaa,municipality,32.03519,12.871946,openstreetmap-geofabrik,n1565508963,osm_named_place
+11,al-bardi,البردي,Al Bardi,municipality,31.75601,25.0853,geonames,80509,named_place
+12,brega,البريقة,Brega,municipality,30.40624,19.57386,geonames,2215210,named_place
+13,al-bayda,البيضاء,Al Bayda,municipality,32.760953,21.757717,openstreetmap-geofabrik,n288491858,osm_named_place
+14,al-jufra,الجفرة,Al Jufra,municipality,28.005572,16.743029,openstreetmap-geofabrik,n1312442235,administrative_label_point
+15,al-jumayl,الجميل,Al Jumayl,municipality,32.849715,12.057674,openstreetmap-geofabrik,n1169748259,osm_named_place
+16,al-haraba,الحرابة,Al Haraba,municipality,31.777205,11.56717,openstreetmap-geofabrik,n1565509159,osm_named_place
+17,al-hawamid,الحوامد,Al Hawamid,municipality,31.975496,11.162235,openstreetmap-geofabrik,n1246799070,osm_named_place
+18,khoms,الخمس,Khoms,municipality,32.652183,14.26801,openstreetmap-geofabrik,n277399357,osm_named_place
+19,al-rajban,الرجبان,Al Rajban,municipality,31.94113,12.090819,openstreetmap-geofabrik,n1157457006,osm_named_place
+20,al-rhaibat,الرحيبات,Al Rhaibat,municipality,31.84637,11.8436,geonames,12687312,named_place
+21,al-rayayna,الرياينة,Al Rayayna,municipality,31.994115,12.344984,openstreetmap-geofabrik,n1281223987,osm_named_place
+22,zawiya,الزاوية,Zawiya,municipality,32.378703,12.521493,openstreetmap-geofabrik,n1312442219,administrative_label_point
+23,zawiya-south,الزاوية الجنوب,Zawiya South,municipality,,,,,
+24,zawiya-west,الزاوية الغرب,Zawiya West,municipality,,,,,
+25,zintan,الزنتان,Zintan,municipality,31.927361,12.251507,openstreetmap-geofabrik,n14148081465,osm_named_place
+26,al-zahra,الزهراء,Al Zahra,municipality,,,,,
+27,zuwetina-sultan,الزويتينة سلطان,Zuwetina Sultan,municipality,,,,,
+28,al-sayeh,السائح,Al Sayeh,municipality,,,,,
+29,al-sharqiya,الشرقية,Al Sharqiya,municipality,,,,,
+30,al-shuqayqa,الشقيقة,Al Shuqayqa,municipality,31.63974,12.80686,geonames,11739598,named_place
+31,al-shwerif,الشويرف,Al Shwerif,municipality,29.98238,14.259466,openstreetmap-geofabrik,n1193620130,osm_named_place
+32,al-ameriya,العامرية,Al Ameriya,municipality,,,,,
+33,al-ajaylat,العجيلات,Al Ajaylat,municipality,32.757758,12.37738,openstreetmap-geofabrik,n1169743113,osm_named_place
+34,al-urban,العربان,Al Urban,municipality,32.038151,13.25219,openstreetmap-geofabrik,n1565509495,osm_named_place
+35,aziziya,العزيزية,Aziziya,municipality,32.533092,13.017624,openstreetmap-geofabrik,n3300366408,osm_named_place
+36,al-awata,العواته,Al Awata,municipality,32.301849,13.269418,openstreetmap-geofabrik,n7821172286,osm_named_place
+37,al-gharifa,الغريفة,Al Gharifa,municipality,26.52161,13.01072,geonames,2220061,named_place
+38,al-qubbah,القبة,Al Qubbah,municipality,32.763056,22.241753,openstreetmap-geofabrik,n1172146730,osm_named_place
+39,garabulli,القرة بوللي,Garabulli,municipality,32.742728,13.712796,openstreetmap-geofabrik,n375721059,osm_named_place
+40,al-qarda-al-shati,القرضة الشاطئ,Al Qarda Al Shati,municipality,,,,,
+41,qatrun,القطرون,Qatrun,municipality,24.889468,14.5315,openstreetmap-geofabrik,n419488780,osm_named_place
+42,al-qalaa,القلعة,Al Qalaa,municipality,,,,,
+43,al-qawalish,القواليش,Al Qawalish,municipality,,,,,
+44,al-qayqab,القيقب,Al Qayqab,municipality,32.724734,22.02385,openstreetmap-geofabrik,n1565509481,osm_named_place
+45,kufra,الكفرة,Kufra,municipality,23.268611,22.090366,openstreetmap-geofabrik,a4120357,boundary_representative_point
+46,al-maya,الماية,Al Maya,municipality,32.80194,12.87917,geonames,2219812,named_place
+47,al-marj,المرج,Al Marj,municipality,32.013595,21.209684,openstreetmap-geofabrik,a4120359,boundary_representative_point
+48,al-uwaina,العوينة,Al Uwaina,municipality,,,,,
+49,al-mamura,المعمورة,Al Mamura,municipality,,,,,
+50,al-melitaniya,المليطانية,Al Melitaniya,municipality,32.272772,20.647454,openstreetmap-geofabrik,n3237561328,osm_named_place
+51,al-manshiya-al-jumayl,المنشية الجميل,Al Manshiya Al Jumayl,municipality,,,,,
+52,al-nasiriya,الناصرية,Al Nasiriya,municipality,,,,,
+53,emsaed,امساعد,Emsaed,municipality,,,,,
+54,intlat-al-baydan,انتلات البيضان,Intlat Al Baydan,municipality,,,,,
+55,bir-al-ashhab,بئر الأشهب,Bir Al Ashhab,municipality,31.886703,24.656631,openstreetmap-geofabrik,n1170214253,osm_named_place
+56,batin-al-jabal,باطن الجبل,Batin Al Jabal,municipality,,,,,
+57,brak-al-shati,براك الشاطئ,Brak Al Shati,municipality,27.55163,14.272144,openstreetmap-geofabrik,n1194502733,osm_named_place
+58,bint-bayya,بنت بية,Bint Bayya,municipality,26.64549,13.65246,geonames,2213610,named_place
+59,benghazi,بنغازي,Benghazi,municipality,31.889635,19.986477,openstreetmap-geofabrik,a4120341,boundary_representative_point
+60,bani-walid,بني وليد,Bani Walid,municipality,31.756969,13.995051,iom-ocha-hubs-2016,LY021404,operational_hub
+61,tajoura,تاجوراء,Tajoura,municipality,32.883445,13.352548,openstreetmap-geofabrik,n1221370214,osm_named_place
+62,tazerbo,تازربو,Tazerbo,municipality,25.671609,21.062112,openstreetmap-geofabrik,n1574963952,osm_named_place
+63,tawergha,تاورغاء,Tawergha,municipality,32.019867,15.050086,openstreetmap-geofabrik,n1565512962,osm_named_place
+64,taraghin,تراغن,Taraghin,municipality,25.92333,14.42056,geonames,2210242,named_place
+65,tarhuna,ترهونة,Tarhuna,municipality,32.434586,13.635069,openstreetmap-geofabrik,n277399044,osm_named_place
+66,tukrah,توكرة,Tukrah,municipality,32.53414,20.57911,geonames,88834,named_place
+67,jadu,جادو,Jadu,municipality,31.952759,12.027333,openstreetmap-geofabrik,n1214773929,osm_named_place
+68,jalu,جالو,Jalu,municipality,29.033115,21.548221,openstreetmap-geofabrik,n1160843625,osm_named_place
+69,jardas-al-abid,جردس العبيد,Jardas Al Abid,municipality,32.302658,20.986818,openstreetmap-geofabrik,n1173420973,osm_named_place
+70,janzour,جنزور,Janzour,municipality,32.825446,13.026253,openstreetmap-geofabrik,n364324276,osm_named_place
+71,south-jabal-al-akhdar,جنوب الجبل الأخضر,South Jabal Al Akhdar,municipality,,,,,
+72,hay-al-andalus,حي الأندلس,Hay Al Andalus,municipality,32.875104,13.128251,openstreetmap-geofabrik,n2681366573,osm_named_place
+73,gulf-of-sidra,خليج السدرة,Gulf of Sidra,municipality,,,,,
+74,derj,درج,Derj,municipality,30.163587,10.457956,openstreetmap-geofabrik,n1278520315,osm_named_place
+75,derna,درنة,Derna,municipality,31.94674,22.575577,openstreetmap-geofabrik,a4120345,boundary_representative_point
+76,rabiana,ربيانة,Rabiana,municipality,24.252236,21.971221,openstreetmap-geofabrik,n5203589521,osm_named_place
+77,riqdalin,رقدالين,Riqdalin,municipality,32.886386,11.987073,openstreetmap-geofabrik,n1169748265,osm_named_place
+78,zaltan,زلطن,Zaltan,municipality,32.946146,11.866804,openstreetmap-geofabrik,n1169748270,osm_named_place
+79,zliten,زليتن,Zliten,municipality,32.467562,14.56564,openstreetmap-geofabrik,n1170583242,osm_named_place
+80,zamzam,زمزم,Zamzam,municipality,,,,,
+81,zuwara,زوارة,Zuwara,municipality,32.932781,12.080638,iom-ocha-hubs-2016,LY021503,operational_hub
+82,sahel-al-jabal,ساحل الجبل,Sahel Al Jabal,municipality,,,,,
+83,sabha,سبها,Sabha,municipality,27.033154,14.431693,iom-ocha-hubs-2016,LY031901,operational_hub
+84,sirte,سرت,Sirte,municipality,30.592982,16.753652,openstreetmap-geofabrik,a4120371,boundary_representative_point
+85,suluq,سلوق,Suluq,municipality,31.66818,20.25205,geonames,81604,named_place
+86,swani-bin-adam,سواني بن أدم,Swani Bin Adam,municipality,,,,,
+87,sousa,سوسة,Sousa,municipality,32.897843,21.96507,openstreetmap-geofabrik,n1159019634,osm_named_place
+88,souq-al-juma,سوق الجمعة,Souq Al Juma,municipality,32.88333,13.23333,geonames,2210585,named_place
+89,souq-al-khamis,سوق الخميس,Souq Al Khamis,municipality,32.584167,14.356944,openstreetmap-geofabrik,n1565512757,osm_named_place
+90,shahat,شحات,Shahat,municipality,32.808215,21.869684,openstreetmap-geofabrik,n1159019627,osm_named_place
+91,sabratha,صبراتة,Sabratha,municipality,32.792168,12.485806,iom-ocha-hubs-2016,LY021502,operational_hub
+92,sorman,صرمان,Sorman,municipality,32.75668,12.57159,geonames,2210560,named_place
+93,tobruk,طبرق,Tobruk,municipality,32.077432,23.960015,iom-ocha-hubs-2016,LY010403,operational_hub
+94,tripoli-center,طرابلس المركز,Tripoli Center,municipality,,,,,
+95,dahir-al-jabal,ظاهر الجبل,Dahir Al Jabal,municipality,,,,,
+96,omar-al-mukhtar,عمر المختار,Omar Al Mukhtar,municipality,32.629306,21.675038,openstreetmap-geofabrik,n1565512109,osm_named_place
+97,ain-zara,عين زارة,Ain Zara,municipality,32.795214,13.286932,openstreetmap-geofabrik,n1565510267,osm_named_place
+98,ain-ghazala,عين غزالة,Ain Ghazala,municipality,,,,,
+99,ghat,غات,Ghat,municipality,26.099157,10.40218,openstreetmap-geofabrik,a4120347,boundary_representative_point
+100,ghadames,غدامس,Ghadames,municipality,30.12584,9.490066,openstreetmap-geofabrik,n276850140,osm_named_place
+101,gharyan,غريان,Gharyan,municipality,32.171587,13.021145,openstreetmap-geofabrik,n1565510610,osm_named_place
+102,qasr-bin-ghashir,قصر بن غشير,Qasr Bin Ghashir,municipality,32.685974,13.1765,openstreetmap-geofabrik,n1565512489,osm_named_place
+103,qasr-khiyar,قصر خيار,Qasr Khiyar,municipality,32.69677,13.84634,geonames,2213570,named_place
+104,qaminis,قمينس,Qaminis,municipality,31.6576,20.01697,geonames,84257,named_place
+105,kabaw,كاباو,Kabaw,municipality,31.846336,11.340648,openstreetmap-geofabrik,n1246799127,osm_named_place
+106,kikla,ككلة,Kikla,municipality,32.062919,12.695254,openstreetmap-geofabrik,n7212959831,osm_named_place
+107,marada,مرادة,Marada,municipality,29.223482,19.203967,openstreetmap-geofabrik,n1239730812,osm_named_place
+108,murzuq,مرزق,Murzuq,municipality,24.528504,15.321434,openstreetmap-geofabrik,a4120363,boundary_representative_point
+109,marsa-dafna,مرسى دفنة,Marsa Dafna,municipality,,,,,
+110,mizda,مزدة,Mizda,municipality,31.44934,12.9853,geonames,2214827,named_place
+111,msallata,مسلاتة,Msallata,municipality,32.616667,14.0,openstreetmap-geofabrik,n1565511347,osm_named_place
+112,misrata,مصراتة,Misrata,municipality,32.374592,15.09058,openstreetmap-geofabrik,n5431087789,osm_named_place
+113,nalut,نالوت,Nalut,municipality,30.55324,11.019963,openstreetmap-geofabrik,a4120365,boundary_representative_point
+114,nisma,نسمة,Nisma,municipality,31.391933,13.328442,openstreetmap-geofabrik,n1565511456,osm_named_place
+115,harawa,هراوة,Harawa,municipality,,,,,
+116,wadi-al-bawanis,وادي البوانيس,Wadi Al Bawanis,municipality,,,,,
+117,wadi-atba,وادي عتبة,Wadi Atba,municipality,,,,,
+118,wazen,وازن,Wazen,municipality,31.945646,10.669785,openstreetmap-geofabrik,n1253979845,osm_named_place
+119,wardama,وردامة,Wardama,municipality,,,,,
+120,yafran,يفرن,Yafran,municipality,32.063325,12.527141,openstreetmap-geofabrik,n1157505021,osm_named_place
+121,umm-al-rizam,أم الرزم,Umm Al Rizam,municipality,32.53332,23.00904,geonames,81071,named_place
+122,al-jalida,الجليدة,Al Jalida,municipality,,,,,
+123,al-jadida,الجديدة,Al Jadida,municipality,,,,,
+124,madwar-al-zaytun,مدور الزيتون,Madwar Al Zaytun,municipality,32.450556,21.277198,openstreetmap-geofabrik,n3334231301,osm_named_place
+125,al-uwaynat,العوينات,Al Uwaynat,municipality,25.776613,10.563037,openstreetmap-geofabrik,n260715301,osm_named_place
+126,tajarhi,تجرهي,Tajarhi,municipality,24.329818,14.267773,openstreetmap-geofabrik,n3354582744,osm_named_place
+127,al-mardum,المردوم,Al Mardum,municipality,31.763415,14.412398,openstreetmap-geofabrik,n7509528089,osm_named_place
+128,tininay,تنيناي,Tininay,municipality,31.39334,13.74082,geonames,2213827,named_place
+129,al-qaryat,القريات,Al Qaryat,municipality,30.384356,13.584263,openstreetmap-geofabrik,n3303648800,osm_named_place
+130,zella,زلة,Zella,municipality,28.550048,17.549951,openstreetmap-geofabrik,n1193695763,osm_named_place
+131,barqin,برقن,Barqin,municipality,27.54801,13.62914,geonames,2218761,named_place
+132,awal,اوال,Awal,municipality,,,,,
+133,tahala,تهالة,Tahala,municipality,25.40755,10.352151,openstreetmap-geofabrik,n4154268568,osm_named_place
+134,barkat,بركت,Barkat,municipality,,,,,
+135,sinawin,سيناون,Sinawin,municipality,31.026044,10.602091,openstreetmap-geofabrik,n1278520309,osm_named_place
+136,zuwaila,زويلة,Zuwaila,municipality,26.16188,15.12522,geonames,2208566,named_place
+137,ras-al-tabl,راس الطبل,Ras Al Tabl,municipality,31.30177,13.494735,openstreetmap-geofabrik,n1565512607,osm_named_place
+138,al-shuba-administrative-area,المنطقة الادارية الشعبة,Al Shuba Administrative Area,municipality,,,,,
+139,germa,جرمة,Germa,municipality,26.528497,13.069634,openstreetmap-geofabrik,n260715664,osm_named_place
+140,qarara,قرارة,Qarara,municipality,32.380092,15.117874,openstreetmap-geofabrik,n1565511824,osm_named_place
+141,al-ruqayba,الرقيبة,Al Ruqayba,municipality,,,,,

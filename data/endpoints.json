@@ -1,19 +1,35 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "repository": "https://github.com/ayagaidi/libyancityseeds",
-  "stable_base_url": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0",
+  "stable_base_url": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0",
   "latest_base_url": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/master",
   "datasets": {
     "municipalities": {
       "records": 141,
-      "json": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json",
-      "csv": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.csv"
+      "json": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json",
+      "csv": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.csv"
     },
     "cities": {
       "records": 50,
-      "json": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/cities.json",
-      "csv": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/cities.csv"
+      "json": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/cities.json",
+      "csv": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/cities.csv"
     }
   },
-  "schema": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/schemas/location.schema.json"
+  "maps": {
+    "municipality_points": {
+      "records": 141,
+      "mapped_records": 103,
+      "coverage_percent": 73.05,
+      "json": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-points.json",
+      "csv": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-points.csv",
+      "geojson": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-points.geojson"
+    },
+    "municipality_boundaries": {
+      "features": 10,
+      "geojson": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-boundaries.geojson"
+    },
+    "coverage": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/map-coverage.json"
+  },
+  "schema": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/schemas/location.schema.json",
+  "map_point_schema": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/schemas/municipality-map-point.schema.json"
 }

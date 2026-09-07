@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Libya Municipality Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <style>
+        html, body, #map { height: 100%; margin: 0; }
+        .popup-name-ar { direction: rtl; font-weight: 700; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const VERSION = 'v1.2.0';
+const BASE = `https://raw.githubusercontent.com/ayagaidi/libyancityseeds/${VERSION}/data`;
+const POINTS_URL = `${BASE}/municipality-points.geojson`;
+const BOUNDARIES_URL = `${BASE}/municipality-boundaries.geojson`;
+
+const map = L.map('map').setView([27.0, 17.0], 5);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+}).addTo(map);
+
+function popup(properties) {
+    return `
+        <div class="popup-name-ar">${properties.name_ar}</div>
+        <div>${properties.name_en}</div>
+        <code>${properties.slug}</code>
+    `;
+}
+
+Promise.all([
+    fetch(POINTS_URL).then(response => response.json()),
+    fetch(BOUNDARIES_URL).then(response => response.json()),
+]).then(([points, boundaries]) => {
+    const boundaryLayer = L.geoJSON(boundaries, {
+        onEachFeature(feature, layer) {
+            layer.bindPopup(popup(feature.properties));
+        },
+    }).addTo(map);
+
+    const pointLayer = L.geoJSON(points, {
+        pointToLayer(feature, latlng) {
+            return L.circleMarker(latlng, { radius: 5 });
+        },
+        onEachFeature(feature, layer) {
+            layer.bindPopup(popup(feature.properties));
+        },
+    }).addTo(map);
+
+    const layers = [boundaryLayer, pointLayer].filter(layer => layer.getBounds().isValid());
+    if (layers.length) {
+        const bounds = layers.reduce((combined, layer) => combined.extend(layer.getBounds()), L.latLngBounds());
+        map.fitBounds(bounds.pad(0.08));
+    }
+}).catch(error => {
+    console.error('Unable to load Libya map datasets.', error);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+name: Build Municipality Map Data
+
+on:
+  push:
+    branches:
+      - feat/v1.2-map-support
+    paths:
+      - 'scripts/import_map_points.py'
+      - 'scripts/suggest_map_matches.py'
+      - 'scripts/enrich_osm_boundaries.py'
+      - 'data/municipalities.json'
+      - '.github/workflows/build-map-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: municipality-map-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-map-data:
+    if: github.repository == 'ayagaidi/libyancityseeds'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install GIS tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y osmium-tool
+          python -m pip install --disable-pip-version-check --no-cache-dir shapely
+
+      - name: Generate sourced municipality points
+        run: python3 scripts/import_map_points.py
+
+      - name: Download Libya OpenStreetMap extract
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://download.geofabrik.de/africa/libya-260905.osm.pbf"
+            "https://download.geofabrik.de/africa/libya-260904.osm.pbf"
+            "https://download.geofabrik.de/africa/libya-latest.osm.pbf"
+          )
+
+          rm -f /tmp/libya.osm.pbf
+          for url in "${urls[@]}"; do
+            echo "Trying $url"
+            if curl --fail --location --retry 2 --retry-all-errors --connect-timeout 20 --max-time 240 --output /tmp/libya.osm.pbf "$url"; then
+              if [[ -s /tmp/libya.osm.pbf ]]; then
+                echo "Downloaded OSM extract from $url"
+                break
+              fi
+            fi
+            rm -f /tmp/libya.osm.pbf
+          done
+
+          test -s /tmp/libya.osm.pbf || {
+            echo "Unable to download a Libya Geofabrik extract from any configured URL."
+            exit 1
+          }
+          ls -lh /tmp/libya.osm.pbf
+
+      - name: Extract OSM administrative and place data
+        run: |
+          osmium tags-filter /tmp/libya.osm.pbf r/boundary=administrative -o /tmp/libya-admin.osm.pbf --overwrite
+          osmium export /tmp/libya-admin.osm.pbf \
+            -f geojson \
+            --add-unique-id=type_id \
+            -o /tmp/libya-admin-boundaries.geojson \
+            --overwrite
+
+          osmium tags-filter /tmp/libya.osm.pbf nwr/place -o /tmp/libya-places.osm.pbf --overwrite
+          osmium export /tmp/libya-places.osm.pbf \
+            -f geojson \
+            --add-unique-id=type_id \
+            -o /tmp/libya-places.geojson \
+            --overwrite
+
+      - name: Inspect extracted OSM map data
+        run: |
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          admin = json.loads(Path('/tmp/libya-admin-boundaries.geojson').read_text(encoding='utf-8')).get('features', [])
+          places = json.loads(Path('/tmp/libya-places.geojson').read_text(encoding='utf-8')).get('features', [])
+
+          levels = Counter(str((feature.get('properties') or {}).get('admin_level')) for feature in admin)
+          geometry_levels = Counter(
+              (
+                  (feature.get('geometry') or {}).get('type'),
+                  str((feature.get('properties') or {}).get('admin_level')),
+              )
+              for feature in admin
+          )
+          place_types = Counter(str((feature.get('properties') or {}).get('place')) for feature in places)
+
+          print('Administrative features:', len(admin))
+          print('Admin levels:', dict(levels))
+          print('Geometry/admin-level counts:', {str(key): value for key, value in geometry_levels.items()})
+          print('Named-place features:', len(places))
+          print('Place types:', dict(place_types))
+          PY
+
+      - name: Enrich points and build municipality boundaries
+        env:
+          OSM_BOUNDARIES_GEOJSON: /tmp/libya-admin-boundaries.geojson
+          OSM_PLACES_GEOJSON: /tmp/libya-places.geojson
+        run: python3 scripts/enrich_osm_boundaries.py
+
+      - name: Generate unmatched candidate report
+        run: python3 scripts/suggest_map_matches.py
+
+      - name: Validate generated map datasets
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          points = json.loads(Path('data/municipality-points.json').read_text(encoding='utf-8'))
+          points_geojson = json.loads(Path('data/municipality-points.geojson').read_text(encoding='utf-8'))
+          boundaries = json.loads(Path('data/municipality-boundaries.geojson').read_text(encoding='utf-8'))
+          coverage = json.loads(Path('data/map-coverage.json').read_text(encoding='utf-8'))
+          candidates = json.loads(Path('data/map-match-candidates.json').read_text(encoding='utf-8'))
+
+          assert len(points) == 141
+          assert points_geojson['type'] == 'FeatureCollection'
+          assert boundaries['type'] == 'FeatureCollection'
+          assert len(points_geojson['features']) == coverage['mapped_municipalities']
+          assert len(boundaries['features']) == coverage['matched_osm_boundaries']
+          assert len(candidates) == coverage['source_counts'].get('unmatched', 0)
+          assert coverage['mapped_municipalities'] > 0
+
+          ids = set()
+          for feature in points_geojson['features']:
+              props = feature['properties']
+              assert props['id'] not in ids
+              ids.add(props['id'])
+              lon, lat = feature['geometry']['coordinates']
+              assert 9 <= lon <= 26, (props['slug'], lon)
+              assert 19 <= lat <= 34, (props['slug'], lat)
+
+          print(f"Map coverage: {coverage['mapped_municipalities']}/{coverage['total_municipalities']} ({coverage['coverage_percent']}%)")
+          print(f"OSM boundary coverage: {coverage['matched_osm_boundaries']}/{coverage['total_municipalities']}")
+          print(f"OSM admin point matches: {coverage.get('matched_osm_admin_points', 0)}/{coverage['total_municipalities']}")
+          print(f"OSM named-place matches: {coverage.get('matched_osm_named_places', 0)}/{coverage['total_municipalities']}")
+          PY
+
+      - name: Commit generated map data
+        run: |
+          files=(
+            data/municipality-points.json
+            data/municipality-points.csv
+            data/municipality-points.geojson
+            data/municipality-boundaries.geojson
+            data/map-coverage.json
+            data/map-match-candidates.json
+          )
+
+          if [[ -z "$(git status --porcelain -- "${files[@]}")" ]]; then
+            echo "Map data is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${files[@]}"
+          git commit -m "data: generate municipality points and boundaries"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
