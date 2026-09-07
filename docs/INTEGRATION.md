@@ -9,13 +9,13 @@ Any language that can make an HTTP request and parse JSON can use the dataset.
 Use the stable versioned JSON URL:
 
 ```text
-https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json
 ```
 
 or cities:
 
 ```text
-https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/cities.json
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/cities.json
 ```
 
 Each response is a JSON array:
@@ -37,7 +37,7 @@ Each response is a JSON array:
 For production applications, pin a release tag:
 
 ```text
-https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json
 ```
 
 For development or previews, use `master`:
@@ -53,14 +53,14 @@ Pinning a version prevents an upstream dataset update from unexpectedly changing
 Applications that do not want to hard-code individual paths can read:
 
 ```text
-https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/endpoints.json
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/endpoints.json
 ```
 
-It returns the current version, record counts, JSON/CSV URLs, and schema URL.
+It returns the current version, record counts, stable JSON/CSV URLs, map URLs, and schema URLs.
 
 ## Universal data contract
 
-Every location record uses the same fields:
+Every base location record uses the same fields:
 
 | Field | Type | Meaning |
 | --- | --- | --- |
@@ -76,25 +76,74 @@ The machine-readable JSON Schema is available at:
 schemas/location.schema.json
 ```
 
+`v1.2.0` keeps this contract unchanged, so applications that only need names/IDs do not need to change their code.
+
+## Municipality map points
+
+Geospatial support is published as a separate companion dataset:
+
+```text
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-points.json
+```
+
+A map-point record extends the base municipality fields:
+
+```json
+{
+  "id": 1,
+  "slug": "example-slug",
+  "name_ar": "اسم البلدية",
+  "name_en": "Municipality Name",
+  "type": "municipality",
+  "latitude": 32.0,
+  "longitude": 13.0,
+  "coordinate_source": "openstreetmap-geofabrik",
+  "coordinate_source_id": "n123456",
+  "point_type": "osm_named_place"
+}
+```
+
+Coordinates are nullable. In `v1.2.0`, **103 of 141 municipalities (73.05%)** have a published reference point; **38 remain null** because no sufficiently confident match is published.
+
+Use `slug` or `id` to join `municipality-points.json` to `municipalities.json`.
+
+## GeoJSON
+
+Point GeoJSON:
+
+```text
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-points.geojson
+```
+
+Partial municipality boundary GeoJSON:
+
+```text
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipality-boundaries.geojson
+```
+
+Current `v1.2.0` boundary coverage is **10 matched municipality features**. Missing polygons must not be interpreted as missing municipalities.
+
+Read [`MAPS.md`](MAPS.md) for coordinate semantics, provenance, OpenStreetMap attribution, limitations, and the Leaflet demo.
+
 ## cURL
 
 ```bash
 curl -fsSL \
-  https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json
+  https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json
 ```
 
 Download for local/offline use:
 
 ```bash
 curl -fsSL \
-  https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json \
+  https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json \
   -o municipalities.json
 ```
 
 ## JavaScript / TypeScript
 
 ```js
-const url = 'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json';
+const url = 'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json';
 const locations = await fetch(url).then(response => response.json());
 ```
 
@@ -104,7 +153,7 @@ const locations = await fetch(url).then(response => response.json());
 import json
 from urllib.request import urlopen
 
-url = "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json"
+url = "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json"
 with urlopen(url) as response:
     locations = json.load(response)
 ```
@@ -112,7 +161,7 @@ with urlopen(url) as response:
 ## PHP
 
 ```php
-$url = 'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json';
+$url = 'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/data/municipalities.json';
 $locations = json_decode(file_get_contents($url), true, flags: JSON_THROW_ON_ERROR);
 ```
 
@@ -173,24 +222,27 @@ require 'open-uri'
 locations = JSON.parse(URI.open(url).read)
 ```
 
-## Mobile, backend, frontend, and offline apps
+## Mobile, backend, frontend, maps, and offline apps
 
 You can choose either integration model:
 
-1. **Remote:** fetch the versioned JSON file when your app needs it and cache it locally.
-2. **Bundled:** download the JSON/CSV file during build/deployment and ship it with your application.
+1. **Remote:** fetch the versioned JSON/GeoJSON file when your app needs it and cache it locally.
+2. **Bundled:** download the JSON/CSV/GeoJSON file during build/deployment and ship it with your application.
 3. **Database import:** transform the JSON/CSV into your own database schema.
+4. **Map layer:** load `municipality-points.geojson` or the partial boundary GeoJSON into Leaflet, MapLibre, Mapbox, QGIS, Flutter mapping libraries, or another GeoJSON-compatible client.
 
 The data format does not require a specific framework or database.
 
 ## Recommended production pattern
 
-- Pin a release such as `v1.1.0`.
+- Pin a release such as `v1.2.0`.
 - Cache the response instead of downloading it on every request.
 - Use `slug` as the integration identifier when possible.
 - Store your own foreign key if importing into a database.
+- Check `data/map-coverage.json` before assuming every municipality has a coordinate or polygon.
+- Preserve required source attribution for OSM-derived map data.
 - Upgrade dataset versions intentionally after reviewing the changelog.
 
 ## More examples
 
-See [`examples/README.md`](../examples/README.md) for copy-paste examples in common languages.
+See [`examples/README.md`](../examples/README.md) for copy-paste examples in common languages and [`examples/leaflet-map.html`](../examples/leaflet-map.html) for a browser map example.
