@@ -1,5 +1,9 @@
 # Libya Locations 🇱🇾
 
+<p align="center">
+  <img src="docs/assets/libya-locations-v1.2-banner.svg" alt="Libya Locations v1.2.0 — open data and map-ready municipality coordinates" width="100%" />
+</p>
+
 A **language-agnostic open dataset** of Libyan municipalities and cities with Arabic/English names, stable slugs, JSON, CSV, Laravel seeders, geospatial reference points, GeoJSON, and copy-paste integration examples for common languages.
 
 [![Validate data](https://github.com/ayagaidi/libyancityseeds/actions/workflows/validate-data.yml/badge.svg)](https://github.com/ayagaidi/libyancityseeds/actions/workflows/validate-data.yml)
