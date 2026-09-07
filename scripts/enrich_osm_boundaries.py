@@ -75,8 +75,10 @@ def build_index(features):
         except ValueError:
             admin_level = 0
 
-        # Libya municipalities are local administrative units. Exclude country/very broad levels.
-        if admin_level and admin_level < 5:
+        # In the current Libya OSM extract, municipality relations are admin_level=4.
+        # Restricting to exactly this level avoids matching the country boundary (2)
+        # or smaller local subdivisions (6/8/10).
+        if admin_level != 4:
             continue
 
         geom = shape(geometry)
@@ -107,17 +109,14 @@ def choose_boundary(candidates):
     if not candidates:
         return None
 
-    # Prefer the most local admin level; if tied, prefer the smaller geometry.
     unique = {}
     for candidate in candidates:
         key = candidate["source_id"] or candidate["geometry"].wkb_hex
         unique[key] = candidate
-    ranked = sorted(
-        unique.values(),
-        key=lambda item: (item["admin_level"], -item["geometry"].area),
-        reverse=True,
-    )
-    return ranked[0]
+
+    # If an alias maps to multiple level-4 polygons, prefer the smaller geometry rather
+    # than silently broadening the municipality footprint.
+    return min(unique.values(), key=lambda item: item["geometry"].area)
 
 
 def find_boundary(point, index):
@@ -195,7 +194,8 @@ def main():
         representative = geom.representative_point()
         matched_boundaries += 1
 
-        # Administrative-boundary representative points are preferred over locality fallbacks.
+        # Boundary-derived representative points are preferred over generic GeoNames
+        # place points. Keep IOM/OCHA operational hub coordinates when present.
         if point["coordinate_source"] != "iom-ocha-hubs-2016":
             if point["latitude"] is None:
                 filled_from_osm += 1
@@ -251,7 +251,7 @@ def main():
     coverage.setdefault("sources", {})["openstreetmap-geofabrik"] = {
         "url": "https://download.geofabrik.de/africa/libya.html",
         "license": "OpenStreetMap ODbL 1.0",
-        "note": "Current OpenStreetMap administrative boundary relations from the Geofabrik Libya extract. Representative points are generated inside matched boundary polygons; boundary coverage depends on OSM mapping completeness."
+        "note": "OpenStreetMap Libya admin_level=4 administrative relations from the Geofabrik extract. Representative points are generated inside matched boundary polygons; boundary coverage depends on OSM mapping completeness."
     }
     COVERAGE_PATH.write_text(json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
