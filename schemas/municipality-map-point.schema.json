@@ -37,6 +37,7 @@
         "named_place",
         "boundary_representative_point",
         "administrative_label_point",
+        "osm_named_place",
         null
       ]
     }
