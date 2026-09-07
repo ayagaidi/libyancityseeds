@@ -4,6 +4,8 @@ A developer-friendly open dataset of **Libyan municipalities and cities** with A
 
 [![Validate data](https://github.com/ayagaidi/libyancityseeds/actions/workflows/validate-data.yml/badge.svg)](https://github.com/ayagaidi/libyancityseeds/actions/workflows/validate-data.yml)
 
+[العربية](README_AR.md) · [Data sources](DATA_SOURCES.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md)
+
 > Built for Libyan developers who keep rebuilding the same city/municipality dropdowns in Laravel, mobile apps, APIs, forms, e-commerce, delivery, banking, and government systems.
 
 ## What's included
