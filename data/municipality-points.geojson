@@ -1,0 +1,1875 @@
+{
+  "type": "FeatureCollection",
+  "name": "libya-municipality-points",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "id": 1,
+        "slug": "abu-salim",
+        "name_ar": "أبوسليم",
+        "name_en": "Abu Salim",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2220399",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.17093,
+          32.84264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "id": 2,
+        "slug": "ubari",
+        "name_ar": "أوباري",
+        "name_en": "Ubari",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219234",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0,
+          25.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "id": 3,
+        "slug": "awjila",
+        "name_ar": "أوجلة",
+        "name_en": "Awjila",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88533",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.28694,
+          29.10806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "id": 5,
+        "slug": "ajdabiya",
+        "name_ar": "إجدابيا",
+        "name_en": "Ajdabiya",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "89113",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.22625,
+          30.75545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "id": 8,
+        "slug": "al-abraq",
+        "name_ar": "الأبرق",
+        "name_en": "Al Abraq",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "89090",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0005,
+          32.78991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "id": 9,
+        "slug": "al-abyar",
+        "name_ar": "الأبيار",
+        "name_en": "Al Abyar",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "89087",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.59653,
+          32.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "id": 11,
+        "slug": "al-bardi",
+        "name_ar": "البردي",
+        "name_en": "Al Bardi",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "80509",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0853,
+          31.75601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "id": 12,
+        "slug": "brega",
+        "name_ar": "البريقة",
+        "name_en": "Brega",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2215210",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57386,
+          30.40624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "id": 13,
+        "slug": "al-bayda",
+        "name_ar": "البيضاء",
+        "name_en": "Al Bayda",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "89055",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75506,
+          32.76272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "id": 14,
+        "slug": "al-jufra",
+        "name_ar": "الجفرة",
+        "name_en": "Al Jufra",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219944",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.05,
+          27.73333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "id": 15,
+        "slug": "al-jumayl",
+        "name_ar": "الجميل",
+        "name_en": "Al Jumayl",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219936",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0612,
+          32.85286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "id": 17,
+        "slug": "al-hawamid",
+        "name_ar": "الحوامد",
+        "name_en": "Al Hawamid",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2220013",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.16222,
+          31.97528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "id": 18,
+        "slug": "khoms",
+        "name_ar": "الخمس",
+        "name_en": "Khoms",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219907",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.26667,
+          32.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "id": 19,
+        "slug": "al-rajban",
+        "name_ar": "الرجبان",
+        "name_en": "Al Rajban",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219463",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.16667,
+          31.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "id": 20,
+        "slug": "al-rhaibat",
+        "name_ar": "الرحيبات",
+        "name_en": "Al Rhaibat",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "12687312",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8436,
+          31.84637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "id": 22,
+        "slug": "zawiya",
+        "name_ar": "الزاوية",
+        "name_en": "Zawiya",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2218972",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51667,
+          32.46667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "id": 25,
+        "slug": "zintan",
+        "name_ar": "الزنتان",
+        "name_en": "Zintan",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2218963",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25291,
+          31.93155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "id": 30,
+        "slug": "al-shuqayqa",
+        "name_ar": "الشقيقة",
+        "name_en": "Al Shuqayqa",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "11739598",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.80686,
+          31.63974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "id": 31,
+        "slug": "al-shwerif",
+        "name_ar": "الشويرف",
+        "name_en": "Al Shwerif",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219396",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.26667,
+          29.98333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "id": 33,
+        "slug": "al-ajaylat",
+        "name_ar": "العجيلات",
+        "name_en": "Al Ajaylat",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219701",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37633,
+          32.75718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "id": 34,
+        "slug": "al-urban",
+        "name_ar": "العربان",
+        "name_en": "Al Urban",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219696",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.15,
+          32.16667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "id": 35,
+        "slug": "aziziya",
+        "name_ar": "العزيزية",
+        "name_en": "Aziziya",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2220139",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0175,
+          32.53194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "id": 37,
+        "slug": "al-gharifa",
+        "name_ar": "الغريفة",
+        "name_en": "Al Gharifa",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2220061",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.01072,
+          26.52161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "id": 38,
+        "slug": "al-qubbah",
+        "name_ar": "القبة",
+        "name_en": "Al Qubbah",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88835",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.24106,
+          32.75684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "id": 41,
+        "slug": "qatrun",
+        "name_ar": "القطرون",
+        "name_en": "Qatrun",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219739",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.64861,
+          24.95139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "id": 44,
+        "slug": "al-qayqab",
+        "name_ar": "القيقب",
+        "name_en": "Al Qayqab",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88838",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.02061,
+          32.72581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "id": 45,
+        "slug": "kufra",
+        "name_ar": "الكفرة",
+        "name_en": "Kufra",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88932",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.21667,
+          23.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "id": 46,
+        "slug": "al-maya",
+        "name_ar": "الماية",
+        "name_en": "Al Maya",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219812",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.87917,
+          32.80194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "id": 47,
+        "slug": "al-marj",
+        "name_ar": "المرج",
+        "name_en": "Al Marj",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88904",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2,
+          31.78333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "id": 55,
+        "slug": "bir-al-ashhab",
+        "name_ar": "بئر الأشهب",
+        "name_en": "Bir Al Ashhab",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88102",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7,
+          31.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "id": 57,
+        "slug": "brak-al-shati",
+        "name_ar": "براك الشاطئ",
+        "name_en": "Brak Al Shati",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2218478",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.27139,
+          27.54956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "id": 58,
+        "slug": "bint-bayya",
+        "name_ar": "بنت بية",
+        "name_en": "Bint Bayya",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2213610",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.65246,
+          26.64549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "id": 59,
+        "slug": "benghazi",
+        "name_ar": "بنغازي",
+        "name_en": "Benghazi",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88318",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.18738,
+          32.08723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "id": 60,
+        "slug": "bani-walid",
+        "name_ar": "بني وليد",
+        "name_en": "Bani Walid",
+        "type": "municipality",
+        "coordinate_source": "iom-ocha-hubs-2016",
+        "coordinate_source_id": "LY021404",
+        "point_type": "operational_hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.995051,
+          31.756969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "id": 61,
+        "slug": "tajoura",
+        "name_ar": "تاجوراء",
+        "name_en": "Tajoura",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "10402872",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.22537,
+          32.89381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "id": 62,
+        "slug": "tazerbo",
+        "name_ar": "تازربو",
+        "name_en": "Tazerbo",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "12687306",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.07286,
+          25.67289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "id": 63,
+        "slug": "tawergha",
+        "name_ar": "تاورغاء",
+        "name_en": "Tawergha",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210091",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.11352,
+          32.01195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "id": 64,
+        "slug": "taraghin",
+        "name_ar": "تراغن",
+        "name_en": "Taraghin",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210242",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.42056,
+          25.92333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "id": 65,
+        "slug": "tarhuna",
+        "name_ar": "ترهونة",
+        "name_en": "Tarhuna",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210220",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.63333,
+          32.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "id": 66,
+        "slug": "tukrah",
+        "name_ar": "توكرة",
+        "name_en": "Tukrah",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "88834",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.57911,
+          32.53414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "id": 67,
+        "slug": "jadu",
+        "name_ar": "جادو",
+        "name_en": "Jadu",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2216432",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.02901,
+          31.95506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "id": 68,
+        "slug": "jalu",
+        "name_ar": "جالو",
+        "name_en": "Jalu",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "86049",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.55,
+          29.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "id": 69,
+        "slug": "jardas-al-abid",
+        "name_ar": "جردس العبيد",
+        "name_en": "Jardas Al Abid",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "86002",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.98615,
+          32.30337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "id": 70,
+        "slug": "janzour",
+        "name_ar": "جنزور",
+        "name_en": "Janzour",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2216349",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.01727,
+          32.81868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "id": 72,
+        "slug": "hay-al-andalus",
+        "name_ar": "حي الأندلس",
+        "name_en": "Hay Al Andalus",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2216764",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.11667,
+          32.86667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "id": 74,
+        "slug": "derj",
+        "name_ar": "درج",
+        "name_en": "Derj",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2217774",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.45804,
+          30.16502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "id": 75,
+        "slug": "derna",
+        "name_ar": "درنة",
+        "name_en": "Derna",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "87204",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.66667,
+          31.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "properties": {
+        "id": 77,
+        "slug": "riqdalin",
+        "name_ar": "رقدالين",
+        "name_en": "Riqdalin",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2212882",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.98729,
+          32.88718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "properties": {
+        "id": 78,
+        "slug": "zaltan",
+        "name_ar": "زلطن",
+        "name_en": "Zaltan",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2208655",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.86668,
+          32.94699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "properties": {
+        "id": 79,
+        "slug": "zliten",
+        "name_ar": "زليتن",
+        "name_en": "Zliten",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2208485",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.56874,
+          32.46739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "properties": {
+        "id": 81,
+        "slug": "zuwara",
+        "name_ar": "زوارة",
+        "name_en": "Zuwara",
+        "type": "municipality",
+        "coordinate_source": "iom-ocha-hubs-2016",
+        "coordinate_source_id": "LY021503",
+        "point_type": "operational_hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.080638,
+          32.932781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "properties": {
+        "id": 83,
+        "slug": "sabha",
+        "name_ar": "سبها",
+        "name_en": "Sabha",
+        "type": "municipality",
+        "coordinate_source": "iom-ocha-hubs-2016",
+        "coordinate_source_id": "LY031901",
+        "point_type": "operational_hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.431693,
+          27.033154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "properties": {
+        "id": 84,
+        "slug": "sirte",
+        "name_ar": "سرت",
+        "name_en": "Sirte",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210553",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.85,
+          30.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "properties": {
+        "id": 85,
+        "slug": "suluq",
+        "name_ar": "سلوق",
+        "name_en": "Suluq",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "81604",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25205,
+          31.66818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "properties": {
+        "id": 87,
+        "slug": "sousa",
+        "name_ar": "سوسة",
+        "name_en": "Sousa",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "81584",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.96583,
+          32.89702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "properties": {
+        "id": 88,
+        "slug": "souq-al-juma",
+        "name_ar": "سوق الجمعة",
+        "name_en": "Souq Al Juma",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210585",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.23333,
+          32.88333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "properties": {
+        "id": 90,
+        "slug": "shahat",
+        "name_ar": "شحات",
+        "name_en": "Shahat",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "82972",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.86222,
+          32.82778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "properties": {
+        "id": 91,
+        "slug": "sabratha",
+        "name_ar": "صبراتة",
+        "name_en": "Sabratha",
+        "type": "municipality",
+        "coordinate_source": "iom-ocha-hubs-2016",
+        "coordinate_source_id": "LY021502",
+        "point_type": "operational_hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.485806,
+          32.792168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "properties": {
+        "id": 92,
+        "slug": "sorman",
+        "name_ar": "صرمان",
+        "name_en": "Sorman",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210560",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.57159,
+          32.75668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "properties": {
+        "id": 93,
+        "slug": "tobruk",
+        "name_ar": "طبرق",
+        "name_en": "Tobruk",
+        "type": "municipality",
+        "coordinate_source": "iom-ocha-hubs-2016",
+        "coordinate_source_id": "LY010403",
+        "point_type": "operational_hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.960015,
+          32.077432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "properties": {
+        "id": 96,
+        "slug": "omar-al-mukhtar",
+        "name_ar": "عمر المختار",
+        "name_en": "Omar Al Mukhtar",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "84130",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.67651,
+          32.62978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "properties": {
+        "id": 97,
+        "slug": "ain-zara",
+        "name_ar": "عين زارة",
+        "name_en": "Ain Zara",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219021",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.26972,
+          32.81333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "properties": {
+        "id": 99,
+        "slug": "ghat",
+        "name_ar": "غات",
+        "name_en": "Ghat",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2217350",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.58333,
+          25.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "properties": {
+        "id": 100,
+        "slug": "ghadames",
+        "name_ar": "غدامس",
+        "name_en": "Ghadames",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2217439",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8,
+          30.56667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "properties": {
+        "id": 101,
+        "slug": "gharyan",
+        "name_ar": "غريان",
+        "name_en": "Gharyan",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2217362",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.02028,
+          32.17222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "properties": {
+        "id": 102,
+        "slug": "qasr-bin-ghashir",
+        "name_ar": "قصر بن غشير",
+        "name_en": "Qasr Bin Ghashir",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2213618",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.18333,
+          32.68333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "properties": {
+        "id": 103,
+        "slug": "qasr-khiyar",
+        "name_ar": "قصر خيار",
+        "name_en": "Qasr Khiyar",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2213570",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.84634,
+          32.69677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "properties": {
+        "id": 104,
+        "slug": "qaminis",
+        "name_ar": "قمينس",
+        "name_en": "Qaminis",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "84257",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.01697,
+          31.6576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "properties": {
+        "id": 105,
+        "slug": "kabaw",
+        "name_ar": "كاباو",
+        "name_en": "Kabaw",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2216155",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.33055,
+          31.84724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "properties": {
+        "id": 107,
+        "slug": "marada",
+        "name_ar": "مرادة",
+        "name_en": "Marada",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2215282",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.20454,
+          29.22054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "properties": {
+        "id": 108,
+        "slug": "murzuq",
+        "name_ar": "مرزق",
+        "name_en": "Murzuq",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2214602",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6,
+          24.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "properties": {
+        "id": 110,
+        "slug": "mizda",
+        "name_ar": "مزدة",
+        "name_en": "Mizda",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2214827",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9853,
+          31.44934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "properties": {
+        "id": 111,
+        "slug": "msallata",
+        "name_ar": "مسلاتة",
+        "name_en": "Msallata",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "12687313",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.03627,
+          32.58345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "properties": {
+        "id": 112,
+        "slug": "misrata",
+        "name_ar": "مصراتة",
+        "name_en": "Misrata",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2214845",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.07324,
+          32.31035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "properties": {
+        "id": 113,
+        "slug": "nalut",
+        "name_ar": "نالوت",
+        "name_en": "Nalut",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2214432",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.83333,
+          30.18333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "properties": {
+        "id": 114,
+        "slug": "nisma",
+        "name_ar": "نسمة",
+        "name_en": "Nisma",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2214378",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.33052,
+          31.39602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "properties": {
+        "id": 118,
+        "slug": "wazen",
+        "name_ar": "وازن",
+        "name_en": "Wazen",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2208848",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.66532,
+          31.942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "properties": {
+        "id": 120,
+        "slug": "yafran",
+        "name_ar": "يفرن",
+        "name_en": "Yafran",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2208790",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51667,
+          32.06667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "properties": {
+        "id": 121,
+        "slug": "umm-al-rizam",
+        "name_ar": "أم الرزم",
+        "name_en": "Umm Al Rizam",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "81071",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00904,
+          32.53332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "properties": {
+        "id": 125,
+        "slug": "al-uwaynat",
+        "name_ar": "العوينات",
+        "name_en": "Al Uwaynat",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219689",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.56133,
+          25.78123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "properties": {
+        "id": 126,
+        "slug": "tajarhi",
+        "name_ar": "تجرهي",
+        "name_en": "Tajarhi",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210411",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.47083,
+          24.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "properties": {
+        "id": 128,
+        "slug": "tininay",
+        "name_ar": "تنيناي",
+        "name_en": "Tininay",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2213827",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74082,
+          31.39334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "properties": {
+        "id": 129,
+        "slug": "al-qaryat",
+        "name_ar": "القريات",
+        "name_en": "Al Qaryat",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2219747",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.58027,
+          30.38803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "properties": {
+        "id": 130,
+        "slug": "zella",
+        "name_ar": "زلة",
+        "name_en": "Zella",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2208518",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.54358,
+          28.55099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "properties": {
+        "id": 131,
+        "slug": "barqin",
+        "name_ar": "برقن",
+        "name_en": "Barqin",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2218761",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.62914,
+          27.54801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "properties": {
+        "id": 135,
+        "slug": "sinawin",
+        "name_ar": "سيناون",
+        "name_en": "Sinawin",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2210688",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.60238,
+          31.02604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "properties": {
+        "id": 136,
+        "slug": "zuwaila",
+        "name_ar": "زويلة",
+        "name_en": "Zuwaila",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2208566",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.12522,
+          26.16188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "properties": {
+        "id": 137,
+        "slug": "ras-al-tabl",
+        "name_ar": "راس الطبل",
+        "name_en": "Ras Al Tabl",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2213015",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.49268,
+          31.3016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "properties": {
+        "id": 139,
+        "slug": "germa",
+        "name_ar": "جرمة",
+        "name_en": "Germa",
+        "type": "municipality",
+        "coordinate_source": "geonames",
+        "coordinate_source_id": "2216319",
+        "point_type": "named_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.06667,
+          26.53333
+        ]
+      }
+    }
+  ]
+}

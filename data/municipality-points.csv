@@ -1,0 +1,142 @@
+id,slug,name_ar,name_en,type,latitude,longitude,coordinate_source,coordinate_source_id,point_type
+1,abu-salim,أبوسليم,Abu Salim,municipality,32.84264,13.17093,geonames,2220399,named_place
+2,ubari,أوباري,Ubari,municipality,25.76667,11.0,geonames,2219234,named_place
+3,awjila,أوجلة,Awjila,municipality,29.10806,21.28694,geonames,88533,named_place
+4,jakharrad,اجخرة,Jakharrad,municipality,,,,,
+5,ajdabiya,إجدابيا,Ajdabiya,municipality,30.75545,20.22625,geonames,89113,named_place
+6,idri-al-shati,إدري الشاطئ,Idri Al Shati,municipality,,,,,
+7,sbea,اسبيعة,Sbea,municipality,,,,,
+8,al-abraq,الأبرق,Al Abraq,municipality,32.78991,22.0005,geonames,89090,named_place
+9,al-abyar,الأبيار,Al Abyar,municipality,32.19,20.59653,geonames,89087,named_place
+10,al-asabaa,الأصابعة,Al Asabaa,municipality,,,,,
+11,al-bardi,البردي,Al Bardi,municipality,31.75601,25.0853,geonames,80509,named_place
+12,brega,البريقة,Brega,municipality,30.40624,19.57386,geonames,2215210,named_place
+13,al-bayda,البيضاء,Al Bayda,municipality,32.76272,21.75506,geonames,89055,named_place
+14,al-jufra,الجفرة,Al Jufra,municipality,27.73333,17.05,geonames,2219944,named_place
+15,al-jumayl,الجميل,Al Jumayl,municipality,32.85286,12.0612,geonames,2219936,named_place
+16,al-haraba,الحرابة,Al Haraba,municipality,,,,,
+17,al-hawamid,الحوامد,Al Hawamid,municipality,31.97528,11.16222,geonames,2220013,named_place
+18,khoms,الخمس,Khoms,municipality,32.65,14.26667,geonames,2219907,named_place
+19,al-rajban,الرجبان,Al Rajban,municipality,31.95,12.16667,geonames,2219463,named_place
+20,al-rhaibat,الرحيبات,Al Rhaibat,municipality,31.84637,11.8436,geonames,12687312,named_place
+21,al-rayayna,الرياينة,Al Rayayna,municipality,,,,,
+22,zawiya,الزاوية,Zawiya,municipality,32.46667,12.51667,geonames,2218972,named_place
+23,zawiya-south,الزاوية الجنوب,Zawiya South,municipality,,,,,
+24,zawiya-west,الزاوية الغرب,Zawiya West,municipality,,,,,
+25,zintan,الزنتان,Zintan,municipality,31.93155,12.25291,geonames,2218963,named_place
+26,al-zahra,الزهراء,Al Zahra,municipality,,,,,
+27,zuwetina-sultan,الزويتينة سلطان,Zuwetina Sultan,municipality,,,,,
+28,al-sayeh,السائح,Al Sayeh,municipality,,,,,
+29,al-sharqiya,الشرقية,Al Sharqiya,municipality,,,,,
+30,al-shuqayqa,الشقيقة,Al Shuqayqa,municipality,31.63974,12.80686,geonames,11739598,named_place
+31,al-shwerif,الشويرف,Al Shwerif,municipality,29.98333,14.26667,geonames,2219396,named_place
+32,al-ameriya,العامرية,Al Ameriya,municipality,,,,,
+33,al-ajaylat,العجيلات,Al Ajaylat,municipality,32.75718,12.37633,geonames,2219701,named_place
+34,al-urban,العربان,Al Urban,municipality,32.16667,13.15,geonames,2219696,named_place
+35,aziziya,العزيزية,Aziziya,municipality,32.53194,13.0175,geonames,2220139,named_place
+36,al-awata,العواته,Al Awata,municipality,,,,,
+37,al-gharifa,الغريفة,Al Gharifa,municipality,26.52161,13.01072,geonames,2220061,named_place
+38,al-qubbah,القبة,Al Qubbah,municipality,32.75684,22.24106,geonames,88835,named_place
+39,garabulli,القرة بوللي,Garabulli,municipality,,,,,
+40,al-qarda-al-shati,القرضة الشاطئ,Al Qarda Al Shati,municipality,,,,,
+41,qatrun,القطرون,Qatrun,municipality,24.95139,14.64861,geonames,2219739,named_place
+42,al-qalaa,القلعة,Al Qalaa,municipality,,,,,
+43,al-qawalish,القواليش,Al Qawalish,municipality,,,,,
+44,al-qayqab,القيقب,Al Qayqab,municipality,32.72581,22.02061,geonames,88838,named_place
+45,kufra,الكفرة,Kufra,municipality,23.76667,22.21667,geonames,88932,named_place
+46,al-maya,الماية,Al Maya,municipality,32.80194,12.87917,geonames,2219812,named_place
+47,al-marj,المرج,Al Marj,municipality,31.78333,21.2,geonames,88904,named_place
+48,al-uwaina,العوينة,Al Uwaina,municipality,,,,,
+49,al-mamura,المعمورة,Al Mamura,municipality,,,,,
+50,al-melitaniya,المليطانية,Al Melitaniya,municipality,,,,,
+51,al-manshiya-al-jumayl,المنشية الجميل,Al Manshiya Al Jumayl,municipality,,,,,
+52,al-nasiriya,الناصرية,Al Nasiriya,municipality,,,,,
+53,emsaed,امساعد,Emsaed,municipality,,,,,
+54,intlat-al-baydan,انتلات البيضان,Intlat Al Baydan,municipality,,,,,
+55,bir-al-ashhab,بئر الأشهب,Bir Al Ashhab,municipality,31.91667,24.7,geonames,88102,named_place
+56,batin-al-jabal,باطن الجبل,Batin Al Jabal,municipality,,,,,
+57,brak-al-shati,براك الشاطئ,Brak Al Shati,municipality,27.54956,14.27139,geonames,2218478,named_place
+58,bint-bayya,بنت بية,Bint Bayya,municipality,26.64549,13.65246,geonames,2213610,named_place
+59,benghazi,بنغازي,Benghazi,municipality,32.08723,20.18738,geonames,88318,named_place
+60,bani-walid,بني وليد,Bani Walid,municipality,31.756969,13.995051,iom-ocha-hubs-2016,LY021404,operational_hub
+61,tajoura,تاجوراء,Tajoura,municipality,32.89381,13.22537,geonames,10402872,named_place
+62,tazerbo,تازربو,Tazerbo,municipality,25.67289,21.07286,geonames,12687306,named_place
+63,tawergha,تاورغاء,Tawergha,municipality,32.01195,15.11352,geonames,2210091,named_place
+64,taraghin,تراغن,Taraghin,municipality,25.92333,14.42056,geonames,2210242,named_place
+65,tarhuna,ترهونة,Tarhuna,municipality,32.43333,13.63333,geonames,2210220,named_place
+66,tukrah,توكرة,Tukrah,municipality,32.53414,20.57911,geonames,88834,named_place
+67,jadu,جادو,Jadu,municipality,31.95506,12.02901,geonames,2216432,named_place
+68,jalu,جالو,Jalu,municipality,29.03333,21.55,geonames,86049,named_place
+69,jardas-al-abid,جردس العبيد,Jardas Al Abid,municipality,32.30337,20.98615,geonames,86002,named_place
+70,janzour,جنزور,Janzour,municipality,32.81868,13.01727,geonames,2216349,named_place
+71,south-jabal-al-akhdar,جنوب الجبل الأخضر,South Jabal Al Akhdar,municipality,,,,,
+72,hay-al-andalus,حي الأندلس,Hay Al Andalus,municipality,32.86667,13.11667,geonames,2216764,named_place
+73,gulf-of-sidra,خليج السدرة,Gulf of Sidra,municipality,,,,,
+74,derj,درج,Derj,municipality,30.16502,10.45804,geonames,2217774,named_place
+75,derna,درنة,Derna,municipality,31.83333,22.66667,geonames,87204,named_place
+76,rabiana,ربيانة,Rabiana,municipality,,,,,
+77,riqdalin,رقدالين,Riqdalin,municipality,32.88718,11.98729,geonames,2212882,named_place
+78,zaltan,زلطن,Zaltan,municipality,32.94699,11.86668,geonames,2208655,named_place
+79,zliten,زليتن,Zliten,municipality,32.46739,14.56874,geonames,2208485,named_place
+80,zamzam,زمزم,Zamzam,municipality,,,,,
+81,zuwara,زوارة,Zuwara,municipality,32.932781,12.080638,iom-ocha-hubs-2016,LY021503,operational_hub
+82,sahel-al-jabal,ساحل الجبل,Sahel Al Jabal,municipality,,,,,
+83,sabha,سبها,Sabha,municipality,27.033154,14.431693,iom-ocha-hubs-2016,LY031901,operational_hub
+84,sirte,سرت,Sirte,municipality,30.03333,16.85,geonames,2210553,named_place
+85,suluq,سلوق,Suluq,municipality,31.66818,20.25205,geonames,81604,named_place
+86,swani-bin-adam,سواني بن أدم,Swani Bin Adam,municipality,,,,,
+87,sousa,سوسة,Sousa,municipality,32.89702,21.96583,geonames,81584,named_place
+88,souq-al-juma,سوق الجمعة,Souq Al Juma,municipality,32.88333,13.23333,geonames,2210585,named_place
+89,souq-al-khamis,سوق الخميس,Souq Al Khamis,municipality,,,,,
+90,shahat,شحات,Shahat,municipality,32.82778,21.86222,geonames,82972,named_place
+91,sabratha,صبراتة,Sabratha,municipality,32.792168,12.485806,iom-ocha-hubs-2016,LY021502,operational_hub
+92,sorman,صرمان,Sorman,municipality,32.75668,12.57159,geonames,2210560,named_place
+93,tobruk,طبرق,Tobruk,municipality,32.077432,23.960015,iom-ocha-hubs-2016,LY010403,operational_hub
+94,tripoli-center,طرابلس المركز,Tripoli Center,municipality,,,,,
+95,dahir-al-jabal,ظاهر الجبل,Dahir Al Jabal,municipality,,,,,
+96,omar-al-mukhtar,عمر المختار,Omar Al Mukhtar,municipality,32.62978,21.67651,geonames,84130,named_place
+97,ain-zara,عين زارة,Ain Zara,municipality,32.81333,13.26972,geonames,2219021,named_place
+98,ain-ghazala,عين غزالة,Ain Ghazala,municipality,,,,,
+99,ghat,غات,Ghat,municipality,25.91667,10.58333,geonames,2217350,named_place
+100,ghadames,غدامس,Ghadames,municipality,30.56667,10.8,geonames,2217439,named_place
+101,gharyan,غريان,Gharyan,municipality,32.17222,13.02028,geonames,2217362,named_place
+102,qasr-bin-ghashir,قصر بن غشير,Qasr Bin Ghashir,municipality,32.68333,13.18333,geonames,2213618,named_place
+103,qasr-khiyar,قصر خيار,Qasr Khiyar,municipality,32.69677,13.84634,geonames,2213570,named_place
+104,qaminis,قمينس,Qaminis,municipality,31.6576,20.01697,geonames,84257,named_place
+105,kabaw,كاباو,Kabaw,municipality,31.84724,11.33055,geonames,2216155,named_place
+106,kikla,ككلة,Kikla,municipality,,,,,
+107,marada,مرادة,Marada,municipality,29.22054,19.20454,geonames,2215282,named_place
+108,murzuq,مرزق,Murzuq,municipality,24.6,15.6,geonames,2214602,named_place
+109,marsa-dafna,مرسى دفنة,Marsa Dafna,municipality,,,,,
+110,mizda,مزدة,Mizda,municipality,31.44934,12.9853,geonames,2214827,named_place
+111,msallata,مسلاتة,Msallata,municipality,32.58345,14.03627,geonames,12687313,named_place
+112,misrata,مصراتة,Misrata,municipality,32.31035,15.07324,geonames,2214845,named_place
+113,nalut,نالوت,Nalut,municipality,30.18333,10.83333,geonames,2214432,named_place
+114,nisma,نسمة,Nisma,municipality,31.39602,13.33052,geonames,2214378,named_place
+115,harawa,هراوة,Harawa,municipality,,,,,
+116,wadi-al-bawanis,وادي البوانيس,Wadi Al Bawanis,municipality,,,,,
+117,wadi-atba,وادي عتبة,Wadi Atba,municipality,,,,,
+118,wazen,وازن,Wazen,municipality,31.942,10.66532,geonames,2208848,named_place
+119,wardama,وردامة,Wardama,municipality,,,,,
+120,yafran,يفرن,Yafran,municipality,32.06667,12.51667,geonames,2208790,named_place
+121,umm-al-rizam,أم الرزم,Umm Al Rizam,municipality,32.53332,23.00904,geonames,81071,named_place
+122,al-jalida,الجليدة,Al Jalida,municipality,,,,,
+123,al-jadida,الجديدة,Al Jadida,municipality,,,,,
+124,madwar-al-zaytun,مدور الزيتون,Madwar Al Zaytun,municipality,,,,,
+125,al-uwaynat,العوينات,Al Uwaynat,municipality,25.78123,10.56133,geonames,2219689,named_place
+126,tajarhi,تجرهي,Tajarhi,municipality,24.37,14.47083,geonames,2210411,named_place
+127,al-mardum,المردوم,Al Mardum,municipality,,,,,
+128,tininay,تنيناي,Tininay,municipality,31.39334,13.74082,geonames,2213827,named_place
+129,al-qaryat,القريات,Al Qaryat,municipality,30.38803,13.58027,geonames,2219747,named_place
+130,zella,زلة,Zella,municipality,28.55099,17.54358,geonames,2208518,named_place
+131,barqin,برقن,Barqin,municipality,27.54801,13.62914,geonames,2218761,named_place
+132,awal,اوال,Awal,municipality,,,,,
+133,tahala,تهالة,Tahala,municipality,,,,,
+134,barkat,بركت,Barkat,municipality,,,,,
+135,sinawin,سيناون,Sinawin,municipality,31.02604,10.60238,geonames,2210688,named_place
+136,zuwaila,زويلة,Zuwaila,municipality,26.16188,15.12522,geonames,2208566,named_place
+137,ras-al-tabl,راس الطبل,Ras Al Tabl,municipality,31.3016,13.49268,geonames,2213015,named_place
+138,al-shuba-administrative-area,المنطقة الادارية الشعبة,Al Shuba Administrative Area,municipality,,,,,
+139,germa,جرمة,Germa,municipality,26.53333,13.06667,geonames,2216319,named_place
+140,qarara,قرارة,Qarara,municipality,,,,,
+141,al-ruqayba,الرقيبة,Al Ruqayba,municipality,,,,,
