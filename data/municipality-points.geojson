@@ -557,15 +557,15 @@
         "name_ar": "الكفرة",
         "name_en": "Kufra",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "88932",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.21667,
-          23.76667
+          22.090366,
+          23.268611
         ]
       }
     },
@@ -599,15 +599,15 @@
         "name_ar": "المرج",
         "name_en": "Al Marj",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "88904",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.2,
-          31.78333
+          21.209684,
+          32.013595
         ]
       }
     },
@@ -683,15 +683,15 @@
         "name_ar": "بنغازي",
         "name_en": "Benghazi",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "88318",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.18738,
-          32.08723
+          19.986477,
+          31.889635
         ]
       }
     },
@@ -977,15 +977,15 @@
         "name_ar": "درنة",
         "name_en": "Derna",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "87204",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.66667,
-          31.83333
+          22.575577,
+          31.94674
         ]
       }
     },
@@ -1103,15 +1103,15 @@
         "name_ar": "سرت",
         "name_en": "Sirte",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "2210553",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.85,
-          30.03333
+          16.753652,
+          30.592982
         ]
       }
     },
@@ -1313,15 +1313,15 @@
         "name_ar": "غات",
         "name_en": "Ghat",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "2217350",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.58333,
-          25.91667
+          10.40218,
+          26.099157
         ]
       }
     },
@@ -1481,15 +1481,15 @@
         "name_ar": "مرزق",
         "name_en": "Murzuq",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "2214602",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6,
-          24.6
+          15.321434,
+          24.528504
         ]
       }
     },
@@ -1565,15 +1565,15 @@
         "name_ar": "نالوت",
         "name_en": "Nalut",
         "type": "municipality",
-        "coordinate_source": "geonames",
-        "coordinate_source_id": "2214432",
-        "point_type": "named_place"
+        "coordinate_source": "openstreetmap-geofabrik",
+        "coordinate_source_id": "",
+        "point_type": "boundary_representative_point"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.83333,
-          30.18333
+          11.019963,
+          30.55324
         ]
       }
     },
