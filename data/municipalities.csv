@@ -1,0 +1,142 @@
+id,slug,name_ar,name_en,type
+1,abu-salim,أبوسليم,Abu Salim,municipality
+2,ubari,أوباري,Ubari,municipality
+3,awjila,أوجلة,Awjila,municipality
+4,jakharrad,اجخرة,Jakharrad,municipality
+5,ajdabiya,إجدابيا,Ajdabiya,municipality
+6,idri-al-shati,إدري الشاطئ,Idri Al Shati,municipality
+7,sbea,اسبيعة,Sbea,municipality
+8,al-abraq,الأبرق,Al Abraq,municipality
+9,al-abyar,الأبيار,Al Abyar,municipality
+10,al-asabaa,الأصابعة,Al Asabaa,municipality
+11,al-bardi,البردي,Al Bardi,municipality
+12,brega,البريقة,Brega,municipality
+13,al-bayda,البيضاء,Al Bayda,municipality
+14,al-jufra,الجفرة,Al Jufra,municipality
+15,al-jumayl,الجميل,Al Jumayl,municipality
+16,al-haraba,الحرابة,Al Haraba,municipality
+17,al-hawamid,الحوامد,Al Hawamid,municipality
+18,khoms,الخمس,Khoms,municipality
+19,al-rajban,الرجبان,Al Rajban,municipality
+20,al-rhaibat,الرحيبات,Al Rhaibat,municipality
+21,al-rayayna,الرياينة,Al Rayayna,municipality
+22,zawiya,الزاوية,Zawiya,municipality
+23,zawiya-south,الزاوية الجنوب,Zawiya South,municipality
+24,zawiya-west,الزاوية الغرب,Zawiya West,municipality
+25,zintan,الزنتان,Zintan,municipality
+26,al-zahra,الزهراء,Al Zahra,municipality
+27,zuwetina-sultan,الزويتينة سلطان,Zuwetina Sultan,municipality
+28,al-sayeh,السائح,Al Sayeh,municipality
+29,al-sharqiya,الشرقية,Al Sharqiya,municipality
+30,al-shuqayqa,الشقيقة,Al Shuqayqa,municipality
+31,al-shwerif,الشويرف,Al Shwerif,municipality
+32,al-ameriya,العامرية,Al Ameriya,municipality
+33,al-ajaylat,العجيلات,Al Ajaylat,municipality
+34,al-urban,العربان,Al Urban,municipality
+35,aziziya,العزيزية,Aziziya,municipality
+36,al-awata,العواته,Al Awata,municipality
+37,al-gharifa,الغريفة,Al Gharifa,municipality
+38,al-qubbah,القبة,Al Qubbah,municipality
+39,garabulli,القرة بوللي,Garabulli,municipality
+40,al-qarda-al-shati,القرضة الشاطئ,Al Qarda Al Shati,municipality
+41,qatrun,القطرون,Qatrun,municipality
+42,al-qalaa,القلعة,Al Qalaa,municipality
+43,al-qawalish,القواليش,Al Qawalish,municipality
+44,al-qayqab,القيقب,Al Qayqab,municipality
+45,kufra,الكفرة,Kufra,municipality
+46,al-maya,الماية,Al Maya,municipality
+47,al-marj,المرج,Al Marj,municipality
+48,al-uwaina,العوينة,Al Uwaina,municipality
+49,al-mamura,المعمورة,Al Mamura,municipality
+50,al-melitaniya,المليطانية,Al Melitaniya,municipality
+51,al-manshiya-al-jumayl,المنشية الجميل,Al Manshiya Al Jumayl,municipality
+52,al-nasiriya,الناصرية,Al Nasiriya,municipality
+53,emsaed,امساعد,Emsaed,municipality
+54,intlat-al-baydan,انتلات البيضان,Intlat Al Baydan,municipality
+55,bir-al-ashhab,بئر الأشهب,Bir Al Ashhab,municipality
+56,batin-al-jabal,باطن الجبل,Batin Al Jabal,municipality
+57,brak-al-shati,براك الشاطئ,Brak Al Shati,municipality
+58,bint-bayya,بنت بية,Bint Bayya,municipality
+59,benghazi,بنغازي,Benghazi,municipality
+60,bani-walid,بني وليد,Bani Walid,municipality
+61,tajoura,تاجوراء,Tajoura,municipality
+62,tazerbo,تازربو,Tazerbo,municipality
+63,tawergha,تاورغاء,Tawergha,municipality
+64,taraghin,تراغن,Taraghin,municipality
+65,tarhuna,ترهونة,Tarhuna,municipality
+66,tukrah,توكرة,Tukrah,municipality
+67,jadu,جادو,Jadu,municipality
+68,jalu,جالو,Jalu,municipality
+69,jardas-al-abid,جردس العبيد,Jardas Al Abid,municipality
+70,janzour,جنزور,Janzour,municipality
+71,south-jabal-al-akhdar,جنوب الجبل الأخضر,South Jabal Al Akhdar,municipality
+72,hay-al-andalus,حي الأندلس,Hay Al Andalus,municipality
+73,gulf-of-sidra,خليج السدرة,Gulf of Sidra,municipality
+74,derj,درج,Derj,municipality
+75,derna,درنة,Derna,municipality
+76,rabiana,ربيانة,Rabiana,municipality
+77,riqdalin,رقدالين,Riqdalin,municipality
+78,zaltan,زلطن,Zaltan,municipality
+79,zliten,زليتن,Zliten,municipality
+80,zamzam,زمزم,Zamzam,municipality
+81,zuwara,زوارة,Zuwara,municipality
+82,sahel-al-jabal,ساحل الجبل,Sahel Al Jabal,municipality
+83,sabha,سبها,Sabha,municipality
+84,sirte,سرت,Sirte,municipality
+85,suluq,سلوق,Suluq,municipality
+86,swani-bin-adam,سواني بن أدم,Swani Bin Adam,municipality
+87,sousa,سوسة,Sousa,municipality
+88,souq-al-juma,سوق الجمعة,Souq Al Juma,municipality
+89,souq-al-khamis,سوق الخميس,Souq Al Khamis,municipality
+90,shahat,شحات,Shahat,municipality
+91,sabratha,صبراتة,Sabratha,municipality
+92,sorman,صرمان,Sorman,municipality
+93,tobruk,طبرق,Tobruk,municipality
+94,tripoli-center,طرابلس المركز,Tripoli Center,municipality
+95,dahir-al-jabal,ظاهر الجبل,Dahir Al Jabal,municipality
+96,omar-al-mukhtar,عمر المختار,Omar Al Mukhtar,municipality
+97,ain-zara,عين زارة,Ain Zara,municipality
+98,ain-ghazala,عين غزالة,Ain Ghazala,municipality
+99,ghat,غات,Ghat,municipality
+100,ghadames,غدامس,Ghadames,municipality
+101,gharyan,غريان,Gharyan,municipality
+102,qasr-bin-ghashir,قصر بن غشير,Qasr Bin Ghashir,municipality
+103,qasr-khiyar,قصر خيار,Qasr Khiyar,municipality
+104,qaminis,قمينس,Qaminis,municipality
+105,kabaw,كاباو,Kabaw,municipality
+106,kikla,ككلة,Kikla,municipality
+107,marada,مرادة,Marada,municipality
+108,murzuq,مرزق,Murzuq,municipality
+109,marsa-dafna,مرسى دفنة,Marsa Dafna,municipality
+110,mizda,مزدة,Mizda,municipality
+111,msallata,مسلاتة,Msallata,municipality
+112,misrata,مصراتة,Misrata,municipality
+113,nalut,نالوت,Nalut,municipality
+114,nisma,نسمة,Nisma,municipality
+115,harawa,هراوة,Harawa,municipality
+116,wadi-al-bawanis,وادي البوانيس,Wadi Al Bawanis,municipality
+117,wadi-atba,وادي عتبة,Wadi Atba,municipality
+118,wazen,وازن,Wazen,municipality
+119,wardama,وردامة,Wardama,municipality
+120,yafran,يفرن,Yafran,municipality
+121,umm-al-rizam,أم الرزم,Umm Al Rizam,municipality
+122,al-jalida,الجليدة,Al Jalida,municipality
+123,al-jadida,الجديدة,Al Jadida,municipality
+124,madwar-al-zaytun,مدور الزيتون,Madwar Al Zaytun,municipality
+125,al-uwaynat,العوينات,Al Uwaynat,municipality
+126,tajarhi,تجرهي,Tajarhi,municipality
+127,al-mardum,المردوم,Al Mardum,municipality
+128,tininay,تنيناي,Tininay,municipality
+129,al-qaryat,القريات,Al Qaryat,municipality
+130,zella,زلة,Zella,municipality
+131,barqin,برقن,Barqin,municipality
+132,awal,اوال,Awal,municipality
+133,tahala,تهالة,Tahala,municipality
+134,barkat,بركت,Barkat,municipality
+135,sinawin,سيناون,Sinawin,municipality
+136,zuwaila,زويلة,Zuwaila,municipality
+137,ras-al-tabl,راس الطبل,Ras Al Tabl,municipality
+138,al-shuba-administrative-area,المنطقة الادارية الشعبة,Al Shuba Administrative Area,municipality
+139,germa,جرمة,Germa,municipality
+140,qarara,قرارة,Qarara,municipality
+141,al-ruqayba,الرقيبة,Al Ruqayba,municipality
