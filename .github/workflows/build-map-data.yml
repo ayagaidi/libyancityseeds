@@ -6,6 +6,7 @@ on:
       - feat/v1.2-map-support
     paths:
       - 'scripts/import_map_points.py'
+      - 'scripts/suggest_map_matches.py'
       - 'data/municipalities.json'
       - '.github/workflows/build-map-data.yml'
   workflow_dispatch:
@@ -32,6 +33,9 @@ jobs:
       - name: Generate sourced municipality points
         run: python3 scripts/import_map_points.py
 
+      - name: Generate unmatched candidate report
+        run: python3 scripts/suggest_map_matches.py
+
       - name: Validate generated GeoJSON
         run: |
           python3 - <<'PY'
@@ -41,10 +45,12 @@ jobs:
           points = json.loads(Path('data/municipality-points.json').read_text(encoding='utf-8'))
           geojson = json.loads(Path('data/municipality-points.geojson').read_text(encoding='utf-8'))
           coverage = json.loads(Path('data/map-coverage.json').read_text(encoding='utf-8'))
+          candidates = json.loads(Path('data/map-match-candidates.json').read_text(encoding='utf-8'))
 
           assert len(points) == 141
           assert geojson['type'] == 'FeatureCollection'
           assert len(geojson['features']) == coverage['mapped_municipalities']
+          assert len(candidates) == coverage['source_counts']['unmatched']
           assert coverage['mapped_municipalities'] > 0
 
           for feature in geojson['features']:
@@ -62,6 +68,7 @@ jobs:
             data/municipality-points.csv
             data/municipality-points.geojson
             data/map-coverage.json
+            data/map-match-candidates.json
           )
 
           if [[ -z "$(git status --porcelain -- "${files[@]}")" ]]; then
