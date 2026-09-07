@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Libya Locations v1.2.0</title>
+  <desc id="desc">Open data for Libyan municipalities and cities with JSON, CSV, GeoJSON and map-ready municipality coordinates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="1" stop-color="#12263f"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="36" fill="url(#grid)"/>
+
+  <g transform="translate(92 82)">
+    <rect width="168" height="42" rx="21" fill="#ffffff" fill-opacity="0.09"/>
+    <text x="84" y="28" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#dbeafe">OPEN DATA · LIBYA</text>
+
+    <text x="0" y="122" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="800" fill="#ffffff">Libya Locations</text>
+    <text x="0" y="174" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="700" fill="#93c5fd">v1.2.0 · Map-ready municipality data</text>
+    <text x="0" y="226" font-family="Inter,Arial,sans-serif" font-size="22" fill="#cbd5e1">Arabic + English · JSON · CSV · GeoJSON · Any language</text>
+
+    <g transform="translate(0 284)">
+      <rect width="210" height="120" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="26" y="49" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="800" fill="#ffffff">141</text>
+      <text x="26" y="82" font-family="Inter,Arial,sans-serif" font-size="18" fill="#cbd5e1">municipalities</text>
+
+      <rect x="230" width="210" height="120" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="256" y="49" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="800" fill="#ffffff">103</text>
+      <text x="256" y="82" font-family="Inter,Arial,sans-serif" font-size="18" fill="#cbd5e1">mapped points</text>
+
+      <rect x="460" width="210" height="120" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="486" y="49" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="800" fill="#ffffff">73.05%</text>
+      <text x="486" y="82" font-family="Inter,Arial,sans-serif" font-size="18" fill="#cbd5e1">verified coverage</text>
+    </g>
+
+    <text x="0" y="466" font-family="Inter,Arial,sans-serif" font-size="18" fill="#94a3b8">github.com/ayagaidi/libyancityseeds</text>
+  </g>
+
+  <g transform="translate(900 92)">
+    <path d="M112 14c42 0 76 34 76 76 0 56-76 140-76 140S36 146 36 90c0-42 34-76 76-76Z" fill="#3b82f6" fill-opacity="0.20" stroke="#60a5fa" stroke-width="4"/>
+    <circle cx="112" cy="90" r="24" fill="#93c5fd"/>
+    <path d="M20 300C90 264 167 262 235 300s120 34 177 4" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 14" opacity="0.7"/>
+    <circle cx="52" cy="284" r="9" fill="#bfdbfe"/>
+    <circle cx="176" cy="280" r="9" fill="#bfdbfe"/>
+    <circle cx="296" cy="314" r="9" fill="#bfdbfe"/>
+    <circle cx="394" cy="292" r="9" fill="#bfdbfe"/>
+    <rect x="26" y="370" width="390" height="108" rx="24" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.10"/>
+    <text x="50" y="414" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff">Coordinates with provenance</text>
+    <text x="50" y="450" font-family="Inter,Arial,sans-serif" font-size="17" fill="#cbd5e1">OSM / Geofabrik · GeoNames · IOM/OCHA</text>
+  </g>
+</svg>
