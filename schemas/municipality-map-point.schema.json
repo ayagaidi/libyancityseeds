@@ -32,7 +32,13 @@
     "coordinate_source_id": {"type": ["string", "null"]},
     "point_type": {
       "type": ["string", "null"],
-      "enum": ["operational_hub", "named_place", "boundary_representative_point", null]
+      "enum": [
+        "operational_hub",
+        "named_place",
+        "boundary_representative_point",
+        "administrative_label_point",
+        null
+      ]
     }
   },
   "allOf": [
