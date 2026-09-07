@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.2.0/schemas/municipality-map-point.schema.json",
+  "title": "Libya Municipality Map Point",
+  "description": "A municipality record with an optional sourced map reference point. Null coordinates mean the municipality has not been matched confidently enough to publish a point.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "name_ar",
+    "name_en",
+    "type",
+    "latitude",
+    "longitude",
+    "coordinate_source",
+    "coordinate_source_id",
+    "point_type"
+  ],
+  "properties": {
+    "id": {"type": "integer", "minimum": 1},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name_ar": {"type": "string", "minLength": 1},
+    "name_en": {"type": "string", "minLength": 1},
+    "type": {"const": "municipality"},
+    "latitude": {"type": ["number", "null"], "minimum": 19, "maximum": 34},
+    "longitude": {"type": ["number", "null"], "minimum": 9, "maximum": 26},
+    "coordinate_source": {
+      "type": ["string", "null"],
+      "enum": ["iom-ocha-hubs-2016", "geonames", "openstreetmap-geofabrik", null]
+    },
+    "coordinate_source_id": {"type": ["string", "null"]},
+    "point_type": {
+      "type": ["string", "null"],
+      "enum": ["operational_hub", "named_place", "boundary_representative_point", null]
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"latitude": {"type": "null"}}},
+      "then": {
+        "properties": {
+          "longitude": {"type": "null"},
+          "coordinate_source": {"type": "null"},
+          "coordinate_source_id": {"type": "null"},
+          "point_type": {"type": "null"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"latitude": {"type": "number"}}},
+      "then": {
+        "properties": {
+          "longitude": {"type": "number"},
+          "coordinate_source": {"type": "string"},
+          "coordinate_source_id": {"type": "string"},
+          "point_type": {"type": "string"}
+        }
+      }
+    }
+  ]
+}
