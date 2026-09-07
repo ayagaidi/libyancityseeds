@@ -2,6 +2,39 @@
 
 All notable changes to the Libya Locations dataset are documented here.
 
+## [1.2.0] - 2026-09-07
+
+### Added
+
+- optional municipality map-point dataset with nullable `latitude` and `longitude`
+- coordinate provenance fields: `coordinate_source`, `coordinate_source_id`, and `point_type`
+- JSON, CSV, and GeoJSON outputs for municipality reference points
+- partial municipality boundary GeoJSON from matched OpenStreetMap administrative polygons
+- `data/map-coverage.json` with exact point/boundary coverage and unmatched slugs
+- review-only `data/map-match-candidates.json` for unresolved municipalities
+- JSON Schema for municipality map-point records
+- zero-build Leaflet/GeoJSON map example
+- map integration and attribution guide in `docs/MAPS.md`
+- automated GIS build using public source data and a local Libya OpenStreetMap extract
+- validation for coordinate ranges, provenance, GeoJSON consistency, coverage counts, boundary counts, schemas, and versioned map endpoints
+
+### Coverage
+
+- 141 municipality rows in the map-point dataset
+- 103 municipalities with published reference points (**73.05%**)
+- 38 municipalities intentionally left with null coordinates rather than guessed locations
+- 10 matched municipality polygon features in the boundary GeoJSON
+
+### Sources
+
+Published map references are traceable to OpenStreetMap/Geofabrik, GeoNames, or the available IOM/OCHA operational municipality hub service. OpenStreetMap-derived data retains the applicable attribution and ODbL requirements.
+
+### Compatibility
+
+The base location record shape remains unchanged from `v1.1.0`: `id`, `slug`, `name_ar`, `name_en`, and `type`.
+
+Map data is provided as a **companion dataset**, so existing integrations using `municipalities.json` or `cities.json` remain compatible. Applications opt into the new geospatial fields by reading `municipality-points.json` or the GeoJSON files.
+
 ## [1.1.0] - 2026-09-07
 
 ### Added
