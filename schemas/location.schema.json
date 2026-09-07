@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/schemas/location.schema.json",
+  "title": "Libya Location",
+  "description": "A city or municipality record from the Libya Locations dataset.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "slug", "name_ar", "name_en", "type"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name_ar": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_en": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": ["city", "municipality"]
+    }
+  }
+}

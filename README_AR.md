@@ -1,12 +1,32 @@
 # مواقع ليبيا للمطورين 🇱🇾
 
-Dataset مفتوح ومهيأ للاستخدام البرمجي يحتوي على **بلديات ومدن ليبيا** بأسماء عربية وإنجليزية، مع Slugs ثابتة، وملفات JSON وCSV، وLaravel Seeders وأمثلة API.
+Dataset مفتوح و**مستقل عن أي لغة أو Framework** يحتوي على بلديات ومدن ليبيا بأسماء عربية وإنجليزية، مع Slugs ثابتة، وملفات JSON وCSV، وLaravel Seeders وأمثلة جاهزة لعدة لغات.
 
-[English README](README.md)
+[English README](README.md) · [دليل الربط](docs/INTEGRATION.md) · [الأمثلة](examples/README.md)
 
-## لماذا هذا المشروع؟
+> **لا SDK، لا API Key، ولا Laravel مطلوب.** أي لغة تقدر تدير HTTP Request وتقرأ JSON تقدر تستخدم المشروع مباشرة.
 
-في مشاريع ليبية كثيرة نحتاج نفس البيانات: قائمة البلديات أو المدن في التسجيل، العناوين، التوصيل، المتاجر، الأنظمة المصرفية، الخدمات الحكومية وغيرها. بدل ما كل مطور يعيد كتابة القائمة من الصفر، الهدف هنا يكون عندنا مصدر تقني واضح وقابل للمساهمة والتحقق.
+## أسرع Integration
+
+رابط ثابت ومحدد بالنسخة:
+
+```text
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json
+```
+
+مثال JavaScript:
+
+```js
+const locations = await fetch(
+  'https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/municipalities.json'
+).then(response => response.json());
+```
+
+ونفس الـDataset تشتغل مع:
+
+**JavaScript / TypeScript، Python، PHP، Go، Java، C#/.NET، Dart/Flutter، Swift، Ruby، mobile apps، backend، frontend، scripts وقواعد البيانات.**
+
+راجع [`docs/INTEGRATION.md`](docs/INTEGRATION.md) للشرح الكامل و[`examples/README.md`](examples/README.md) للأمثلة الجاهزة.
 
 ## المحتوى
 
@@ -15,7 +35,7 @@ Dataset مفتوح ومهيأ للاستخدام البرمجي يحتوي عل�
 | البلديات | 141 | JSON + CSV + Laravel Seeder |
 | المدن | 50 | JSON + CSV + Laravel Seeder |
 
-كل سجل يحتوي على:
+كل سجل يستخدم نفس الـcontract:
 
 ```json
 {
@@ -27,13 +47,34 @@ Dataset مفتوح ومهيأ للاستخدام البرمجي يحتوي عل�
 }
 ```
 
+وموجود JSON Schema موحد في:
+
+[`schemas/location.schema.json`](schemas/location.schema.json)
+
 ## الملفات
 
 - [`data/municipalities.json`](data/municipalities.json)
 - [`data/municipalities.csv`](data/municipalities.csv)
 - [`data/cities.json`](data/cities.json)
 - [`data/cities.csv`](data/cities.csv)
+- [`data/endpoints.json`](data/endpoints.json) — يعطي التطبيق الروابط الثابتة والأعداد والنسخة الحالية
 - [`data/manifest.json`](data/manifest.json)
+
+## Production وLatest
+
+للـProduction الأفضل تثبيت نسخة:
+
+```text
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/v1.1.0/data/cities.json
+```
+
+ولو تبي آخر تحديث على `master`:
+
+```text
+https://raw.githubusercontent.com/ayagaidi/libyancityseeds/master/data/cities.json
+```
+
+تثبيت Version يخلي تطبيقك ما يتأثرش بتحديثات Dataset بشكل مفاجئ.
 
 ## مصدر بيانات البلديات
 
@@ -45,11 +86,11 @@ https://www.lgm.gov.ly/municipalities
 
 قائمة المدن الحالية مبنية على قائمة `CitySeeder.php` الأصلية التي كانت موجودة في هذا المستودع، وتم تحويلها إلى Dataset منظمة وإضافة أسماء إنجليزية وSlugs لها. وهي ليست ادعاء بأنها قائمة رسمية شاملة لكل المدن والقرى والمحلات في ليبيا.
 
-للتفاصيل راجعي [`DATA_SOURCES.md`](DATA_SOURCES.md).
+للتفاصيل راجع [`DATA_SOURCES.md`](DATA_SOURCES.md).
 
-## الاستخدام مع Laravel
+## Laravel اختياري
 
-بعد نسخ مجلد `data` والـSeeders إلى مشروع Laravel:
+لو مشروعك Laravel، عندك Seeders جاهزة:
 
 ```bash
 php artisan db:seed --class=LibyaMunicipalitySeeder
@@ -66,21 +107,24 @@ php artisan db:seed --class=LibyaCitySeeder
 
 [`examples/laravel-api.php`](examples/laravel-api.php)
 
-مثلاً:
+لكن Laravel مش شرط لاستخدام المشروع؛ JSON/CSV هما الواجهة الأساسية.
 
-```http
-GET /api/libya/municipalities?lang=ar
-GET /api/libya/municipalities?lang=en
-GET /api/libya/cities?lang=ar
-```
+## أمثلة لغات جاهزة
 
-## Frontend / JavaScript
+موجود أمثلة Copy/Paste لـ:
 
-يمكن قراءة JSON مباشرة من GitHub أو تنزيله داخل المشروع. مثال جاهز:
+- JavaScript / TypeScript
+- Python
+- PHP
+- Go
+- Java
+- C# / .NET
+- Dart / Flutter
+- Swift
 
-[`examples/javascript-fetch.js`](examples/javascript-fetch.js)
+ابدأ من [`examples/README.md`](examples/README.md).
 
-## التحقق من جودة البيانات
+## التحقق من جودة البيانات والـIntegration
 
 GitHub Actions يتحقق آليًا من:
 
@@ -89,7 +133,10 @@ GitHub Actions يتحقق آليًا من:
 - وجود الحقول المطلوبة؛
 - تطابق JSON مع CSV؛
 - صحة نوع السجل `city` أو `municipality`؛
-- تطابق الأعداد مع `manifest.json`.
+- تطابق الأعداد مع `manifest.json`؛
+- تطابق `endpoints.json` مع النسخة؛
+- تطابق JSON Schema مع شكل السجل؛
+- صحة Syntax لمثال Python.
 
 ويمكن تشغيل الفحص محليًا:
 
@@ -105,6 +152,7 @@ python3 scripts/validate_data.py
 
 ## مبادئ المشروع
 
+- المشروع Language-agnostic من الأساس؛ JSON/CSV هما الواجهة الرئيسية.
 - العربي جزء أساسي من البيانات، مش إضافة ثانوية.
 - البلدية والمدينة مفهومين مختلفين ونحتفظ بهم في Dataset منفصلة.
 - الـSlugs هدفها الاستقرار للاستخدام في APIs وقواعد البيانات.

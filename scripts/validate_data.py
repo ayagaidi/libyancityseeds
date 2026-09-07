@@ -78,6 +78,44 @@ def validate_dataset(name: str, expected_type: str, expected_count: int) -> None
     print(f"✓ {name}: {expected_count} records validated")
 
 
+def validate_integration_metadata(manifest: dict) -> None:
+    endpoints = load_json(ROOT / "data" / "endpoints.json")
+    schema = load_json(ROOT / "schemas" / "location.schema.json")
+
+    version = endpoints.get("version")
+    assert version == "1.1.0", f"endpoints version must be 1.1.0, found {version!r}"
+
+    stable_base = endpoints.get("stable_base_url", "")
+    assert f"/v{version}" in stable_base, "stable_base_url must pin the release version"
+
+    for name in ("municipalities", "cities"):
+        endpoint = endpoints["datasets"][name]
+        expected_count = manifest["datasets"][name]["records"]
+        assert endpoint["records"] == expected_count, (
+            f"endpoints count for {name} does not match manifest"
+        )
+        assert f"/v{version}/data/{name}.json" in endpoint["json"], (
+            f"{name} JSON endpoint must pin v{version}"
+        )
+        assert f"/v{version}/data/{name}.csv" in endpoint["csv"], (
+            f"{name} CSV endpoint must pin v{version}"
+        )
+
+    assert schema["required"] == REQUIRED_FIELDS, (
+        "JSON Schema required fields do not match the dataset contract"
+    )
+    assert schema["properties"]["type"]["enum"] == ["city", "municipality"], (
+        "JSON Schema location types are out of sync"
+    )
+
+    python_example = (ROOT / "examples" / "python.py").read_text(encoding="utf-8")
+    compile(python_example, "examples/python.py", "exec")
+
+    print("✓ integration endpoints validated")
+    print("✓ JSON Schema validated")
+    print("✓ Python integration example syntax validated")
+
+
 def main() -> None:
     manifest = load_json(ROOT / "data" / "manifest.json")
 
@@ -95,7 +133,8 @@ def main() -> None:
     assert manifest["fields"] == REQUIRED_FIELDS, "manifest fields do not match schema"
 
     print("✓ manifest validated")
-    print("All Libya location datasets are valid.")
+    validate_integration_metadata(manifest)
+    print("All Libya location datasets and integration metadata are valid.")
 
 
 if __name__ == "__main__":
